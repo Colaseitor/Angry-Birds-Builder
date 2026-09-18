@@ -1,0 +1,261 @@
+[gd_scene load_steps=22 format=3 uid="uid://dh0anpvp8vxyq"]
+
+[ext_resource type="Script" uid="uid://bjwu60y6bnerc" path="res://Birds/ABSeasons/tony.gd" id="1_m6ubj"]
+[ext_resource type="Texture2D" uid="uid://ynd4xr1d5rsi" path="res://Assets/Graphics/Birds/ABRio/Terence Rio 2.png" id="2_hgwn7"]
+[ext_resource type="Texture2D" uid="uid://dm2tl2wt54jrf" path="res://Assets/Graphics/Birds/ABSeasons/Tony.png" id="2_ti13p"]
+[ext_resource type="Texture2D" uid="uid://d3vm6hitxrnwe" path="res://Assets/Graphics/Particles/ABClassic/Red particles.png" id="3_hgwn7"]
+[ext_resource type="AudioStream" uid="uid://bwyfixeelqcut" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bigbrother Select.mp3" id="4_7knkd"]
+[ext_resource type="AudioStream" uid="uid://bnomuqvr3jegf" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bigbrother Fly.mp3" id="5_8i0py"]
+[ext_resource type="AudioStream" uid="uid://bodbbtlaqlr0k" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Collision A1 Low.mp3" id="6_dhxk2"]
+[ext_resource type="AudioStream" uid="uid://co5n6h5ckrblh" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Collision A2 Low.mp3" id="7_m0asv"]
+[ext_resource type="AudioStream" uid="uid://cs5sbx2b664tq" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Collision A3 Low.mp3" id="8_prbcm"]
+[ext_resource type="AudioStream" uid="uid://c8cdvwj6y4now" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Collision A4 Low.mp3" id="9_fi31k"]
+[ext_resource type="AudioStream" uid="uid://co552gjeqp2e2" path="res://Assets/Audio/Sfx/ABSeasons/Birds/173. Sfx - Braking 01.mp3" id="10_m6ubj"]
+[ext_resource type="AudioStream" uid="uid://dskbxwxyhutwh" path="res://Assets/Audio/Sfx/ABClassic/Birds/83. Sfx - Bird Destroyed.mp3" id="11_o01ca"]
+[ext_resource type="AudioStream" uid="uid://blpb4q4pqisgl" path="res://Assets/Audio/Sfx/ABCocaCola/Birds/115_Bird_Red_Unselected1.mp3" id="12_jwyp8"]
+[ext_resource type="AudioStream" uid="uid://c2e3qy38d1x6w" path="res://Assets/Audio/Sfx/ABSeasons/Items/169. Sfx - Bomb Drop 01.mp3" id="14_hgwn7"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5qf00"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o31c2"]
+radius = 41.0
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_dnk8t"]
+particles_animation = true
+particles_anim_h_frames = 3
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_balqw"]
+_data = [Vector2(0, 1.01), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Animation" id="Animation_ti13p"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -20)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CollisionShape2D:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -1.90735e-06)]
+}
+
+[sub_resource type="Animation" id="Animation_m6ubj"]
+resource_name = "TonyAttack"
+length = 0.67
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.210705, 0.350866, 0.5, 0.666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1), Vector2(1, 0.875), Vector2(1, 0.875), Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50245),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 3]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.366667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -20), Vector2(0, -77.7143)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CollisionShape2D:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.366427),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -1.90735e-06), Vector2(0, -59.4286)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hgwn7"]
+_data = {
+&"RESET": SubResource("Animation_ti13p"),
+&"TonyAttack": SubResource("Animation_m6ubj")
+}
+
+[node name="Tony" type="RigidBody2D" groups=["Bird", "Player"]]
+z_index = 1
+mass = 2.0
+physics_material_override = SubResource("PhysicsMaterial_5qf00")
+gravity_scale = 0.8
+freeze_mode = 1
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_m6ubj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+position = Vector2(0, -1.90735e-06)
+shape = SubResource("CircleShape2D_o31c2")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D"]
+visible = false
+position = Vector2(-1, -3.075)
+scale = Vector2(0.705, 0.705)
+texture = ExtResource("2_hgwn7")
+hframes = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -20)
+scale = Vector2(1.12, 1.12)
+texture = ExtResource("2_ti13p")
+hframes = 3
+vframes = 2
+
+[node name="BlinkTimer" type="Timer" parent="."]
+
+[node name="UnBlinkTimer" type="Timer" parent="BlinkTimer"]
+wait_time = 0.1
+one_shot = true
+
+[node name="ScreamTimer" type="Timer" parent="BlinkTimer"]
+autostart = true
+
+[node name="UnYellTimer" type="Timer" parent="BlinkTimer/ScreamTimer"]
+one_shot = true
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+top_level = true
+z_index = 2
+material = SubResource("CanvasItemMaterial_dnk8t")
+emitting = false
+amount = 10
+texture = ExtResource("3_hgwn7")
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.6
+explosiveness = 1.0
+randomness = 1.0
+emission_shape = 1
+emission_sphere_radius = 10.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 1.0
+initial_velocity_max = 100.0
+angle_max = 360.0
+scale_amount_curve = SubResource("Curve_balqw")
+anim_offset_max = 1.0
+
+[node name="Pulling" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_7knkd")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_8i0py")
+
+[node name="Sfx-Bird01CollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_dhxk2")
+
+[node name="Sfx-Bird01CollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_m0asv")
+
+[node name="Sfx-Bird01CollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_prbcm")
+
+[node name="Sfx-Bird01CollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_fi31k")
+
+[node name="GemidoTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="Scream" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_m6ubj")
+
+[node name="83_Sfx-BirdDestroyed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_o01ca")
+
+[node name="PointTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="115BirdRedUnselected1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_jwyp8")
+
+[node name="FallingTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_hgwn7")
+}
+
+[node name="169_Sfx-BombDrop01" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_hgwn7")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="BlinkTimer" to="." method="_on_blink_timer_timeout"]
+[connection signal="timeout" from="BlinkTimer/UnBlinkTimer" to="." method="_on_un_blink_timer_timeout"]
+[connection signal="timeout" from="BlinkTimer/ScreamTimer" to="." method="_on_scream_timer_timeout"]
+[connection signal="timeout" from="BlinkTimer/ScreamTimer/UnYellTimer" to="." method="_on_un_blink_timer_timeout"]
+[connection signal="timeout" from="GemidoTimer" to="." method="_on_gemido_timer_timeout"]
+[connection signal="finished" from="83_Sfx-BirdDestroyed" to="." method="_on__sfx_bird_destroyed_finished"]
+[connection signal="timeout" from="PointTimer" to="." method="_on_point_timer_timeout"]
+[connection signal="timeout" from="FallingTimer" to="." method="_on_falling_timer_timeout"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://rjbn2kt0k1vy"
+path="res://.godot/imported/134. Globe Bird Launch.mp3-7db7d92f5feb8ca3ea9fb3a9a1ce7db1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/134. Globe Bird Launch.mp3"
+dest_files=["res://.godot/imported/134. Globe Bird Launch.mp3-7db7d92f5feb8ca3ea9fb3a9a1ce7db1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

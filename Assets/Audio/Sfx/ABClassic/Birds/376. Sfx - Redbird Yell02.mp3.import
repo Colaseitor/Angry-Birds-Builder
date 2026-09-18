@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bihas4k2wxqtg"
+path="res://.godot/imported/376. Sfx - Redbird Yell02.mp3-1faa710de4a887a158d7b0579c16bfc2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/376. Sfx - Redbird Yell02.mp3"
+dest_files=["res://.godot/imported/376. Sfx - Redbird Yell02.mp3-1faa710de4a887a158d7b0579c16bfc2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

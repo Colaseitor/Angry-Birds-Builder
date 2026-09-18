@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ihb1i65t1r1e"
+path="res://.godot/imported/062. Stpatrics Theme.mp3-1d21405922e9406fb5b1d7f65f7fe3b4.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/062. Stpatrics Theme.mp3"
+dest_files=["res://.godot/imported/062. Stpatrics Theme.mp3-1d21405922e9406fb5b1d7f65f7fe3b4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

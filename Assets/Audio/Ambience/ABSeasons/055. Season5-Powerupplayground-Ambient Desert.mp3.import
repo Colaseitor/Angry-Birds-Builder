@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhmgr1wwg1lg8"
+path="res://.godot/imported/055. Season5-Powerupplayground-Ambient Desert.mp3-e97e56f4eac66f75eb10236d26be7d93.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/055. Season5-Powerupplayground-Ambient Desert.mp3"
+dest_files=["res://.godot/imported/055. Season5-Powerupplayground-Ambient Desert.mp3-e97e56f4eac66f75eb10236d26be7d93.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

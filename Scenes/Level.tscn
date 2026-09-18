@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://cxj8x3lo8dg1j"]
+
+[ext_resource type="Script" uid="uid://ds7wwqdqd5rf" path="res://Scenes/level.gd" id="1_esopp"]
+[ext_resource type="PackedScene" uid="uid://qjrw4sje5n4y" path="res://Other main gameplay thinggies/Slingshot.tscn" id="1_xtmsl"]
+[ext_resource type="PackedScene" uid="uid://ctv562snxiloy" path="res://Other main gameplay thinggies/level_ui.tscn" id="3_or7tv"]
+[ext_resource type="Script" uid="uid://dvroj1br416qi" path="res://Scenes/camera_2d.gd" id="5_44tr1"]
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_esopp")
+
+[node name="Slingshot" parent="." instance=ExtResource("1_xtmsl")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -8)
+zoom = Vector2(1.5, 1.5)
+process_callback = 0
+limit_left = -700
+limit_right = 3000
+limit_bottom = 205
+position_smoothing_enabled = true
+script = ExtResource("5_44tr1")
+
+[node name="FollowTimer" type="Timer" parent="Camera2D"]
+wait_time = 2.0
+
+[node name="Blocks" type="Node2D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+offset = Vector2(1100, 0)
+scale = Vector2(1.5, 1.5)
+transform = Transform2D(1.5, 0, 0, 1.5, 1100, 0)
+
+[node name="LevelUI" parent="CanvasLayer" instance=ExtResource("3_or7tv")]
+z_index = 100
+offset_left = -692.0
+offset_right = -692.0
+mouse_filter = 2
+
+[connection signal="timeout" from="Camera2D/FollowTimer" to="Camera2D" method="_on_follow_timer_timeout"]

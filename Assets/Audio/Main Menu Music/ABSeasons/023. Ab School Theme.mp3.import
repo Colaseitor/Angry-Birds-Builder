@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://colmf2l2gqrng"
+path="res://.godot/imported/023. Ab School Theme.mp3-81d91ae7190859d12686f47f89e43ae7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/023. Ab School Theme.mp3"
+dest_files=["res://.godot/imported/023. Ab School Theme.mp3-81d91ae7190859d12686f47f89e43ae7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

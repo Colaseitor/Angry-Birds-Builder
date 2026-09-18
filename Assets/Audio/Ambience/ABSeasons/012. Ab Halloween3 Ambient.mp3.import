@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by8kjggj2to3u"
+path="res://.godot/imported/012. Ab Halloween3 Ambient.mp3-c772bc230b0c40c88337d51b5512658b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/012. Ab Halloween3 Ambient.mp3"
+dest_files=["res://.godot/imported/012. Ab Halloween3 Ambient.mp3-c772bc230b0c40c88337d51b5512658b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

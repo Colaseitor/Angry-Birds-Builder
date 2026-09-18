@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de8am52ufbneq"
+path="res://.godot/imported/109. Sfx - Birds Bomb Shockwave 02.mp3-3cdf9eee0aedf1f92a181ed1546ca53f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/109. Sfx - Birds Bomb Shockwave 02.mp3"
+dest_files=["res://.godot/imported/109. Sfx - Birds Bomb Shockwave 02.mp3-3cdf9eee0aedf1f92a181ed1546ca53f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

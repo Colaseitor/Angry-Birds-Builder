@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csfdl7n507x4k"
+path="res://.godot/imported/174. Sfx - Earthquake.mp3-e3a7ead932a7cd5fda758f84b7ceaf0f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Powerups/174. Sfx - Earthquake.mp3"
+dest_files=["res://.godot/imported/174. Sfx - Earthquake.mp3-e3a7ead932a7cd5fda758f84b7ceaf0f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bj5ff30xprft"
+path="res://.godot/imported/171. Lazercollision05.mp3-9ac95b4c9404c1778fe76ecedde64ead.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/171. Lazercollision05.mp3"
+dest_files=["res://.godot/imported/171. Lazercollision05.mp3-9ac95b4c9404c1778fe76ecedde64ead.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

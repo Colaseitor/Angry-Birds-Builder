@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2pnyj2alda5x"
+path="res://.godot/imported/01. Angry Birds Friends Main Theme.mp3-8de762a3e240c7e6d80567caed155fb1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABFriends/01. Angry Birds Friends Main Theme.mp3"
+dest_files=["res://.godot/imported/01. Angry Birds Friends Main Theme.mp3-8de762a3e240c7e6d80567caed155fb1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

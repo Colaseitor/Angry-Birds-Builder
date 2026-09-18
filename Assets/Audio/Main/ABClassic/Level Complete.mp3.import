@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbid05wby2l64"
+path="res://.godot/imported/Level Complete.mp3-5a70667a36968b577882debb6e773095.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/Level Complete.mp3"
+dest_files=["res://.godot/imported/Level Complete.mp3-5a70667a36968b577882debb6e773095.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

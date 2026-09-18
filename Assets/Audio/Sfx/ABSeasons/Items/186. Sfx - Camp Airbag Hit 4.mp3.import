@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1kv6e3p7bvkj"
+path="res://.godot/imported/186. Sfx - Camp Airbag Hit 4.mp3-e494fb8c329892a89539154ba9fc6d80.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/186. Sfx - Camp Airbag Hit 4.mp3"
+dest_files=["res://.godot/imported/186. Sfx - Camp Airbag Hit 4.mp3-e494fb8c329892a89539154ba9fc6d80.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

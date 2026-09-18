@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvxrkbsvvsg8g"
+path="res://.godot/imported/315. Shell Open Var1.mp3-d3b6491385456a864a656e24541bf28d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/315. Shell Open Var1.mp3"
+dest_files=["res://.godot/imported/315. Shell Open Var1.mp3-d3b6491385456a864a656e24541bf28d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

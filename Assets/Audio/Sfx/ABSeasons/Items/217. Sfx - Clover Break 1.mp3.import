@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmoymbf3tf0ui"
+path="res://.godot/imported/217. Sfx - Clover Break 1.mp3-4055215e88bef1db6e33bf7359004670.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/217. Sfx - Clover Break 1.mp3"
+dest_files=["res://.godot/imported/217. Sfx - Clover Break 1.mp3-4055215e88bef1db6e33bf7359004670.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

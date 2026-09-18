@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cu8qvrg4c3xa7"
+path="res://.godot/imported/115. Sfx - Bone Collision 2.mp3-d0584bce501a91c13b73d08a578925c2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/115. Sfx - Bone Collision 2.mp3"
+dest_files=["res://.godot/imported/115. Sfx - Bone Collision 2.mp3-d0584bce501a91c13b73d08a578925c2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

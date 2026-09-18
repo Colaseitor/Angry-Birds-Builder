@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7yvqe0u40rmr"
+path="res://.godot/imported/345. Sfx - Pigs Electrocuted 02.mp3-8e9ace0005a4f8ab8641273c76a98bf5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/345. Sfx - Pigs Electrocuted 02.mp3"
+dest_files=["res://.godot/imported/345. Sfx - Pigs Electrocuted 02.mp3-8e9ace0005a4f8ab8641273c76a98bf5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

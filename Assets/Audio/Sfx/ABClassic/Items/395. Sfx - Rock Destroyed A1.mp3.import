@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxvmdf6cccngd"
+path="res://.godot/imported/395. Sfx - Rock Destroyed A1.mp3-4767941d2c86c8041eddeec11ca747d6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/395. Sfx - Rock Destroyed A1.mp3"
+dest_files=["res://.godot/imported/395. Sfx - Rock Destroyed A1.mp3-4767941d2c86c8041eddeec11ca747d6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

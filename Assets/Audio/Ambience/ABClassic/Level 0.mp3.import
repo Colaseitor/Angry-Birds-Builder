@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chg2yawawom61"
+path="res://.godot/imported/Level 0.mp3-693329621586034633b180b80c32a203.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Level 0.mp3"
+dest_files=["res://.godot/imported/Level 0.mp3-693329621586034633b180b80c32a203.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://djvm0mlxigkme"
+path="res://.godot/imported/328. Sfx - Piglette Destroyed.mp3-1378c3178e017181152a7e1b14cfb9ab.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/328. Sfx - Piglette Destroyed.mp3"
+dest_files=["res://.godot/imported/328. Sfx - Piglette Destroyed.mp3-1378c3178e017181152a7e1b14cfb9ab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

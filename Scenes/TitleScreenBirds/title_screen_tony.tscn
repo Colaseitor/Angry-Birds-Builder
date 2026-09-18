@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4sjnux8ss8hu"]
+
+[ext_resource type="PackedScene" uid="uid://c71jdgq00nen5" path="res://Scenes/TitleScreenBirds/title_screen_terence.tscn" id="1_sg1ew"]
+[ext_resource type="Texture2D" uid="uid://dm2tl2wt54jrf" path="res://Assets/Graphics/Birds/ABSeasons/Tony.png" id="2_np8uc"]
+
+[node name="TitleScreenTony" instance=ExtResource("1_sg1ew")]
+scream_frame = 2
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(0, -20)
+scale = Vector2(1.12, 1.12)
+texture = ExtResource("2_np8uc")
+hframes = 3

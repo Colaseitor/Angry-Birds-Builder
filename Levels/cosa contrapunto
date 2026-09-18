@@ -1,0 +1,28 @@
+{"ambience":0,"sling rot":0.0,"sling x":365.591033935547,"sling y":-858.107482910156,"star2":20000,"star3":40000,"theme":"Winter Wonderham","type":"main"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1447.66625976563,"position y":-82.32470703125,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1589.60278320313,"position y":-83.4785766601563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1774.21069335938,"position y":-83.4785766601563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1940.35766601563,"position y":-83.4785766601563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1511.14453125,"position y":-176.945617675781,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1858.43798828125,"position y":-176.945617675781,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1681.90673828125,"position y":-176.945617675781,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1479.99194335938,"position y":-270.412719726563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1558.4501953125,"position y":-363.8798828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1638.06225585938,"position y":-270.412719726563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1710.75170898438,"position y":-270.412719726563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1873.4375,"position y":-270.412719726563,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1791.517578125,"position y":-363.8798828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":720.422241210938,"position y":-153.328979492188,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":1678.92163085938,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":1518.08190917969,"position y":-39.552978515625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":1858.06811523438,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1597.78283691406,"position y":-456.469909667969,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1742.21752929688,"position y":-457.361572265625,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Long Wood","position x":1671.78344726563,"position y":-550.094360351563,"rotation":0.0,"type":"block"}
+{"name":"Tony","position x":263.764526367188,"position y":-899.412170410156,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":167.653015136719,"position y":-899.412170410156,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":73.5029907226563,"position y":-899.412170410156,"rotation":0.0,"type":"bird"}
+{"heigth":10.0,"name":"Ground Square","position x":-57.6228942871094,"position y":-353.417785644531,"rotation":0.0,"type":"ground","width":10.0}
+{"heigth":3.0,"name":"Ground Square","position x":787.11181640625,"position y":-123.250244140625,"rotation":10.0,"type":"ground","width":0.5}
+{"heigth":0.5,"name":"Ground Square","position x":657.655517578125,"position y":-124.557983398438,"rotation":80.0,"type":"ground","width":3.0}
+{"heigth":9.0,"name":"Ground Triangle","position x":-558.77490234375,"position y":-235.4609375,"rotation":0.0,"type":"ground","width":6.0}

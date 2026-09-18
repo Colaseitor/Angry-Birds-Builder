@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cufxkkcbhu5cx"
+path="res://.godot/imported/127. Sfx - Boomerang Activate.mp3-b44d48818a0d5f1b636eaab61ec0978a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/127. Sfx - Boomerang Activate.mp3"
+dest_files=["res://.godot/imported/127. Sfx - Boomerang Activate.mp3-b44d48818a0d5f1b636eaab61ec0978a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

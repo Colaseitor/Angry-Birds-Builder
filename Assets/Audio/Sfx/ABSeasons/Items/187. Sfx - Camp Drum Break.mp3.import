@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgdtdli12v3y2"
+path="res://.godot/imported/187. Sfx - Camp Drum Break.mp3-be0c5222b1c38e668e86f5b26fa80083.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/187. Sfx - Camp Drum Break.mp3"
+dest_files=["res://.godot/imported/187. Sfx - Camp Drum Break.mp3-be0c5222b1c38e668e86f5b26fa80083.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

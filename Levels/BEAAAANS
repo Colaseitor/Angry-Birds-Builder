@@ -1,0 +1,21 @@
+{"ambience":1.0,"sling rot":0.0,"sling x":-2.39990234375,"sling y":-666.418518066406,"star2":20000.0,"star3":40000.0,"theme":"Poached Eggs 3","type":"main"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":266.276245117188,"position y":-258.069213867188,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":265.243835449219,"position y":-337.567810058594,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":265.243835449219,"position y":-419.13134765625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":266.276245117188,"position y":-499.662475585938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":268.340881347656,"position y":-581.226013183594,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":349.896179199219,"position y":-259.101684570313,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":349.896179199219,"position y":-340.665222167969,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":349.896179199219,"position y":-422.228698730469,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":350.928527832031,"position y":-503.792236328125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":354.025573730469,"position y":-585.355834960938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":302.408325195313,"position y":-634.913391113281,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":301.3759765625,"position y":-654.529907226563,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":303.440673828125,"position y":-674.146484375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":302.408325195313,"position y":-693.763061523438,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":302.408325195313,"position y":-714.411987304688,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":300.343566894531,"position y":-734.028564453125,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":732.896667480469,"position y":-355.119506835938,"rotation":0.0,"type":"block"}
+{"name":"Terence","position x":-119.408264160156,"position y":-709.131225585938,"rotation":0.0,"type":"bird"}
+{"heigth":1.0,"name":"Ground Square","position x":-170.40625,"position y":-617.704650878906,"rotation":0.0,"type":"ground","width":4.0}
+{"heigth":1.0,"name":"Ground Square","position x":334.411071777344,"position y":-168.263244628906,"rotation":0.0,"type":"ground","width":4.0}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkqpr1ql53xg6"
+path="res://.godot/imported/351. Sfx - Pigs Potion Inflate 01.mp3-7073e50948ec80e19a54a961d8d22a29.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/351. Sfx - Pigs Potion Inflate 01.mp3"
+dest_files=["res://.godot/imported/351. Sfx - Pigs Potion Inflate 01.mp3-7073e50948ec80e19a54a961d8d22a29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

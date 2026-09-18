@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://qh71js5c34gf"
+path="res://.godot/imported/214. Sfx - Christmas-Bell-Small.mp3-4e43e3fa7dbb4cdbaf11394ec2c89695.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/214. Sfx - Christmas-Bell-Small.mp3"
+dest_files=["res://.godot/imported/214. Sfx - Christmas-Bell-Small.mp3-4e43e3fa7dbb4cdbaf11394ec2c89695.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

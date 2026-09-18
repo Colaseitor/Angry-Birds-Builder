@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mlaftl5hnxuc"
+path="res://.godot/imported/199. Sfx - Globe Bird Special Activation 1.mp3-5b4c9fdc9d0d99e8c5f0573abf660534.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/199. Sfx - Globe Bird Special Activation 1.mp3"
+dest_files=["res://.godot/imported/199. Sfx - Globe Bird Special Activation 1.mp3-5b4c9fdc9d0d99e8c5f0573abf660534.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://l88n5640fuds"
+path="res://.godot/imported/002. Ab Space Ambience Eggsteroid.mp3-ba8500ae64660d7d3342ce833ac44bc0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSpace/002. Ab Space Ambience Eggsteroid.mp3"
+dest_files=["res://.godot/imported/002. Ab Space Ambience Eggsteroid.mp3-ba8500ae64660d7d3342ce833ac44bc0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

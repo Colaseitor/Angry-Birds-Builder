@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6v0saayykh75"
+path="res://.godot/imported/052. Season4-Onfinnice Night Ambient.mp3-302f2a8384c7596bf65eacce69105173.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/052. Season4-Onfinnice Night Ambient.mp3"
+dest_files=["res://.godot/imported/052. Season4-Onfinnice Night Ambient.mp3-302f2a8384c7596bf65eacce69105173.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

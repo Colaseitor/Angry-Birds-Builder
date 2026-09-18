@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6lf6ycpa1l2h"
+path="res://.godot/imported/076. Boss Pig Yuck 03.mp3-fc2b960315727a6b52c664aeceab2e65.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Bosses/076. Boss Pig Yuck 03.mp3"
+dest_files=["res://.godot/imported/076. Boss Pig Yuck 03.mp3-fc2b960315727a6b52c664aeceab2e65.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

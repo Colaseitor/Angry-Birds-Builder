@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dewsa20r4jvlq"
+path="res://.godot/imported/364. Sfx - Pink Special 01.mp3-151803478481476d5e60eb299596ef94.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/364. Sfx - Pink Special 01.mp3"
+dest_files=["res://.godot/imported/364. Sfx - Pink Special 01.mp3-151803478481476d5e60eb299596ef94.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

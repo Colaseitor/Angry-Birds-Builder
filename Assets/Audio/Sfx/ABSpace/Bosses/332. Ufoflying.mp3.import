@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c72hipwb1thya"
+path="res://.godot/imported/332. Ufoflying.mp3-6e94196c331ffccc5e050e1b953f42e7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Bosses/332. Ufoflying.mp3"
+dest_files=["res://.godot/imported/332. Ufoflying.mp3-6e94196c331ffccc5e050e1b953f42e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

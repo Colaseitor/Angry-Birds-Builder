@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dap1ppy13p3ld"
+path="res://.godot/imported/472. Sfx - Snowball Roll A4.mp3-07d3decf375dd21749776632f3835ba6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/472. Sfx - Snowball Roll A4.mp3"
+dest_files=["res://.godot/imported/472. Sfx - Snowball Roll A4.mp3-07d3decf375dd21749776632f3835ba6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

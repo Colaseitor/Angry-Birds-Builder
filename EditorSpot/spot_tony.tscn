@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bs6ps3a5p38dc"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_1ib6e"]
+[ext_resource type="Texture2D" uid="uid://451fktgycq5a" path="res://Assets/Graphics/EditorIcons/Tony 1.png" id="2_ndghb"]
+
+[node name="SpotTony" instance=ExtResource("1_1ib6e")]
+thing_name = "Tony"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(50.2075, 36.5145)
+scale = Vector2(0.967951, 0.967951)
+texture = ExtResource("2_ndghb")

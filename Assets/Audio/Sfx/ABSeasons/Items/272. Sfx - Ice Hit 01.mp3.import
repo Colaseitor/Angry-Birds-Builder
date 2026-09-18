@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://joy883u8oloy"
+path="res://.godot/imported/272. Sfx - Ice Hit 01.mp3-2bc3d1113ef49c6ce5519048740ec4b5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/272. Sfx - Ice Hit 01.mp3"
+dest_files=["res://.godot/imported/272. Sfx - Ice Hit 01.mp3-2bc3d1113ef49c6ce5519048740ec4b5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

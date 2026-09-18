@@ -1,0 +1,122 @@
+[gd_scene load_steps=18 format=3 uid="uid://b232uymhv3lag"]
+
+[ext_resource type="Script" uid="uid://bd6h1jlv0vbue" path="res://Blocks/ABClassic/stone_block.gd" id="1_olke6"]
+[ext_resource type="AudioStream" uid="uid://dlp26sua1wkwi" path="res://Assets/Audio/Sfx/ABClassic/Items/387. Sfx - Rock Collision A1.mp3" id="3_h2osm"]
+[ext_resource type="AudioStream" uid="uid://dc22rorherqx" path="res://Assets/Audio/Sfx/ABClassic/Items/388. Sfx - Rock Collision A2.mp3" id="4_0ymc2"]
+[ext_resource type="AudioStream" uid="uid://ds17nr4mxwn1c" path="res://Assets/Audio/Sfx/ABClassic/Items/389. Sfx - Rock Collision A3.mp3" id="5_756k5"]
+[ext_resource type="AudioStream" uid="uid://cybmqtppwrcxd" path="res://Assets/Audio/Sfx/ABClassic/Items/390. Sfx - Rock Collision A4.mp3" id="6_806nx"]
+[ext_resource type="AudioStream" uid="uid://iap4ejocr2cd" path="res://Assets/Audio/Sfx/ABClassic/Items/391. Sfx - Rock Collision A5.mp3" id="7_fhhor"]
+[ext_resource type="AudioStream" uid="uid://cpo4ysiyce7es" path="res://Assets/Audio/Sfx/ABClassic/Items/392. Sfx - Rock Damage A1.mp3" id="8_o1s6y"]
+[ext_resource type="AudioStream" uid="uid://cyqywgtoaj4hg" path="res://Assets/Audio/Sfx/ABClassic/Items/393. Sfx - Rock Damage A2.mp3" id="9_klojv"]
+[ext_resource type="AudioStream" uid="uid://cilh3lujd1r28" path="res://Assets/Audio/Sfx/ABClassic/Items/394. Sfx - Rock Damage A3.mp3" id="10_pc5y6"]
+[ext_resource type="AudioStream" uid="uid://bxvmdf6cccngd" path="res://Assets/Audio/Sfx/ABClassic/Items/395. Sfx - Rock Destroyed A1.mp3" id="11_hyqn1"]
+[ext_resource type="AudioStream" uid="uid://cuvt060x0bch" path="res://Assets/Audio/Sfx/ABClassic/Items/396. Sfx - Rock Destroyed A2.mp3" id="12_7fmf6"]
+[ext_resource type="AudioStream" uid="uid://b248eluyq0v67" path="res://Assets/Audio/Sfx/ABClassic/Items/397. Sfx - Rock Destroyed A3.mp3" id="13_udnl2"]
+[ext_resource type="Texture2D" uid="uid://budndoveo5wx6" path="res://Assets/Graphics/Particles/ABClassic/Stone particles.png" id="14_4jnou"]
+[ext_resource type="Texture2D" uid="uid://c7sunl3xs6uh8" path="res://Assets/Graphics/Blocks/ABClassic/Longer Stone.png" id="14_olke6"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_g1ckh"]
+particles_animation = true
+particles_anim_h_frames = 2
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_l7rlv"]
+_data = [Vector2(0, 1.01), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_24fxh"]
+size = Vector2(202.11, 17.5328)
+
+[node name="LongerStone" type="RigidBody2D"]
+mass = 1.4
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_olke6")
+
+[node name="478_Sfx-WoodCollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_h2osm")
+volume_db = -10.0
+
+[node name="479_Sfx-WoodCollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_0ymc2")
+volume_db = -10.0
+
+[node name="480_Sfx-WoodCollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_756k5")
+volume_db = -10.0
+
+[node name="481_Sfx-WoodCollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_806nx")
+volume_db = -10.0
+
+[node name="482_Sfx-WoodCollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_fhhor")
+volume_db = -10.0
+
+[node name="484_Sfx-WoodDamageA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_o1s6y")
+volume_db = -10.0
+
+[node name="485_Sfx-WoodDamageA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_klojv")
+
+[node name="486_Sfx-WoodDamageA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_pc5y6")
+volume_db = -10.0
+
+[node name="487_Sfx-WoodDestroyedA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_hyqn1")
+volume_db = -10.0
+
+[node name="488_Sfx-WoodDestroyedA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_7fmf6")
+volume_db = -10.0
+
+[node name="489_Sfx-WoodDestroyedA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_udnl2")
+volume_db = -10.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+top_level = true
+z_index = 2
+material = SubResource("CanvasItemMaterial_g1ckh")
+emitting = false
+amount = 30
+texture = ExtResource("14_4jnou")
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.6
+explosiveness = 1.0
+randomness = 1.0
+emission_shape = 3
+emission_rect_extents = Vector2(25, 25)
+spread = 180.0
+gravity = Vector2(0, 100)
+initial_velocity_min = 1.0
+initial_velocity_max = 150.0
+angle_max = 360.0
+scale_amount_curve = SubResource("Curve_l7rlv")
+anim_offset_max = 1.0
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="CPUParticles2D"]
+visible = false
+position = Vector2(-2, 0)
+polygon = PackedVector2Array(-39, -41, 43, -41, 43, 41, -39, 41, -23, 24, 26, 24, 26, -23, -23, -23, -23, 24, -39, 41)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.00935, 1.02665)
+texture = ExtResource("14_olke6")
+hframes = 2
+vframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+scale = Vector2(1.00935, 1.02665)
+shape = SubResource("RectangleShape2D_24fxh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="sleeping_state_changed" from="." to="." method="_on_sleeping_state_changed"]
+[connection signal="finished" from="487_Sfx-WoodDestroyedA1" to="." method="_on__sfx_wood_destroyed_a_1_finished"]
+[connection signal="finished" from="488_Sfx-WoodDestroyedA2" to="." method="_on__sfx_wood_destroyed_a_2_finished"]
+[connection signal="finished" from="489_Sfx-WoodDestroyedA3" to="." method="_on__sfx_wood_destroyed_a_3_finished"]

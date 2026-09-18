@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2okixpox1uui"
+path="res://.godot/imported/274. Popcorn Crunch 1.mp3-2f9a979ca502c847435a001376e7c522.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/274. Popcorn Crunch 1.mp3"
+dest_files=["res://.godot/imported/274. Popcorn Crunch 1.mp3-2f9a979ca502c847435a001376e7c522.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

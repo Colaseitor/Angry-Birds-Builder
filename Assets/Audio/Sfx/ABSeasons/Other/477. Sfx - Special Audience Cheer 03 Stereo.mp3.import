@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cbakpx6riml2j"
+path="res://.godot/imported/477. Sfx - Special Audience Cheer 03 Stereo.mp3-f4477e818aae9c5df0f5a00c06d95ad1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Other/477. Sfx - Special Audience Cheer 03 Stereo.mp3"
+dest_files=["res://.godot/imported/477. Sfx - Special Audience Cheer 03 Stereo.mp3-f4477e818aae9c5df0f5a00c06d95ad1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

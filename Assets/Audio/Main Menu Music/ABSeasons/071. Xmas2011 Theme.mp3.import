@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ncs011f6wog8"
+path="res://.godot/imported/071. Xmas2011 Theme.mp3-df499c2389f11dab7170af74795be634.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/071. Xmas2011 Theme.mp3"
+dest_files=["res://.godot/imported/071. Xmas2011 Theme.mp3-df499c2389f11dab7170af74795be634.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

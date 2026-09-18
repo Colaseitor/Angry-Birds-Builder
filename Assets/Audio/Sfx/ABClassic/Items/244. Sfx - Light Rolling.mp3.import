@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bto648teu72k"
+path="res://.godot/imported/244. Sfx - Light Rolling.mp3-f8709dbfcb44ec0c7e920ea13905160b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/244. Sfx - Light Rolling.mp3"
+dest_files=["res://.godot/imported/244. Sfx - Light Rolling.mp3-f8709dbfcb44ec0c7e920ea13905160b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

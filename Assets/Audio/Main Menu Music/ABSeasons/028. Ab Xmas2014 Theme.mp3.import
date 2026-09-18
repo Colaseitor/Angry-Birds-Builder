@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdty5qeu5pe5d"
+path="res://.godot/imported/028. Ab Xmas2014 Theme.mp3-8113d0d9e214ba78b21d5f5db98fc667.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/028. Ab Xmas2014 Theme.mp3"
+dest_files=["res://.godot/imported/028. Ab Xmas2014 Theme.mp3-8113d0d9e214ba78b21d5f5db98fc667.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

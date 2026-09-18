@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuay6g7nkf8l1"]
+
+[ext_resource type="PackedScene" uid="uid://ly1c7vo66thq" path="res://Blocks/ABClassic/SquareWoodOld.tscn" id="1_es3wc"]
+[ext_resource type="Texture2D" uid="uid://0svb6dfxf6ri" path="res://Assets/Graphics/Blocks/ABClassic/Wood long.png" id="2_024cn"]
+
+[node name="LongWood" instance=ExtResource("1_es3wc")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_024cn")
+hframes = 1
+vframes = 4
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-0.5, 0)

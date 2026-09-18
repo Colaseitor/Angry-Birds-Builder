@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b4paer6pf6kbl"
+path="res://.godot/imported/225. Sfx - Laser Sight.mp3-f8bbaed8490f37665512816616ce1efc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Powerups/225. Sfx - Laser Sight.mp3"
+dest_files=["res://.godot/imported/225. Sfx - Laser Sight.mp3-f8bbaed8490f37665512816616ce1efc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

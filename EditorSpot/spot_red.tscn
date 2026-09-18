@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfn13l375npp4"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_grklb"]
+[ext_resource type="Texture2D" uid="uid://bmvspbe537ufx" path="res://Assets/Graphics/EditorIcons/Red 1.png" id="2_jt6gp"]
+
+[node name="SpotRed" instance=ExtResource("1_grklb")]
+thing_name = "Red"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(48.9627, 50.6224)
+scale = Vector2(1.86435, 1.86435)
+texture = ExtResource("2_jt6gp")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctw0miou1u2xn"]
+
+[ext_resource type="PackedScene" uid="uid://bua70q7dlbcpf" path="res://Other main gameplay thinggies/point_text/red_point_text.tscn" id="1_4lifu"]
+[ext_resource type="Texture2D" uid="uid://dns613c17ojds" path="res://Assets/Graphics/ScoreText/ABClassic/BluesScore.png" id="2_wp0nb"]
+
+[node name="TheBluesPointText" instance=ExtResource("1_4lifu")]
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("2_wp0nb")

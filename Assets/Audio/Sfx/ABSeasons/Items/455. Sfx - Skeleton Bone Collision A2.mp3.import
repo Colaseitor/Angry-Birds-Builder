@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5keo78ceaobg"
+path="res://.godot/imported/455. Sfx - Skeleton Bone Collision A2.mp3-71416344c775c28e5d9c848da5d9f1aa.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/455. Sfx - Skeleton Bone Collision A2.mp3"
+dest_files=["res://.godot/imported/455. Sfx - Skeleton Bone Collision A2.mp3-71416344c775c28e5d9c848da5d9f1aa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di1yga4qoj4nk"
+path="res://.godot/imported/308. Sfx - Magic Box Reveal 01.mp3-a86635f44a1d39ebc52398a1082f555d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/308. Sfx - Magic Box Reveal 01.mp3"
+dest_files=["res://.godot/imported/308. Sfx - Magic Box Reveal 01.mp3-a86635f44a1d39ebc52398a1082f555d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

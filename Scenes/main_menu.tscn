@@ -1,0 +1,168 @@
+[gd_scene load_steps=14 format=3 uid="uid://h0mhqryy8gv5"]
+
+[ext_resource type="Script" uid="uid://cqy1xuchffidk" path="res://Scenes/main_menu.gd" id="1_opfnp"]
+[ext_resource type="Texture2D" uid="uid://dik5mm2ukviux" path="res://Assets/Graphics/Botones/Text box.png" id="5_trj04"]
+[ext_resource type="Texture2D" uid="uid://1f1ek0bucv86" path="res://Assets/Graphics/Botones/Empty Green Text Button.png" id="6_16hvj"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="7_vr1f0"]
+[ext_resource type="Texture2D" uid="uid://b8km0b7wpguc5" path="res://Assets/Graphics/Botones/Empty Text Button.png" id="8_t1dhk"]
+[ext_resource type="Texture2D" uid="uid://cchwgsboy0t23" path="res://Assets/Graphics/Botones/Edit.png" id="8_yhxw7"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="9_5egv6"]
+[ext_resource type="Texture2D" uid="uid://b24wawrmxgr8x" path="res://Assets/Graphics/Botones/Play.png" id="9_trj04"]
+[ext_resource type="Texture2D" uid="uid://bk6s2j6dmof2x" path="res://Assets/Graphics/Other/angrybirdsbuilderlogo.png" id="10_16hvj"]
+[ext_resource type="AudioStream" uid="uid://cvhtycn8o4y08" path="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3" id="10_vr1f0"]
+[ext_resource type="AudioStream" uid="uid://c7gsnlxpa7oay" path="res://Assets/Audio/Main/ABClassic/252. Sfx - Menu Back.mp3" id="11_t1dhk"]
+[ext_resource type="PackedScene" uid="uid://dktad06y2btyj" path="res://Scenes/theme_selector.tscn" id="12_t1dhk"]
+
+[sub_resource type="Theme" id="Theme_yhxw7"]
+default_base_scale = 1.0
+default_font_size = 0
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_opfnp")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+process_callback = 0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.6
+autostart = true
+
+[node name="Edit" type="TextureButton" parent="."]
+z_index = 6
+offset_left = 286.0
+offset_top = -23.0
+offset_right = 386.0
+offset_bottom = 77.0
+scale = Vector2(6, 6)
+texture_normal = ExtResource("8_yhxw7")
+metadata/_edit_use_anchors_ = true
+
+[node name="FileDialog" type="FileDialog" parent="Edit"]
+auto_translate_mode = 1
+title = "Open a File"
+position = Vector2i(0, 36)
+size = Vector2i(3380, 1840)
+content_scale_size = Vector2i(200, 200)
+content_scale_aspect = 4
+content_scale_factor = 4.71
+theme = SubResource("Theme_yhxw7")
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+
+[node name="EditLoad" type="TextureButton" parent="."]
+visible = false
+z_index = 6
+offset_left = -1137.0
+offset_top = -15.0
+offset_right = -1037.0
+offset_bottom = 85.0
+scale = Vector2(5, 5)
+texture_normal = ExtResource("8_yhxw7")
+metadata/_edit_use_anchors_ = true
+
+[node name="Play" type="TextureButton" parent="."]
+z_index = 6
+offset_left = -888.0
+offset_top = -23.0
+offset_right = -788.0
+offset_bottom = 77.0
+scale = Vector2(6, 6)
+texture_normal = ExtResource("9_trj04")
+metadata/_edit_use_anchors_ = true
+
+[node name="FileDialog" type="FileDialog" parent="Play"]
+auto_translate_mode = 1
+title = "Open a File"
+position = Vector2i(0, 36)
+size = Vector2i(3380, 1840)
+content_scale_size = Vector2i(200, 200)
+content_scale_aspect = 4
+content_scale_factor = 4.71
+theme = SubResource("Theme_yhxw7")
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+
+[node name="Logo" type="Sprite2D" parent="."]
+z_index = 6
+position = Vector2(0, -489)
+scale = Vector2(2.27228, 2.27228)
+texture = ExtResource("10_16hvj")
+
+[node name="EditScreen" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditScreen"]
+position = Vector2(1847, 1061)
+scale = Vector2(5.28, 5.28)
+texture = ExtResource("5_trj04")
+
+[node name="New" type="TextureButton" parent="EditScreen/Sprite2D"]
+offset_left = -88.0682
+offset_top = -85.0379
+offset_right = 255.932
+offset_bottom = 74.9621
+scale = Vector2(0.505831, 0.505831)
+texture_normal = ExtResource("6_16hvj")
+
+[node name="Label" type="Label" parent="EditScreen/Sprite2D/New"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 338.0
+offset_bottom = 131.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("7_vr1f0")
+theme_override_font_sizes/font_size = 96
+text = "New"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Load" type="TextureButton" parent="EditScreen/Sprite2D"]
+offset_left = -88.0682
+offset_top = 1.13637
+offset_right = 255.932
+offset_bottom = 161.136
+scale = Vector2(0.505831, 0.505831)
+texture_normal = ExtResource("8_t1dhk")
+
+[node name="Label2" type="Label" parent="EditScreen/Sprite2D/Load"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.9861
+offset_right = 338.0
+offset_bottom = 129.986
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("7_vr1f0")
+theme_override_font_sizes/font_size = 96
+text = "Load"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Cancel" type="TextureButton" parent="EditScreen/Sprite2D"]
+offset_left = 116.667
+offset_top = -127.841
+offset_right = 251.667
+offset_bottom = 9.15945
+scale = Vector2(0.627901, 0.627901)
+texture_normal = ExtResource("9_5egv6")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_vr1f0")
+volume_db = -5.0
+
+[node name="ButtonBack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_t1dhk")
+volume_db = -5.0
+
+[node name="ThemeSelector" parent="." instance=ExtResource("12_t1dhk")]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="button_down" from="Edit" to="." method="_on_edit_button_down"]
+[connection signal="file_selected" from="Edit/FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="button_down" from="Play" to="." method="_on_play_button_down"]
+[connection signal="file_selected" from="Play/FileDialog" to="." method="_on_play_file_dialog_file_selected"]
+[connection signal="button_down" from="EditScreen/Sprite2D/New" to="." method="_on_new_button_down"]
+[connection signal="button_down" from="EditScreen/Sprite2D/Load" to="." method="_on_load_button_down"]
+[connection signal="button_down" from="EditScreen/Sprite2D/Cancel" to="." method="_on_cancel_button_down"]

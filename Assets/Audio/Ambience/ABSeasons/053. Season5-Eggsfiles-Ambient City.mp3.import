@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blrp5qeh8sj5k"
+path="res://.godot/imported/053. Season5-Eggsfiles-Ambient City.mp3-5fb49147123a48982b34a6ea39fb8e14.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/053. Season5-Eggsfiles-Ambient City.mp3"
+dest_files=["res://.godot/imported/053. Season5-Eggsfiles-Ambient City.mp3-5fb49147123a48982b34a6ea39fb8e14.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v3l8qx8kf6pc"
+path="res://.godot/imported/091. Buttonproceed.mp3-030dae2f91602092245d6c5fb8389fae.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSpace/091. Buttonproceed.mp3"
+dest_files=["res://.godot/imported/091. Buttonproceed.mp3-030dae2f91602092245d6c5fb8389fae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbofo5hhrg11m"
+path="res://.godot/imported/Ambient Green Jungleish.mp3-fb0e64b1e2a88f0ec4a7746526c02891.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Ambient Green Jungleish.mp3"
+dest_files=["res://.godot/imported/Ambient Green Jungleish.mp3-fb0e64b1e2a88f0ec4a7746526c02891.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

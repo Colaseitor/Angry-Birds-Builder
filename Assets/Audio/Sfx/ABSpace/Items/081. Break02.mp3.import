@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3bsuqtsyswq5"
+path="res://.godot/imported/081. Break02.mp3-6a238ca09b10995447a1261d6b4be331.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/081. Break02.mp3"
+dest_files=["res://.godot/imported/081. Break02.mp3-6a238ca09b10995447a1261d6b4be331.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

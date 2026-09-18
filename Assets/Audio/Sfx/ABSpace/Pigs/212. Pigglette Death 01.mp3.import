@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8fs6d1ffxnta"
+path="res://.godot/imported/212. Pigglette Death 01.mp3-fe0f56bf3838bf422db9c5b6a7ed15e0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/212. Pigglette Death 01.mp3"
+dest_files=["res://.godot/imported/212. Pigglette Death 01.mp3-fe0f56bf3838bf422db9c5b6a7ed15e0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by5stxcpqhb2"
+path="res://.godot/imported/Sfx - Bigbrother Awakens.mp3-849e5b278d48dde2dceeb290832b5fbc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Cutscenes/ABClassic/Sfx - Bigbrother Awakens.mp3"
+dest_files=["res://.godot/imported/Sfx - Bigbrother Awakens.mp3-849e5b278d48dde2dceeb290832b5fbc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

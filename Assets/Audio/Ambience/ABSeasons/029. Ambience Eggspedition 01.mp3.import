@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4jpr0f8857wg"
+path="res://.godot/imported/029. Ambience Eggspedition 01.mp3-c329c85caf327d4f4c8e2f2146cd529a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/029. Ambience Eggspedition 01.mp3"
+dest_files=["res://.godot/imported/029. Ambience Eggspedition 01.mp3-c329c85caf327d4f4c8e2f2146cd529a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bi36k6s3mwhps"
+path="res://.godot/imported/243. Sfx - Egg Crush Alt A2.mp3-42c08b03b7cbad3947a253a403e2c5a6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/243. Sfx - Egg Crush Alt A2.mp3"
+dest_files=["res://.godot/imported/243. Sfx - Egg Crush Alt A2.mp3-42c08b03b7cbad3947a253a403e2c5a6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

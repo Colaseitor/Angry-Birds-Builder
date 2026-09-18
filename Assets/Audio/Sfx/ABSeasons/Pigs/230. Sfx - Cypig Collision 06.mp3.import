@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5lydidv263yi"
+path="res://.godot/imported/230. Sfx - Cypig Collision 06.mp3-5ca6355b61093dc2b673eb66e5fdbc84.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Pigs/230. Sfx - Cypig Collision 06.mp3"
+dest_files=["res://.godot/imported/230. Sfx - Cypig Collision 06.mp3-5ca6355b61093dc2b673eb66e5fdbc84.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

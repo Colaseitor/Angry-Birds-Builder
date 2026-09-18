@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnyff3xptt8f0"]
+
+[ext_resource type="PackedScene" uid="uid://ctsaxd18hsi30" path="res://Pigs/Pig.tscn" id="1_5qmat"]
+[ext_resource type="Texture2D" uid="uid://bmgikouthw410" path="res://Assets/Graphics/Pigs/Fanmade/Dog Piggen.png" id="2_jj7e7"]
+
+[node name="DogPiggen" instance=ExtResource("1_5qmat")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_jj7e7")

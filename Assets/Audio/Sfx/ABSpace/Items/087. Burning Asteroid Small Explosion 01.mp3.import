@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dlmygflckdl5o"
+path="res://.godot/imported/087. Burning Asteroid Small Explosion 01.mp3-89e3315ae3dbe1e8ab8aca39c20a917e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/087. Burning Asteroid Small Explosion 01.mp3"
+dest_files=["res://.godot/imported/087. Burning Asteroid Small Explosion 01.mp3-89e3315ae3dbe1e8ab8aca39c20a917e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3 uid="uid://bn3nmgl4iahkl"]
+
+[ext_resource type="Script" uid="uid://s4lohhd77y0g" path="res://Scenes/main.gd" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://cxj8x3lo8dg1j" path="res://Scenes/Level.tscn" id="1_jjgbg"]
+[ext_resource type="Texture2D" uid="uid://ddfc8jhr1gljc" path="res://Assets/Graphics/Other/12 de agosto.png" id="3_8gbba"]
+[ext_resource type="Texture2D" uid="uid://b8u7j1kabmvdg" path="res://Assets/Graphics/Botones/Restart.png" id="4_jjvhh"]
+[ext_resource type="Texture2D" uid="uid://b24wawrmxgr8x" path="res://Assets/Graphics/Botones/Play.png" id="5_21xkr"]
+[ext_resource type="Texture2D" uid="uid://cn6k2v0rblcx4" path="res://Assets/Graphics/Botones/Menu.png" id="6_6bp64"]
+[ext_resource type="AudioStream" uid="uid://cvhtycn8o4y08" path="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3" id="7_344ge"]
+[ext_resource type="AudioStream" uid="uid://c7gsnlxpa7oay" path="res://Assets/Audio/Main/ABClassic/252. Sfx - Menu Back.mp3" id="8_ynf5e"]
+
+[node name="Main" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_bo1nx")
+
+[node name="Level" parent="." instance=ExtResource("1_jjgbg")]
+process_mode = 1
+
+[node name="EndLevel" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="PauseMenu" type="CanvasLayer" parent="."]
+process_mode = 2
+visible = false
+
+[node name="BlackThingCoveringGame" type="Sprite2D" parent="PauseMenu"]
+self_modulate = Color(0, 0, 0, 0.447059)
+z_index = -3
+position = Vector2(1846, 951)
+scale = Vector2(1.566, 0.992)
+texture = ExtResource("3_8gbba")
+
+[node name="Control" type="Control" parent="PauseMenu"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BlackThingStars" type="Sprite2D" parent="PauseMenu/Control"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(146, 966)
+scale = Vector2(0.515333, 0.775)
+texture = ExtResource("3_8gbba")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PauseMenu/Control"]
+root_node = NodePath("../..")
+
+[node name="Restart" type="TextureButton" parent="PauseMenu/Control"]
+layout_mode = 0
+offset_left = 278.0
+offset_top = 779.0
+offset_right = 386.0
+offset_bottom = 891.0
+scale = Vector2(2.645, 2.645)
+texture_normal = ExtResource("4_jjvhh")
+
+[node name="Unpause" type="TextureButton" parent="PauseMenu/Control"]
+layout_mode = 0
+offset_left = 284.0
+offset_top = 454.0
+offset_right = 392.0
+offset_bottom = 566.0
+scale = Vector2(2.645, 2.645)
+texture_normal = ExtResource("5_21xkr")
+
+[node name="Menu" type="TextureButton" parent="PauseMenu/Control"]
+layout_mode = 0
+offset_left = 284.0
+offset_top = 1110.0
+offset_right = 392.0
+offset_bottom = 1222.0
+scale = Vector2(2.645, 2.645)
+texture_normal = ExtResource("6_6bp64")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_344ge")
+volume_db = -5.0
+
+[node name="ButtonBack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_ynf5e")
+volume_db = -5.0
+
+[connection signal="timeout" from="EndLevel" to="." method="_on_end_level_timeout"]
+[connection signal="button_down" from="PauseMenu/Control/Restart" to="." method="_on_restart_button_down"]
+[connection signal="button_down" from="PauseMenu/Control/Unpause" to="." method="_on_unpause_button_down"]
+[connection signal="button_down" from="PauseMenu/Control/Menu" to="." method="_on_menu_button_down"]

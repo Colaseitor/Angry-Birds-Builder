@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqeqpkuem6c0v"
+path="res://.godot/imported/008. Ab Easter Ambient.mp3-3811b1070aed5083f2b0949bc25ccc8d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/008. Ab Easter Ambient.mp3"
+dest_files=["res://.godot/imported/008. Ab Easter Ambient.mp3-3811b1070aed5083f2b0949bc25ccc8d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

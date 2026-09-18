@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c543orhs5w5bw"]
+
+[ext_resource type="PackedScene" uid="uid://dfn13l375npp4" path="res://EditorSpot/spot_red.tscn" id="1_6cr0v"]
+[ext_resource type="Texture2D" uid="uid://dkacj7vk5wpmt" path="res://Assets/Graphics/EditorIcons/Chuck 1.png" id="2_36uck"]
+
+[node name="SpotChuck" instance=ExtResource("1_6cr0v")]
+thing_name = "Chuck"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(49.4168, 51.0373)
+scale = Vector2(1.55014, 1.55014)
+texture = ExtResource("2_36uck")

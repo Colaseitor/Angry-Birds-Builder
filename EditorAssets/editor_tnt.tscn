@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=3 uid="uid://bkud4bs744cbv"]
+
+[ext_resource type="Script" uid="uid://dq8rea63otgwc" path="res://EditorAssets/editor_asset.gd" id="1_otyqg"]
+[ext_resource type="Texture2D" uid="uid://c4r8thuawmeqp" path="res://Assets/Graphics/Items/ABClassic/TNT.png" id="2_c2jul"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="3_rvgu1"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="4_e73qs"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="5_24ltr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3sefj"]
+size = Vector2(68, 68)
+
+[node name="EditorTNT" type="Area2D" groups=["Editable Thing"]]
+z_index = 2
+script = ExtResource("1_otyqg")
+thing_name = "TNT"
+max_life = 100
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+shape = SubResource("RectangleShape2D_3sefj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_c2jul")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 10
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+z_index = 5
+position = Vector2(783, 844)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("3_rvgu1")
+
+[node name="Rotation" type="Label" parent="CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 217.0
+offset_right = 662.0
+offset_bottom = 386.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_e73qs")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("4_e73qs")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+
+[node name="Close" type="TextureButton" parent="CanvasLayer"]
+z_index = 5
+offset_left = 597.0
+offset_top = 1457.0
+offset_right = 732.0
+offset_bottom = 1594.0
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("5_24ltr")
+
+[node name="Floating" type="Label" parent="CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 566.0
+offset_right = 662.0
+offset_bottom = 735.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_e73qs")
+theme_override_font_sizes/font_size = 146
+text = "Floating"
+
+[node name="CheckBox" type="CheckBox" parent="CanvasLayer/Floating"]
+layout_mode = 0
+offset_left = 858.0
+offset_top = -111.0
+offset_right = 882.57
+offset_bottom = -87.0
+scale = Vector2(17.56, 17.56)
+alignment = 2
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="text_changed" from="CanvasLayer/Rotation/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Close" to="." method="_on_close_button_down"]
+[connection signal="button_down" from="CanvasLayer/Floating/CheckBox" to="." method="_on_check_box_button_down"]

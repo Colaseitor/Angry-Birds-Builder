@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7qevk7hk7op1"]
+
+[ext_resource type="PackedScene" uid="uid://c71jdgq00nen5" path="res://Scenes/TitleScreenBirds/title_screen_terence.tscn" id="1_gg3es"]
+[ext_resource type="Texture2D" uid="uid://ynd4xr1d5rsi" path="res://Assets/Graphics/Birds/ABRio/Terence Rio 2.png" id="2_3amrf"]
+
+[node name="TitleScreenTerence" instance=ExtResource("1_gg3es")]
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(-1, -3.075)
+scale = Vector2(0.705, 0.705)
+texture = ExtResource("2_3amrf")
+vframes = 1

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6tpcorurje08"
+path="res://.godot/imported/205. Pig Snore 4.mp3-f9208f7efee9aaa5632cdfdd97f39aec.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/205. Pig Snore 4.mp3"
+dest_files=["res://.godot/imported/205. Pig Snore 4.mp3-f9208f7efee9aaa5632cdfdd97f39aec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

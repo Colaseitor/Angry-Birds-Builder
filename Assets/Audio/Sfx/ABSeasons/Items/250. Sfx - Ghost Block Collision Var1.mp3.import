@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d38up4irxcmk6"
+path="res://.godot/imported/250. Sfx - Ghost Block Collision Var1.mp3-679cceb4aeffb5a9b616b6e345807490.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/250. Sfx - Ghost Block Collision Var1.mp3"
+dest_files=["res://.godot/imported/250. Sfx - Ghost Block Collision Var1.mp3-679cceb4aeffb5a9b616b6e345807490.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

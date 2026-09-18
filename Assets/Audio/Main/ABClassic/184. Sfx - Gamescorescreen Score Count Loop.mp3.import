@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj61xh1tahx6r"
+path="res://.godot/imported/184. Sfx - Gamescorescreen Score Count Loop.mp3-7d156b7361662323fab7ba1f51de4ce0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/184. Sfx - Gamescorescreen Score Count Loop.mp3"
+dest_files=["res://.godot/imported/184. Sfx - Gamescorescreen Score Count Loop.mp3-7d156b7361662323fab7ba1f51de4ce0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

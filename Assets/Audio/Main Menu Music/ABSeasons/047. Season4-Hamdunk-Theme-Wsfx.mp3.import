@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blg2o804orw5m"
+path="res://.godot/imported/047. Season4-Hamdunk-Theme-Wsfx.mp3-e0de667a6cb78ab4013f71057a753cfa.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/047. Season4-Hamdunk-Theme-Wsfx.mp3"
+dest_files=["res://.godot/imported/047. Season4-Hamdunk-Theme-Wsfx.mp3-e0de667a6cb78ab4013f71057a753cfa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

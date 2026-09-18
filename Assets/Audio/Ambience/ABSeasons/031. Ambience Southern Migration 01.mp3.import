@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://s3w12lq4y16u"
+path="res://.godot/imported/031. Ambience Southern Migration 01.mp3-1bdd15cbd7fdd701351ecbae9ac1ff30.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/031. Ambience Southern Migration 01.mp3"
+dest_files=["res://.godot/imported/031. Ambience Southern Migration 01.mp3-1bdd15cbd7fdd701351ecbae9ac1ff30.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

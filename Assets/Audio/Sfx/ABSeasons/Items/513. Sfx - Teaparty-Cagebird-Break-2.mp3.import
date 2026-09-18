@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dajhq6cxcc5ul"
+path="res://.godot/imported/513. Sfx - Teaparty-Cagebird-Break-2.mp3-c02cf4e08117ba7f709d45123ec14289.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/513. Sfx - Teaparty-Cagebird-Break-2.mp3"
+dest_files=["res://.godot/imported/513. Sfx - Teaparty-Cagebird-Break-2.mp3-c02cf4e08117ba7f709d45123ec14289.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

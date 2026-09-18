@@ -1,0 +1,18 @@
+{"ambience":0.0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000.0,"star3":40000.0,"theme":"Poached Eggs","type":"main"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":674.328552246094,"position y":-31.706298828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":669.098083496094,"position y":-115.403625488281,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":667.790344238281,"position y":-199.100891113281,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":841.706359863281,"position y":-30.3985595703125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":484.721008300781,"position y":-31.706298828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":1013.00714111328,"position y":-31.706298828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1112.3876953125,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":1108.46459960938,"position y":-114.095825195313,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Wood Triangle","position x":1056.1591796875,"position y":-230.487365722656,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":849.552185058594,"position y":-574.430908203125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1549.13891601563,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":688.712707519531,"position y":-567.892028808594,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":1043.08276367188,"position y":-569.199829101563,"rotation":0.0,"type":"block"}
+{"name":"Lazer Bird","position x":-162.560363769531,"position y":-17.32080078125,"rotation":0.0,"type":"bird"}
+{"name":"Lazer Bird","position x":-220.096435546875,"position y":-18.628662109375,"rotation":0.0,"type":"bird"}
+{"name":"Red Fuji TV","position x":-94.5631103515625,"position y":-18.628662109375,"rotation":0.0,"type":"bird"}
+{"heigth":1.0,"name":"Ground Circle","position x":849.552185058594,"position y":-467.193786621094,"rotation":0.0,"type":"ground","width":5.0}

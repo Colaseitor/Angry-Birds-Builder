@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c64a6jwx4dp3t"
+path="res://.godot/imported/482. Sfx - Special Basketball Bounce 05.mp3-834021a00245cb2c46a472fd76398a95.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Other/482. Sfx - Special Basketball Bounce 05.mp3"
+dest_files=["res://.godot/imported/482. Sfx - Special Basketball Bounce 05.mp3-834021a00245cb2c46a472fd76398a95.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://rjv6piqc4tqe"
+path="res://.godot/imported/Cave Ambient.mp3-295d8603580141aa500426b2f3d7a3a0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Cave Ambient.mp3"
+dest_files=["res://.godot/imported/Cave Ambient.mp3-295d8603580141aa500426b2f3d7a3a0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

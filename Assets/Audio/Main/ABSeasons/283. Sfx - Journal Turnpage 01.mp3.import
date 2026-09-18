@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5e116n2bjgh7"
+path="res://.godot/imported/283. Sfx - Journal Turnpage 01.mp3-c1003e907a36d6f3ef5fbe5374e9146e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSeasons/283. Sfx - Journal Turnpage 01.mp3"
+dest_files=["res://.godot/imported/283. Sfx - Journal Turnpage 01.mp3-c1003e907a36d6f3ef5fbe5374e9146e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

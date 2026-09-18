@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://8ettfxfbx6xf"]
+
+[ext_resource type="PackedScene" uid="uid://dheu3tnroso6v" path="res://Other main gameplay thinggies/point_text/pig_point_text.tscn" id="1_88qmw"]
+[ext_resource type="Texture2D" uid="uid://pg25bfa2a5g4" path="res://Assets/Graphics/ScoreText/ABClassic/ChuckScore.png" id="2_awwcx"]
+[ext_resource type="Script" uid="uid://swtwvpjjpie" path="res://Other main gameplay thinggies/point_text/bird_point_text.gd" id="2_r5mbv"]
+
+[node name="ChuckPointText" instance=ExtResource("1_88qmw")]
+script = ExtResource("2_r5mbv")
+
+[node name="Timer" parent="." index="0"]
+one_shot = true
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("2_awwcx")
+
+[node name="Timer2" type="Timer" parent="." index="2"]
+wait_time = 0.4
+one_shot = true
+
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]

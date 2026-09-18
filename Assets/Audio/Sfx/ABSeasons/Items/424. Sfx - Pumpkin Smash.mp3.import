@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxfu6xh52d5b3"
+path="res://.godot/imported/424. Sfx - Pumpkin Smash.mp3-45682b0848f33c0d8405743deb5fcdfd.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/424. Sfx - Pumpkin Smash.mp3"
+dest_files=["res://.godot/imported/424. Sfx - Pumpkin Smash.mp3-45682b0848f33c0d8405743deb5fcdfd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

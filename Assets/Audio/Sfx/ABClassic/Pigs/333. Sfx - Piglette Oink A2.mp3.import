@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxmbjd3e5veha"
+path="res://.godot/imported/333. Sfx - Piglette Oink A2.mp3-a9dd8195d47062fc7797fa125c479deb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/333. Sfx - Piglette Oink A2.mp3"
+dest_files=["res://.godot/imported/333. Sfx - Piglette Oink A2.mp3-a9dd8195d47062fc7797fa125c479deb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

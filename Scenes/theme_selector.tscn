@@ -1,0 +1,211 @@
+[gd_scene load_steps=29 format=3 uid="uid://dktad06y2btyj"]
+
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="1_hgrca"]
+[ext_resource type="Script" uid="uid://b1ci72vfgp6ln" path="res://Scenes/theme_selector.gd" id="1_lx2v8"]
+[ext_resource type="Texture2D" uid="uid://4gnvgluh5acg" path="res://Assets/Graphics/EditorIcons/Poached Eggs icon.png" id="2_fnia4"]
+[ext_resource type="Script" uid="uid://dtpptvteah5yn" path="res://Scenes/item_list.gd" id="7_5x38g"]
+[ext_resource type="Texture2D" uid="uid://dt8uu800lnjj1" path="res://Assets/Graphics/Botones/ABClassic.png" id="8_ql65t"]
+[ext_resource type="Texture2D" uid="uid://dgfyqodsjiqkj" path="res://Assets/Graphics/Botones/ABSeasons.png" id="9_gdaw8"]
+[ext_resource type="Texture2D" uid="uid://crp6tgjf7brt2" path="res://Assets/Graphics/Botones/ABRio.png" id="10_xehvs"]
+[ext_resource type="Texture2D" uid="uid://cohi8hn0v0ehu" path="res://Assets/Graphics/Botones/ABSpace.png" id="11_fxqs2"]
+[ext_resource type="Texture2D" uid="uid://duu2872ol2up3" path="res://Assets/Graphics/Botones/ABStar Wars.png" id="12_8ob4v"]
+[ext_resource type="Texture2D" uid="uid://c7ueapod8hpgr" path="res://Assets/Graphics/Botones/ABFriends.png" id="13_eqyqn"]
+[ext_resource type="Texture2D" uid="uid://b2lgh71tnh56b" path="res://Assets/Graphics/Botones/ABStar Wars II.jpg" id="14_nkvjw"]
+[ext_resource type="Texture2D" uid="uid://lf3c26yukq2s" path="res://Assets/Graphics/Botones/ABStella.png" id="15_2wu08"]
+[ext_resource type="Texture2D" uid="uid://6khp45roxybl" path="res://Assets/Graphics/EditorIcons/Trick or Treat icon.png" id="16_au1fe"]
+[ext_resource type="Texture2D" uid="uid://cfvxqd4me3cpx" path="res://Assets/Graphics/Botones/AB2.png" id="16_vfgjk"]
+[ext_resource type="Texture2D" uid="uid://dbommwspofrha" path="res://Assets/Graphics/EditorIcons/OtherIcon.png" id="17_6q3mr"]
+[ext_resource type="Texture2D" uid="uid://bos0iex5ipqoc" path="res://Assets/Graphics/Botones/ABReloaded.png" id="17_j0nfb"]
+[ext_resource type="Texture2D" uid="uid://c80m14dviqqxw" path="res://Assets/Graphics/Botones/Back.png" id="18_hgrca"]
+[ext_resource type="Texture2D" uid="uid://c37mp8klmap55" path="res://Assets/Graphics/EditorIcons/South Hamerica ground icon.png" id="18_hmpj1"]
+[ext_resource type="Texture2D" uid="uid://by7ap4vjwhnwx" path="res://Assets/Graphics/Botones/ABJourney.png" id="18_kuajp"]
+[ext_resource type="Texture2D" uid="uid://c2wwbsor61thm" path="res://Assets/Graphics/EditorIcons/South Hamerica no ground icon.png" id="19_6q3mr"]
+[ext_resource type="Texture2D" uid="uid://t8jlpeon72r3" path="res://Assets/Graphics/EditorIcons/Dog Piggen 1 1.png" id="19_31lr6"]
+[ext_resource type="AudioStream" uid="uid://cvhtycn8o4y08" path="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3" id="19_lx2v8"]
+[ext_resource type="Texture2D" uid="uid://b20p7i1p6pheu" path="res://Assets/Graphics/EditorIcons/Poached Eggs 3 icon.png" id="19_ql65t"]
+[ext_resource type="Texture2D" uid="uid://mfqpxl33uchb" path="res://Assets/Graphics/EditorIcons/Winter Wonderham icon.png" id="20_5x38g"]
+[ext_resource type="AudioStream" uid="uid://c7gsnlxpa7oay" path="res://Assets/Audio/Main/ABClassic/252. Sfx - Menu Back.mp3" id="20_hmpj1"]
+[ext_resource type="Texture2D" uid="uid://b1pusj5a481l7" path="res://Assets/Graphics/EditorIcons/Cheetos 1 icon.png" id="21_47wf8"]
+[ext_resource type="Texture2D" uid="uid://kj7j3omgxqt6" path="res://Assets/Graphics/EditorIcons/Coca-Cola 1 icon.png" id="21_s23lf"]
+[ext_resource type="Texture2D" uid="uid://bcljgagmcacqm" path="res://Assets/Graphics/EditorIcons/Jungle Escape.png" id="23_gdaw8"]
+
+[node name="ThemeSelector" type="CanvasLayer"]
+visible = false
+script = ExtResource("1_lx2v8")
+
+[node name="TypeSelect" type="ItemList" parent="."]
+offset_right = 3454.0
+offset_bottom = 1931.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 2
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.93
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "Regular"
+item_0/icon = ExtResource("2_fnia4")
+item_1/text = "No Ground"
+item_1/icon = ExtResource("19_6q3mr")
+script = ExtResource("7_5x38g")
+
+[node name="GameSelect" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 2178.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 13
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Classic"
+item_0/icon = ExtResource("8_ql65t")
+item_1/text = "Seasons"
+item_1/icon = ExtResource("9_gdaw8")
+item_2/text = "Rio"
+item_2/icon = ExtResource("10_xehvs")
+item_3/text = "Space"
+item_3/icon = ExtResource("11_fxqs2")
+item_4/text = "Star Wars"
+item_4/icon = ExtResource("12_8ob4v")
+item_5/text = "Friends"
+item_5/icon = ExtResource("13_eqyqn")
+item_6/text = "Star Wars II"
+item_6/icon = ExtResource("14_nkvjw")
+item_7/text = "Stella"
+item_7/icon = ExtResource("15_2wu08")
+item_8/text = "Angry Birds 2"
+item_8/icon = ExtResource("16_vfgjk")
+item_9/text = "Reloaded"
+item_9/icon = ExtResource("17_j0nfb")
+item_10/text = "Journey"
+item_10/icon = ExtResource("18_kuajp")
+item_11/text = "Other"
+item_11/icon = ExtResource("17_6q3mr")
+item_12/text = "Fanmade"
+item_12/icon = ExtResource("19_31lr6")
+script = ExtResource("7_5x38g")
+
+[node name="RegularABCList" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 2
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.5
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "Poached Eggs 1"
+item_0/icon = ExtResource("2_fnia4")
+item_1/text = "Poached Eggs 3"
+item_1/icon = ExtResource("19_ql65t")
+script = ExtResource("7_5x38g")
+
+[node name="RegularABSeList" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 3
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.5
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "Trick or Treat"
+item_0/icon = ExtResource("16_au1fe")
+item_1/text = "Winter Wonderham"
+item_1/icon = ExtResource("20_5x38g")
+item_2/text = "South Hamerica"
+item_2/icon = ExtResource("18_hmpj1")
+script = ExtResource("7_5x38g")
+
+[node name="RegularABRioList" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.5
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "Jungle Escape"
+item_0/icon = ExtResource("23_gdaw8")
+script = ExtResource("7_5x38g")
+
+[node name="RegularOtherList" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 2
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.5
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "Cheetos 1"
+item_0/icon = ExtResource("21_47wf8")
+item_1/text = "Coca-Cola 1"
+item_1/icon = ExtResource("21_s23lf")
+script = ExtResource("7_5x38g")
+
+[node name="NoGroundABSeList" type="ItemList" parent="."]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("1_hgrca")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+icon_scale = 1.5
+fixed_icon_size = Vector2i(490, 410)
+item_0/text = "South Hamerica"
+item_0/icon = ExtResource("19_6q3mr")
+script = ExtResource("7_5x38g")
+
+[node name="BackButton" type="TextureButton" parent="."]
+z_index = 2
+offset_left = 8.0
+offset_top = 1643.0
+offset_right = 105.0
+offset_bottom = 1740.0
+scale = Vector2(3.47, 3.47)
+texture_normal = ExtResource("18_hgrca")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_lx2v8")
+volume_db = -5.0
+
+[node name="ButtonBack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_hmpj1")
+volume_db = -5.0
+
+[connection signal="item_activated" from="TypeSelect" to="." method="_on_type_select_item_activated"]
+[connection signal="item_activated" from="GameSelect" to="." method="_on_game_select_item_activated"]
+[connection signal="item_activated" from="RegularABCList" to="." method="_on_regular_abc_list_item_activated"]
+[connection signal="item_activated" from="RegularABSeList" to="." method="_on_regular_ab_se_list_item_activated"]
+[connection signal="item_activated" from="RegularABRioList" to="." method="_on_regular_ab_rio_list_item_activated"]
+[connection signal="item_activated" from="RegularOtherList" to="." method="_on_regular_other_list_item_activated"]
+[connection signal="item_activated" from="NoGroundABSeList" to="." method="_on_no_ground_ab_se_list_item_activated"]
+[connection signal="button_down" from="BackButton" to="." method="_on_back_button_button_down"]

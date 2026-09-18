@@ -1,0 +1,190 @@
+[gd_scene load_steps=18 format=3 uid="uid://c3k7m8kddkox5"]
+
+[ext_resource type="Script" uid="uid://kcjx4rv0luvm" path="res://poached_eggs_3.gd" id="1_t0qe2"]
+[ext_resource type="Texture2D" uid="uid://b8282y4iym5cq" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Background 2.png" id="2_nv4p8"]
+[ext_resource type="Texture2D" uid="uid://c3g1xstdrapnt" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Background.png" id="3_nv4p8"]
+[ext_resource type="Texture2D" uid="uid://bujyg4bnlf3x1" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 ground.png" id="4_k6py4"]
+[ext_resource type="Texture2D" uid="uid://bhp2w0myxuaoh" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Cactus 2.png" id="4_nv4p8"]
+[ext_resource type="Texture2D" uid="uid://doy3nfq2wyfqa" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 grass.png" id="5_nv4p8"]
+[ext_resource type="Texture2D" uid="uid://0mq4t6h5feib" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Stone 3.png" id="5_t0qe2"]
+[ext_resource type="Texture2D" uid="uid://dtylyy0ukgtck" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Stone 2.png" id="6_i50jc"]
+[ext_resource type="AudioStream" uid="uid://m3tlqhx2u082" path="res://Assets/Audio/Main Menu Music/ABClassic/Main Theme.mp3" id="7_18y0k"]
+[ext_resource type="Texture2D" uid="uid://bui2hu4itaxjv" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Stone 1.png" id="7_hmhhk"]
+[ext_resource type="Texture2D" uid="uid://djfwgsff3frrv" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs 3/Poached Eggs 3 Cactus 1.png" id="8_lymj0"]
+[ext_resource type="AudioStream" uid="uid://mo2xim2gwdge" path="res://Assets/Audio/Main Menu Music/ABClassic/Ssvsab Remix.mp3" id="8_sfb56"]
+[ext_resource type="AudioStream" uid="uid://dcxjm4w38kt2s" path="res://Assets/Audio/Main Menu Music/ABClassic/Funky Theme.mp3" id="9_4nun2"]
+[ext_resource type="AudioStream" uid="uid://c3inbg707cdc2" path="res://Assets/Audio/Main Menu Music/Other/Angry Birds Kakao main theme.ogg" id="11_54gul"]
+[ext_resource type="AudioStream" uid="uid://bg46npuvlrbg3" path="res://Assets/Audio/Main Menu Music/ABSeasons/037. Cherry Theme.mp3" id="12_6kwiq"]
+[ext_resource type="AudioStream" uid="uid://c2pnyj2alda5x" path="res://Assets/Audio/Main Menu Music/ABFriends/01. Angry Birds Friends Main Theme.mp3" id="13_8mv46"]
+[ext_resource type="AudioStream" uid="uid://b2i2bog0573ae" path="res://Assets/Audio/Main Menu Music/Other/Convirtiendo el tema de Angry Birds en perreo.mp3" id="17_c75j3"]
+
+[node name="PoachedEggs3" type="Node2D"]
+script = ExtResource("1_t0qe2")
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 415)
+repeat_size = Vector2(1293.56, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(1532, 146)
+scale = Vector2(2.695, 2.695)
+texture = ExtResource("2_nv4p8")
+region_enabled = true
+region_rect = Rect2(0, 0, 480, 131)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+repeat_size = Vector2(2783.2, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(-30, -111)
+scale = Vector2(5.68, 5.68)
+texture = ExtResource("3_nv4p8")
+
+[node name="Ground3" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-132, 145)
+repeat_size = Vector2(2030, 0)
+autoscroll = Vector2(125, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground3"]
+texture_repeat = 2
+position = Vector2(4665.81, 407)
+scale = Vector2(3.60081, 3.60081)
+texture = ExtResource("4_nv4p8")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 102)
+region_filter_clip_enabled = true
+
+[node name="Ground4" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-137, 213)
+repeat_size = Vector2(2420, 0)
+autoscroll = Vector2(125, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground4"]
+texture_repeat = 2
+position = Vector2(4665.81, 483)
+scale = Vector2(3.60081, 3.60081)
+texture = ExtResource("5_t0qe2")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 18)
+region_filter_clip_enabled = true
+
+[node name="Ground5" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-96, 199)
+repeat_size = Vector2(2130, 0)
+autoscroll = Vector2(125, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground5"]
+texture_repeat = 2
+position = Vector2(5110.74, 465)
+scale = Vector2(3.60081, 3.60081)
+texture = ExtResource("6_i50jc")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 34)
+region_filter_clip_enabled = true
+
+[node name="Ground6" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-94, 172)
+repeat_size = Vector2(2700, 0)
+autoscroll = Vector2(125, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground6"]
+texture_repeat = 2
+position = Vector2(5324.74, 447)
+scale = Vector2(3.60081, 3.60081)
+texture = ExtResource("7_hmhhk")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 61)
+region_filter_clip_enabled = true
+
+[node name="Ground7" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-943, 154)
+repeat_size = Vector2(3210, 0)
+autoscroll = Vector2(125, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground7"]
+texture_repeat = 2
+position = Vector2(5324.74, 420)
+scale = Vector2(3.60081, 3.60081)
+texture = ExtResource("8_lymj0")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 83)
+region_filter_clip_enabled = true
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(842, 419)
+repeat_size = Vector2(269.575, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D3" type="Sprite2D" parent="Ground"]
+texture_repeat = 2
+position = Vector2(1832.3, 433)
+scale = Vector2(0.807217, 0.807217)
+texture = ExtResource("4_k6py4")
+region_rect = Rect2(0, 0, 7000, 309)
+region_filter_clip_enabled = true
+
+[node name="Ground2" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(814, 419)
+repeat_size = Vector2(622.37, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Grass" type="Sprite2D" parent="Ground2"]
+texture_repeat = 2
+position = Vector2(4665.81, 281)
+scale = Vector2(1.92081, 1.92081)
+texture = ExtResource("5_nv4p8")
+region_enabled = true
+region_rect = Rect2(0, 0, 324, 33)
+region_filter_clip_enabled = true
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_18y0k")
+parameters/looping = true
+
+[node name="SsvsabRemix" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_sfb56")
+volume_db = -7.0
+parameters/looping = true
+
+[node name="FunkyTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_4nun2")
+parameters/looping = true
+
+[node name="AngryBirdsKakaoMainTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_54gul")
+parameters/looping = true
+
+[node name="037_CherryTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_6kwiq")
+parameters/looping = true
+
+[node name="FriendsMainTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_8mv46")
+volume_db = -7.0
+parameters/looping = true
+
+[node name="ConvirtiendoElTemaDeAngryBirdsEnPerreo" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_c75j3")
+parameters/looping = true

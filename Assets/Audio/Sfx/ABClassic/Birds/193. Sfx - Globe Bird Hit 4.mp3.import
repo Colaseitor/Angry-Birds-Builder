@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jcgyrr0k4045"
+path="res://.godot/imported/193. Sfx - Globe Bird Hit 4.mp3-114ef51fdb029d8a08154fae4b13de29.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/193. Sfx - Globe Bird Hit 4.mp3"
+dest_files=["res://.godot/imported/193. Sfx - Globe Bird Hit 4.mp3-114ef51fdb029d8a08154fae4b13de29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

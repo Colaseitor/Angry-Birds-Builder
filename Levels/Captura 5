@@ -1,0 +1,6 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Jungle Escape","type":"main"}
+{"name":"Chuck","position x":-74.5963745117188,"position y":-18.326904296875,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-162.861999511719,"position y":-183.558654785156,"rotation":0.0,"type":"bird"}
+{"name":"Hockey Bird","position x":-230.758666992188,"position y":-183.558654785156,"rotation":0.0,"type":"bird"}
+{"name":"Chuck Pikachu","position x":-295.6376953125,"position y":-182.80419921875,"rotation":0.0,"type":"bird"}
+{"heigth":2.0,"name":"Ground Square","position x":-323.550750732422,"position y":-64.350341796875,"rotation":0.0,"type":"ground","width":4.0}

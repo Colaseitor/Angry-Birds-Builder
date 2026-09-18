@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8agsfsdvsee3"
+path="res://.godot/imported/004. Ab Space Ambience Pigbang.mp3-a1e44da1d927d7e94e2cecc5213c9e37.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSpace/004. Ab Space Ambience Pigbang.mp3"
+dest_files=["res://.godot/imported/004. Ab Space Ambience Pigbang.mp3-a1e44da1d927d7e94e2cecc5213c9e37.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

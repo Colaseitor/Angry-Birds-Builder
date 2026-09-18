@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dc260yk57t4tq"
+path="res://.godot/imported/Level 4 2.mp3-9becb0995066b2a60f2fedd7000a1720.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Level 4 2.mp3"
+dest_files=["res://.godot/imported/Level 4 2.mp3-9becb0995066b2a60f2fedd7000a1720.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

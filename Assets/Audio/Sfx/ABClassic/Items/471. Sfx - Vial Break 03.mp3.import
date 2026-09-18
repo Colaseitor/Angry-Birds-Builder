@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://da67kmocixafr"
+path="res://.godot/imported/471. Sfx - Vial Break 03.mp3-a04c8b1310e20e799358171981f55ddb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/471. Sfx - Vial Break 03.mp3"
+dest_files=["res://.godot/imported/471. Sfx - Vial Break 03.mp3-a04c8b1310e20e799358171981f55ddb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

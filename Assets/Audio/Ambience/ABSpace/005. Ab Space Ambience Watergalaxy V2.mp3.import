@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://4bgjds7pnacq"
+path="res://.godot/imported/005. Ab Space Ambience Watergalaxy V2.mp3-7d5f3e294da2fc363bb60bc10ad8fe25.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSpace/005. Ab Space Ambience Watergalaxy V2.mp3"
+dest_files=["res://.godot/imported/005. Ab Space Ambience Watergalaxy V2.mp3-7d5f3e294da2fc363bb60bc10ad8fe25.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

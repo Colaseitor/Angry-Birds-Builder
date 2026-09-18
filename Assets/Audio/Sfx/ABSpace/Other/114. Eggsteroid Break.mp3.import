@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0l4a8lg73mf"
+path="res://.godot/imported/114. Eggsteroid Break.mp3-2757ed667abeaf745456034ba49ad247.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Other/114. Eggsteroid Break.mp3"
+dest_files=["res://.godot/imported/114. Eggsteroid Break.mp3-2757ed667abeaf745456034ba49ad247.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

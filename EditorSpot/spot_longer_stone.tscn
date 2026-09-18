@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlnibaahyogaf"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_pjc5x"]
+[ext_resource type="Texture2D" uid="uid://cp68f1phfvukd" path="res://Assets/Graphics/EditorIcons/Longer stone 1.png" id="2_vh8qq"]
+
+[node name="SpotLongerStone" instance=ExtResource("1_pjc5x")]
+thing_name = "Longer Stone"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(0.42, 0.42)
+texture = ExtResource("2_vh8qq")

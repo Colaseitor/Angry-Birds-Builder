@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://canwfqmv3bhhl"
+path="res://.godot/imported/298. Sfx - Pig Launch.mp3-96d678c45cd730a8df3ffa522edad0eb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/298. Sfx - Pig Launch.mp3"
+dest_files=["res://.godot/imported/298. Sfx - Pig Launch.mp3-96d678c45cd730a8df3ffa522edad0eb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

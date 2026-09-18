@@ -1,0 +1,13 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Poached Eggs","type":"main"}
+{"floating":false,"life":0,"name":"Wood Square","position x":493.874328613281,"position y":-38.2451171875,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":492.566711425781,"position y":-116.71142578125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Brick","position x":569.717468261719,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Brick","position x":569.717468261719,"position y":-123.250244140625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":656.021545410156,"position y":-38.2451171875,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Brick","position x":1161.60241699219,"position y":-455.720947265625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Brick","position x":1325.65161132813,"position y":-453.937622070313,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Glass Brick","position x":-163.273681640625,"position y":-482.470703125,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Glass Brick","position x":118.463134765625,"position y":-489.60400390625,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Glass Brick","position x":610.610961914063,"position y":-462.854125976563,"rotation":90.0,"type":"block"}
+{"name":"The Blues","position x":-110.254821777344,"position y":-10.781982421875,"rotation":0.0,"type":"bird"}
+{"name":"The Blues","position x":-157.329772949219,"position y":-9.4742431640625,"rotation":0.0,"type":"bird"}

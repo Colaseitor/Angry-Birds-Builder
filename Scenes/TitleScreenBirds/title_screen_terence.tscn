@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c71jdgq00nen5"]
+
+[ext_resource type="PackedScene" uid="uid://decv1kq2evtcq" path="res://Scenes/TitleScreenBirds/title_screen_the_blues.tscn" id="1_urn81"]
+[ext_resource type="Texture2D" uid="uid://1s1byq0vio7p" path="res://Assets/Graphics/Birds/ABClassic/Terence.png" id="2_t2cxf"]
+[ext_resource type="AudioStream" uid="uid://bnomuqvr3jegf" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bigbrother Fly.mp3" id="3_t2cxf"]
+
+[node name="TitleScreenTerence" instance=ExtResource("1_urn81")]
+scream_frame = 1
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_t2cxf")
+
+[node name="Throw" parent="." index="2"]
+stream = ExtResource("3_t2cxf")

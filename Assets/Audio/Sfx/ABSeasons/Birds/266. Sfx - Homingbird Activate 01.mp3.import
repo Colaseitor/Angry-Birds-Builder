@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r3ddxq5hkia4"
+path="res://.godot/imported/266. Sfx - Homingbird Activate 01.mp3-60ae201021e8276ec244348754abdded.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Birds/266. Sfx - Homingbird Activate 01.mp3"
+dest_files=["res://.godot/imported/266. Sfx - Homingbird Activate 01.mp3-60ae201021e8276ec244348754abdded.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

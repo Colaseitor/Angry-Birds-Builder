@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://baxapyd2lgobe"
+path="res://.godot/imported/265. Sfx - Highscore.mp3-a65f037989d41b160750c814a584781a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/265. Sfx - Highscore.mp3"
+dest_files=["res://.godot/imported/265. Sfx - Highscore.mp3-a65f037989d41b160750c814a584781a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

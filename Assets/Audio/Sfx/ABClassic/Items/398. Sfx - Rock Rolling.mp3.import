@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0wwmqlgxl8x"
+path="res://.godot/imported/398. Sfx - Rock Rolling.mp3-726ea482e6ab7ed88d44c1a83345b462.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/398. Sfx - Rock Rolling.mp3"
+dest_files=["res://.godot/imported/398. Sfx - Rock Rolling.mp3-726ea482e6ab7ed88d44c1a83345b462.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

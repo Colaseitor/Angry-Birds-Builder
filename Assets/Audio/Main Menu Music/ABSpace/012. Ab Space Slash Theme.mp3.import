@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyqpiwfefkq5h"
+path="res://.godot/imported/012. Ab Space Slash Theme.mp3-2a5be5687aa6270a708f98e5d557a03b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSpace/012. Ab Space Slash Theme.mp3"
+dest_files=["res://.godot/imported/012. Ab Space Slash Theme.mp3-2a5be5687aa6270a708f98e5d557a03b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://q67syvtfdfkk"
+path="res://.godot/imported/058. Bluecollision02.mp3-5a5c346df11357395deaded1d045dcb6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/058. Bluecollision02.mp3"
+dest_files=["res://.godot/imported/058. Bluecollision02.mp3-5a5c346df11357395deaded1d045dcb6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

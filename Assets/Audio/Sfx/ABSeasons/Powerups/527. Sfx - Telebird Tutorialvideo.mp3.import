@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bo04p6wxoecbn"
+path="res://.godot/imported/527. Sfx - Telebird Tutorialvideo.mp3-d5d6abff3239d34af440216271f73db5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Powerups/527. Sfx - Telebird Tutorialvideo.mp3"
+dest_files=["res://.godot/imported/527. Sfx - Telebird Tutorialvideo.mp3-d5d6abff3239d34af440216271f73db5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

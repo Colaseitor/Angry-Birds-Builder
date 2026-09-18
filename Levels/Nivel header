@@ -1,0 +1,36 @@
+{"ambience":0.0,"sling rot":0.0,"sling x":20.7371215820313,"sling y":0.4434814453125,"star2":20000.0,"star3":40000.0,"theme":"Poached Eggs","type":"main"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1454.37060546875,"position y":-46.0919189453125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1456.33203125,"position y":-126.519775390625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1456.33203125,"position y":-206.947631835938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Longer Stone","position x":1550.48193359375,"position y":-255.989013671875,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1538.71337890625,"position y":-40.2069091796875,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1705.43725585938,"position y":-289.337158203125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1711.32153320313,"position y":-371.726684570313,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1719.16748046875,"position y":-456.077880859375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Long Wood","position x":1798.35961914063,"position y":-506.779418945313,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1901.5830078125,"position y":-287.37548828125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1894.923828125,"position y":-370.972503662109,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":1886.62524414063,"position y":-454.720092773438,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1800.62280273438,"position y":-287.979370117188,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Big Rock","position x":1785.2587890625,"position y":-552.689331054688,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Brick","position x":1549.8837890625,"position y":-306.256408691406,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Brick","position x":1551.10961914063,"position y":-390.852783203125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Brick","position x":1551.10961914063,"position y":-474.22314453125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1550.53173828125,"position y":-556.001525878906,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":905.417602539063,"position y":-254.027221679688,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Dog Piggen","position x":1000.87536621094,"position y":-171.637756347656,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Glass Square","position x":905.417602539063,"position y":-171.637756347656,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Triangle","position x":904.109985351563,"position y":-327.262329101563,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":763.247985839844,"position y":-35.629638671875,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":836.860473632813,"position y":-35.0142211914063,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":913.010986328125,"position y":-35.0142211914063,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":985.700439453125,"position y":-35.0142211914063,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":1058.38977050781,"position y":-35.0142211914063,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":1132.23291015625,"position y":-35.0142211914063,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":1983.05944824219,"position y":-277.868957519531,"rotation":0.0,"type":"block"}
+{"name":"Red","position x":-73.6056518554688,"position y":-18.628662109375,"rotation":0.0,"type":"bird"}
+{"name":"Chuck","position x":-127.499328613281,"position y":-20.59033203125,"rotation":0.0,"type":"bird"}
+{"name":"The Blues","position x":-171.632141113281,"position y":-15.6861572265625,"rotation":0.0,"type":"bird"}
+{"name":"Lazer Bird","position x":-215.764923095703,"position y":-21.81640625,"rotation":0.0,"type":"bird"}
+{"heigth":2.5,"name":"Ground Square","position x":1813.3173828125,"position y":-120.634765625,"rotation":0.0,"type":"ground","width":4.0}
+{"heigth":5.0,"name":"Ground Square","position x":943.339111328125,"position y":-115.403625488281,"rotation":90.0,"type":"ground","width":0.300000011920929}

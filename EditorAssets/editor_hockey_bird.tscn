@@ -1,0 +1,140 @@
+[gd_scene load_steps=15 format=3 uid="uid://bjbucx2kempqk"]
+
+[ext_resource type="Script" uid="uid://edaafy8cxt0c" path="res://EditorAssets/editor_bird.gd" id="1_v6lqc"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="2_3mfgi"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="4_5xdjc"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="5_adiub"]
+[ext_resource type="Texture2D" uid="uid://y6v3nb6fii8g" path="res://Assets/Graphics/Botones/Skins.png" id="6_mfcus"]
+[ext_resource type="Texture2D" uid="uid://dkacj7vk5wpmt" path="res://Assets/Graphics/EditorIcons/Chuck 1.png" id="6_v6lqc"]
+[ext_resource type="Texture2D" uid="uid://xb8p3qnxncx4" path="res://Assets/Graphics/EditorIcons/Chuck Pikachu 1.png" id="8_3mfgi"]
+[ext_resource type="Texture2D" uid="uid://cnqt4uyq5kj7e" path="res://Assets/Graphics/EditorIcons/Shakira 1.png" id="8_32siu"]
+[ext_resource type="Script" uid="uid://dtpptvteah5yn" path="res://Scenes/item_list.gd" id="9_ntpwh"]
+[ext_resource type="Texture2D" uid="uid://c80m14dviqqxw" path="res://Assets/Graphics/Botones/Back.png" id="10_evxyu"]
+[ext_resource type="AudioStream" uid="uid://cvhtycn8o4y08" path="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3" id="11_in2yw"]
+[ext_resource type="AudioStream" uid="uid://c7gsnlxpa7oay" path="res://Assets/Audio/Main/ABClassic/252. Sfx - Menu Back.mp3" id="12_bqu2f"]
+[ext_resource type="Texture2D" uid="uid://dlguvmetyo86p" path="res://Assets/Graphics/Birds/ABFriends/Hockey Bird.png" id="12_v6lqc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d7a4g"]
+radius = 19.0263
+
+[node name="EditorHockeyBird" type="Area2D" groups=["Birds"]]
+z_index = 2
+script = ExtResource("1_v6lqc")
+thing_name = "Hockey Bird"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 22.0
+offset_top = -32.0
+offset_right = 62.0
+offset_bottom = -7.0
+theme_override_fonts/font = ExtResource("2_3mfgi")
+theme_override_font_sizes/font_size = 21
+text = "1"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+shape = SubResource("CircleShape2D_d7a4g")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 10
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+z_index = 5
+position = Vector2(783, 844)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("4_5xdjc")
+
+[node name="Rotation" type="Label" parent="CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 217.0
+offset_right = 662.0
+offset_bottom = 386.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("2_3mfgi")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("2_3mfgi")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+
+[node name="Close" type="TextureButton" parent="CanvasLayer"]
+z_index = 5
+offset_left = 597.0
+offset_top = 1457.0
+offset_right = 732.0
+offset_bottom = 1594.0
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("5_adiub")
+
+[node name="Skins" type="TextureButton" parent="CanvasLayer"]
+z_index = 7
+offset_left = 588.0
+offset_top = 1030.0
+offset_right = 706.0
+offset_bottom = 1167.0
+scale = Vector2(3, 3)
+texture_normal = ExtResource("6_mfcus")
+
+[node name="SkinSelect" type="ItemList" parent="CanvasLayer"]
+visible = false
+z_index = 15
+offset_right = 3454.0
+offset_bottom = 1931.0
+theme_override_fonts/font = ExtResource("2_3mfgi")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 3
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(685, 685)
+item_0/text = "Classic"
+item_0/icon = ExtResource("6_v6lqc")
+item_1/text = "Shakira"
+item_1/icon = ExtResource("8_32siu")
+item_2/text = "Pikachu Bird Wear"
+item_2/icon = ExtResource("8_3mfgi")
+script = ExtResource("9_ntpwh")
+
+[node name="BackButton" type="TextureButton" parent="CanvasLayer/SkinSelect"]
+z_index = 2
+layout_mode = 0
+offset_left = 8.0
+offset_top = 1643.0
+offset_right = 105.0
+offset_bottom = 1740.0
+scale = Vector2(3.47, 3.47)
+texture_normal = ExtResource("10_evxyu")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_in2yw")
+volume_db = -5.0
+
+[node name="ButtonBack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_bqu2f")
+volume_db = -5.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-17, -4)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("12_v6lqc")
+hframes = 3
+vframes = 2
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="text_changed" from="CanvasLayer/Rotation/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Close" to="." method="_on_close_button_down"]
+[connection signal="button_down" from="CanvasLayer/Skins" to="." method="_on_skins_button_down"]
+[connection signal="item_activated" from="CanvasLayer/SkinSelect" to="." method="_on_skin_select_item_activated"]
+[connection signal="button_down" from="CanvasLayer/SkinSelect/BackButton" to="." method="_on_back_button_button_down"]

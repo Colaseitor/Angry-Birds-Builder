@@ -1,0 +1,80 @@
+[gd_scene load_steps=7 format=3 uid="uid://ctix52h2kxd3i"]
+
+[ext_resource type="Script" uid="uid://edaafy8cxt0c" path="res://EditorAssets/editor_bird.gd" id="1_iin1v"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="2_gm2vo"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="3_c1868"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="4_s4qxc"]
+[ext_resource type="Texture2D" uid="uid://dpaq5kuq4mk6h" path="res://Assets/Graphics/Birds/ABClassic/Bomb.png" id="5_6ib3g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2vbyn"]
+radius = 30.0
+
+[node name="EditorBomb" type="Area2D" groups=["Birds"]]
+z_index = 2
+script = ExtResource("1_iin1v")
+thing_name = "Bomb"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 28.0
+offset_top = -42.0
+offset_right = 68.0
+offset_bottom = -17.0
+theme_override_fonts/font = ExtResource("2_gm2vo")
+theme_override_font_sizes/font_size = 21
+text = "1"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 10
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+z_index = 5
+position = Vector2(783, 844)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("3_c1868")
+
+[node name="Rotation" type="Label" parent="CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 217.0
+offset_right = 662.0
+offset_bottom = 386.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("2_gm2vo")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("2_gm2vo")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+
+[node name="Close" type="TextureButton" parent="CanvasLayer"]
+z_index = 5
+offset_left = 597.0
+offset_top = 1457.0
+offset_right = 732.0
+offset_bottom = 1594.0
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("4_s4qxc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+shape = SubResource("CircleShape2D_2vbyn")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -10)
+texture = ExtResource("5_6ib3g")
+hframes = 3
+vframes = 3
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="text_changed" from="CanvasLayer/Rotation/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Close" to="." method="_on_close_button_down"]

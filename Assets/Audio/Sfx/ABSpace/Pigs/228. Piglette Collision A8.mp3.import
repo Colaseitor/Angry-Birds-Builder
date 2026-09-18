@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1n18p3dw3u8i"
+path="res://.godot/imported/228. Piglette Collision A8.mp3-dfcc96b347d42c56e7432a71bca70ba5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/228. Piglette Collision A8.mp3"
+dest_files=["res://.godot/imported/228. Piglette Collision A8.mp3-dfcc96b347d42c56e7432a71bca70ba5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

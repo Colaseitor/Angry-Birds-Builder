@@ -1,0 +1,5 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Poached Eggs","type":"main"}
+{"floating":false,"life":0,"name":"Old Pig","position x":619.407775878906,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Big Rock","position x":1487.71533203125,"position y":-185.369384765625,"rotation":0.0,"type":"block"}
+{"name":"Red","position x":-106.950439453125,"position y":-18.628662109375,"rotation":0.0,"type":"bird"}
+{"heigth":10.0,"name":"Ground Square","position x":1230.76428222656,"position y":152.035278320313,"rotation":80.0,"type":"ground","width":5.0}

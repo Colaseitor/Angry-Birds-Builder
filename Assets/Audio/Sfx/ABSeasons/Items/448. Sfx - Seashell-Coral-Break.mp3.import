@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0lk1pj48lvfn"
+path="res://.godot/imported/448. Sfx - Seashell-Coral-Break.mp3-a5560f993a454de98b60b154273eaf48.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/448. Sfx - Seashell-Coral-Break.mp3"
+dest_files=["res://.godot/imported/448. Sfx - Seashell-Coral-Break.mp3-a5560f993a454de98b60b154273eaf48.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

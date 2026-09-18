@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://efa54yecqavx"
+path="res://.godot/imported/125. Fueltank Hit 01.mp3-12f083e9103ec369ad899b174d7bbb4d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/125. Fueltank Hit 01.mp3"
+dest_files=["res://.godot/imported/125. Fueltank Hit 01.mp3-12f083e9103ec369ad899b174d7bbb4d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

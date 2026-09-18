@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://ctemu520kh57t"]
+
+[ext_resource type="Texture2D" uid="uid://bwid705q8aqbo" path="res://Assets/Graphics/EditorIcons/GroundSquare.png" id="1_d41e3"]
+[ext_resource type="Script" uid="uid://cdt1gyiujldtu" path="res://Other main gameplay thinggies/ground.gd" id="1_tev4f"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_tev4f"]
+bounce = 0.2
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tev4f"]
+
+[node name="GroundSquare" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_tev4f")
+freeze = true
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_tev4f")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(1, 1, 1, 0)
+texture = ExtResource("1_d41e3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.14577e-06)
+scale = Vector2(5.05, 5.05)
+shape = SubResource("RectangleShape2D_tev4f")

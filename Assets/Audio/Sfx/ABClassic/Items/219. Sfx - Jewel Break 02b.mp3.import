@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://475il5ffy0jk"
+path="res://.godot/imported/219. Sfx - Jewel Break 02b.mp3-60813a61222a41276e465be4b49d43f8.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/219. Sfx - Jewel Break 02b.mp3"
+dest_files=["res://.godot/imported/219. Sfx - Jewel Break 02b.mp3-60813a61222a41276e465be4b49d43f8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

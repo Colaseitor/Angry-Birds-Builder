@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c26qvdq1l71cx"
+path="res://.godot/imported/555. Sfx - Underwater Damage Stone.mp3-4b046fc2f4545015808123f88cf5638a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/555. Sfx - Underwater Damage Stone.mp3"
+dest_files=["res://.godot/imported/555. Sfx - Underwater Damage Stone.mp3-4b046fc2f4545015808123f88cf5638a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

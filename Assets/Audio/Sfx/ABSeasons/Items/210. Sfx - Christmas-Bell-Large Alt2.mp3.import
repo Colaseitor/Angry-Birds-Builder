@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crrkvq0erqmto"
+path="res://.godot/imported/210. Sfx - Christmas-Bell-Large Alt2.mp3-553c0a6d5fed66a5f0f0364bc10c070e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/210. Sfx - Christmas-Bell-Large Alt2.mp3"
+dest_files=["res://.godot/imported/210. Sfx - Christmas-Bell-Large Alt2.mp3-553c0a6d5fed66a5f0f0364bc10c070e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

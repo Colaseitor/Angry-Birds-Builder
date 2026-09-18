@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1ckbxf5hnend"
+path="res://.godot/imported/Sfx - Bird 01 Select.mp3-fe96bb0678f28b76c7e16a67ee67dab2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Select.mp3"
+dest_files=["res://.godot/imported/Sfx - Bird 01 Select.mp3-fe96bb0678f28b76c7e16a67ee67dab2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

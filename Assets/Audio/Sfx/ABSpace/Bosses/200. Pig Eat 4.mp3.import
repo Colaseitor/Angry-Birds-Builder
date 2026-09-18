@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v3tbna2qh5u0"
+path="res://.godot/imported/200. Pig Eat 4.mp3-1f13d583fe1a8a03fefa9aaf838b16bf.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Bosses/200. Pig Eat 4.mp3"
+dest_files=["res://.godot/imported/200. Pig Eat 4.mp3-1f13d583fe1a8a03fefa9aaf838b16bf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

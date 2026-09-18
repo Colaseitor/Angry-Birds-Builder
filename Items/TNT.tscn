@@ -1,0 +1,96 @@
+[gd_scene load_steps=17 format=3 uid="uid://cr5cgkjbqyuqj"]
+
+[ext_resource type="Texture2D" uid="uid://c4r8thuawmeqp" path="res://Assets/Graphics/Items/ABClassic/TNT.png" id="1_1n714"]
+[ext_resource type="Script" uid="uid://c23peclk0wlvl" path="res://Items/tnt.gd" id="1_ejvrm"]
+[ext_resource type="AudioStream" uid="uid://b5x3sptej5s6a" path="res://Assets/Audio/Sfx/ABClassic/Items/478. Sfx - Wood Collision A1.mp3" id="2_cao3o"]
+[ext_resource type="AudioStream" uid="uid://cwg0ifafaxs3b" path="res://Assets/Audio/Sfx/ABClassic/Items/479. Sfx - Wood Collision A2.mp3" id="3_0164b"]
+[ext_resource type="AudioStream" uid="uid://bthn57fcu3cj0" path="res://Assets/Audio/Sfx/ABClassic/Items/480. Sfx - Wood Collision A3.mp3" id="4_ejvrm"]
+[ext_resource type="AudioStream" uid="uid://cse23ws8ia25m" path="res://Assets/Audio/Sfx/ABClassic/Items/481. Sfx - Wood Collision A4.mp3" id="5_ylxuo"]
+[ext_resource type="AudioStream" uid="uid://dm4v7q4ckgqno" path="res://Assets/Audio/Sfx/ABClassic/Items/482. Sfx - Wood Collision A5.mp3" id="6_4sdsq"]
+[ext_resource type="AudioStream" uid="uid://pkjuygco1er6" path="res://Assets/Audio/Sfx/ABClassic/Items/483. Sfx - Wood Collision A6.mp3" id="7_wmprb"]
+[ext_resource type="AudioStream" uid="uid://b45wcp0i8xn4m" path="res://Assets/Audio/Sfx/ABClassic/Items/457. Sfx - Tnt Box Explodes.mp3" id="9_ylxuo"]
+[ext_resource type="Texture2D" uid="uid://dx3w67u2bc1lj" path="res://Assets/Graphics/Particles/ABClassic/Explosion 1.png" id="10_8fc7s"]
+[ext_resource type="Texture2D" uid="uid://bj1dw02ecmhhc" path="res://Assets/Graphics/Particles/ABClassic/Explosion 2.png" id="11_pxasq"]
+[ext_resource type="Texture2D" uid="uid://c02aahs5cnxsg" path="res://Assets/Graphics/Particles/ABClassic/Explosion 3.png" id="12_4nvbr"]
+[ext_resource type="Texture2D" uid="uid://57b4kwaf8lta" path="res://Assets/Graphics/Particles/ABClassic/Explosion 4.png" id="13_myd1w"]
+[ext_resource type="Texture2D" uid="uid://ds8q8mjm823x4" path="res://Assets/Graphics/Particles/ABClassic/Explosion 5.png" id="14_mutqx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wm1on"]
+size = Vector2(68, 68)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mbdyi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_8fc7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pxasq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4nvbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_myd1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_mutqx")
+}],
+"loop": false,
+"name": &"Explosion",
+"speed": 24.0
+}]
+
+[node name="TNT" type="RigidBody2D"]
+z_index = 1
+center_of_mass_mode = 1
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_ejvrm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+shape = SubResource("RectangleShape2D_wm1on")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1n714")
+
+[node name="478_Sfx-WoodCollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_cao3o")
+volume_db = -10.0
+
+[node name="479_Sfx-WoodCollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_0164b")
+volume_db = -10.0
+
+[node name="480_Sfx-WoodCollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_ejvrm")
+volume_db = -10.0
+
+[node name="481_Sfx-WoodCollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_ylxuo")
+volume_db = -10.0
+
+[node name="482_Sfx-WoodCollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_4sdsq")
+volume_db = -10.0
+
+[node name="483_Sfx-WoodCollisionA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_wmprb")
+volume_db = -10.0
+
+[node name="457_Sfx-TntBoxExplodes" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_ylxuo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
+scale = Vector2(1.77, 1.77)
+sprite_frames = SubResource("SpriteFrames_mbdyi")
+animation = &"Explosion"
+frame = 4
+frame_progress = 1.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="sleeping_state_changed" from="." to="." method="_on_sleeping_state_changed"]
+[connection signal="finished" from="457_Sfx-TntBoxExplodes" to="." method="_on__sfx_tnt_box_explodes_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

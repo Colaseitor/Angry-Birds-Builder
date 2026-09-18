@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d1saryr703rty"
+path="res://.godot/imported/020. Asteroid Radioactive Loop 01.mp3-d25f425f29d6ce93c671edf89769f49e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Other/020. Asteroid Radioactive Loop 01.mp3"
+dest_files=["res://.godot/imported/020. Asteroid Radioactive Loop 01.mp3-d25f425f29d6ce93c671edf89769f49e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

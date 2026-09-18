@@ -1,0 +1,20 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Winter Wonderham","type":"main"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1437.98950195313,"position y":-324.646911621094,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1437.98950195313,"position y":-406.130981445313,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1437.98950195313,"position y":-487.615173339844,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1677.89111328125,"position y":-324.646911621094,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1679.39990234375,"position y":-406.130981445313,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Wood Square","position x":1679.39990234375,"position y":-487.615173339844,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Longer Stone","position x":1454.58642578125,"position y":-535.902160644531,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Longer Stone","position x":1658.2763671875,"position y":-540.428955078125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Longer Stone","position x":1557.18579101563,"position y":-561.554504394531,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Dog Piggen","position x":1555.67700195313,"position y":-324.646911621094,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Dog Piggen","position x":682.073608398438,"position y":-298.994506835938,"rotation":0.0,"type":"block"}
+{"name":"Shakira","position x":-67.1027221679688,"position y":-21.244140625,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-132.484680175781,"position y":-23.8597412109375,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-201.789520263672,"position y":-22.552001953125,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-265.863830566406,"position y":-25.16748046875,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-333.861053466797,"position y":-25.16748046875,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-403.165893554688,"position y":-25.16748046875,"rotation":0.0,"type":"bird"}
+{"heigth":6.0,"name":"Ground Square","position x":683.582397460938,"position y":-279.377990722656,"rotation":0.0,"type":"ground","width":1.0}
+{"heigth":3.0,"name":"Ground Square","position x":1645.904296875,"position y":-132.404663085938,"rotation":0.0,"type":"ground","width":7.0}

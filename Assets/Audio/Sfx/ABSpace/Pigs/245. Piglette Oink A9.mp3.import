@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://up6umysow7v8"
+path="res://.godot/imported/245. Piglette Oink A9.mp3-3915c8289792f4de7be1e09f625abebf.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/245. Piglette Oink A9.mp3"
+dest_files=["res://.godot/imported/245. Piglette Oink A9.mp3-3915c8289792f4de7be1e09f625abebf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

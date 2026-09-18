@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kswl0qfqhgrc"
+path="res://.godot/imported/347. Sfx - Misc Coconut Break 01.mp3-e1c4b9d5562f2ca676ee92cc80f07704.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/347. Sfx - Misc Coconut Break 01.mp3"
+dest_files=["res://.godot/imported/347. Sfx - Misc Coconut Break 01.mp3-e1c4b9d5562f2ca676ee92cc80f07704.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

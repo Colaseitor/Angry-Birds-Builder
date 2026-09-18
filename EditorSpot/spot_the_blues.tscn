@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://chd6hcdd10u60"]
+
+[ext_resource type="PackedScene" uid="uid://c543orhs5w5bw" path="res://EditorSpot/spot_chuck.tscn" id="1_u1ioa"]
+[ext_resource type="Texture2D" uid="uid://cseus4b12ha3n" path="res://Assets/Graphics/EditorIcons/Blues 1.png" id="2_m3hl4"]
+
+[node name="SpotTheBlues" instance=ExtResource("1_u1ioa")]
+thing_name = "The Blues"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(49.3776, 51.0373)
+scale = Vector2(2.72099, 2.72099)
+texture = ExtResource("2_m3hl4")
+region_enabled = true
+region_rect = Rect2(0, 0, 30, 29)
+region_filter_clip_enabled = true

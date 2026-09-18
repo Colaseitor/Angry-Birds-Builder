@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://byt7n3jb1j5ey"
+path="res://.godot/imported/359. Sfx - Pink Collision 04.mp3-12953c988a86bf51c6a12071dfedabef.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/359. Sfx - Pink Collision 04.mp3"
+dest_files=["res://.godot/imported/359. Sfx - Pink Collision 04.mp3-12953c988a86bf51c6a12071dfedabef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

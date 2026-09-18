@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dp0nqfwmwnvpq"
+path="res://.godot/imported/324. Sfx - Material Lava Melt Pig 03.mp3-66afb1fa2952fa3e594ab87d79df7ba1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Other/324. Sfx - Material Lava Melt Pig 03.mp3"
+dest_files=["res://.godot/imported/324. Sfx - Material Lava Melt Pig 03.mp3-66afb1fa2952fa3e594ab87d79df7ba1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

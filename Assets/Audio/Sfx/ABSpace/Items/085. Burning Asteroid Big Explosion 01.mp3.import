@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy4wd26u2byd1"
+path="res://.godot/imported/085. Burning Asteroid Big Explosion 01.mp3-b62f49bfd09bcb8b11015fa392f7277f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/085. Burning Asteroid Big Explosion 01.mp3"
+dest_files=["res://.godot/imported/085. Burning Asteroid Big Explosion 01.mp3-b62f49bfd09bcb8b11015fa392f7277f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

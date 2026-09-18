@@ -1,0 +1,17 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Jungle Escape","type":"main"}
+{"floating":false,"life":0,"name":"Glass Square","position x":330.419494628906,"position y":-39.552978515625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":329.111877441406,"position y":-121.942443847656,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":329.111877441406,"position y":-205.639770507813,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":327.804260253906,"position y":-289.337036132813,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":414.108459472656,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":415.416076660156,"position y":-124.557983398438,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":415.416076660156,"position y":-208.255249023438,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":414.108459472656,"position y":-291.952514648438,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":497.797302246094,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":501.720275878906,"position y":-123.250244140625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":503.027893066406,"position y":-206.947509765625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Glass Square","position x":501.720275878906,"position y":-290.644775390625,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0,"name":"Old Pig","position x":593.254943847656,"position y":-40.8607177734375,"rotation":0.0,"type":"block"}
+{"name":"Bomb","position x":-93.2554931640625,"position y":-29.0908203125,"rotation":0.0,"type":"bird"}
+{"name":"Bomb","position x":-173.021423339844,"position y":-29.0908203125,"rotation":0.0,"type":"bird"}
+{"name":"Bomb","position x":-252.787445068359,"position y":-29.0908203125,"rotation":0.0,"type":"bird"}

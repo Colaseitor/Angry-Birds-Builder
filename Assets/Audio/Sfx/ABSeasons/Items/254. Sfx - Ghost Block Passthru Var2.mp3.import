@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkjx22swmx3up"
+path="res://.godot/imported/254. Sfx - Ghost Block Passthru Var2.mp3-cc8e9fcad5c18d0d0ceb5a99aa97c8cf.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/254. Sfx - Ghost Block Passthru Var2.mp3"
+dest_files=["res://.godot/imported/254. Sfx - Ghost Block Passthru Var2.mp3-cc8e9fcad5c18d0d0ceb5a99aa97c8cf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

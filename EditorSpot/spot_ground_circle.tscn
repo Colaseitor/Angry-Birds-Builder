@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5mneaa3tffgf"]
+
+[ext_resource type="PackedScene" uid="uid://vu3tqnhug8ga" path="res://EditorSpot/spot_ground_square.tscn" id="1_ywipf"]
+[ext_resource type="Texture2D" uid="uid://c1v027p4nm8ko" path="res://Assets/Graphics/Botones/EmptyButtonSquare.png" id="2_5wumx"]
+[ext_resource type="Texture2D" uid="uid://ck3kaucsub64" path="res://Assets/Graphics/EditorIcons/GroundCircle.png" id="2_ltv8b"]
+[ext_resource type="Script" uid="uid://dp7cdy1g4acvk" path="res://EditorSpot/editor_spot.gd" id="3_o121d"]
+
+[node name="SpotGroundCircle" groups=["Spots"] instance=ExtResource("1_ywipf")]
+offset_left = 285.0
+offset_right = 384.0
+offset_bottom = 106.0
+scale = Vector2(2.41, 2.41)
+texture_normal = ExtResource("2_5wumx")
+script = ExtResource("3_o121d")
+thing_name = "Ground Circle"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(49.3776, 50.9967)
+scale = Vector2(0.564776, 0.564776)
+texture = ExtResource("2_ltv8b")

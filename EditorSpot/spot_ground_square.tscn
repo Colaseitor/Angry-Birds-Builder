@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://vu3tqnhug8ga"]
+
+[ext_resource type="PackedScene" uid="uid://c543orhs5w5bw" path="res://EditorSpot/spot_chuck.tscn" id="1_q8cb2"]
+[ext_resource type="Texture2D" uid="uid://bwid705q8aqbo" path="res://Assets/Graphics/EditorIcons/GroundSquare.png" id="2_1gdx4"]
+
+[node name="SpotGroundSquare" instance=ExtResource("1_q8cb2")]
+thing_name = "Ground Square"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(49.5851, 51.2056)
+scale = Vector2(0.677869, 0.677869)
+texture = ExtResource("2_1gdx4")

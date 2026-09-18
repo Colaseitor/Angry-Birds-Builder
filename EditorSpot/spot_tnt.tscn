@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://kqol7bq30alg"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_h26s2"]
+[ext_resource type="Texture2D" uid="uid://c4r8thuawmeqp" path="res://Assets/Graphics/Items/ABClassic/TNT.png" id="2_stnb4"]
+
+[node name="SpotTNT" instance=ExtResource("1_h26s2")]
+thing_name = "TNT"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(49.3776, 51.0373)
+scale = Vector2(1.09652, 1.09652)
+texture = ExtResource("2_stnb4")

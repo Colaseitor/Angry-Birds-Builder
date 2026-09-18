@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp8kmoq5ksqc7"]
+
+[ext_resource type="Script" uid="uid://b8mffb5lk2edq" path="res://Other main gameplay thinggies/point_text.gd" id="1_7yiex"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="1_8u3ee"]
+
+[node name="PointText" type="Control"]
+top_level = true
+z_index = 5
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_7yiex")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -100.0
+offset_top = -30.0
+offset_right = 98.0
+offset_bottom = 29.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("1_8u3ee")
+theme_override_font_sizes/font_size = 50
+text = "BAD"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

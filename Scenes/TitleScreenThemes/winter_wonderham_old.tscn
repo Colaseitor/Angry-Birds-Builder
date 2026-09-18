@@ -1,0 +1,336 @@
+[gd_scene load_steps=25 format=3 uid="uid://ca2undxilapwl"]
+
+[ext_resource type="AudioStream" uid="uid://dcam8qnh4x8aa" path="res://Assets/Audio/Main Menu Music/ABSeasons/2-50. Winter Wonderham.mp3" id="1_qm6gi"]
+[ext_resource type="Texture2D" uid="uid://c8pb42m1e2b1o" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background 3.png" id="2_i5715"]
+[ext_resource type="Texture2D" uid="uid://dappdwf4nyr4f" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background 2.png" id="3_gq1u7"]
+[ext_resource type="Shader" uid="uid://bqj2lmopyly56" path="res://Assets/Graphics/Other/background.gdshader" id="4_63ua6"]
+[ext_resource type="Texture2D" uid="uid://br0vw4xlo8u8o" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background.png" id="5_c4q1c"]
+[ext_resource type="Texture2D" uid="uid://bj8rb7torpet7" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham candy cane.png" id="6_m8fdq"]
+[ext_resource type="Texture2D" uid="uid://0rwjj0wq0u2b" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Ground.png" id="7_m4jje"]
+[ext_resource type="Texture2D" uid="uid://koytiyns1vh3" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 1.png" id="8_0h2nn"]
+[ext_resource type="Texture2D" uid="uid://uao0ihkrg85x" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 2.png" id="9_tp82q"]
+[ext_resource type="Texture2D" uid="uid://dgraf6d8e62qs" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 4.png" id="10_3kym2"]
+[ext_resource type="Texture2D" uid="uid://q4xmyqwn1qr1" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 3.png" id="11_jfv85"]
+[ext_resource type="Texture2D" uid="uid://c0wp3ffi06vxq" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 7.png" id="12_n410k"]
+[ext_resource type="Texture2D" uid="uid://bes130pwad1kw" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 5.png" id="13_gi58l"]
+[ext_resource type="Texture2D" uid="uid://u56ceyubtuks" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 6.png" id="14_22jwm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fe1eb"]
+shader = ExtResource("4_63ua6")
+
+[sub_resource type="Animation" id="Animation_2l03a"]
+resource_name = "Aurora1"
+length = 3.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.433333, 1.4, 2, 2.93333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_forbh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_5qphd"]
+resource_name = "Aurora2"
+length = 4.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.76667, 2.46667, 3.96667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ouy2b"]
+resource_name = "Aurora_3"
+length = 8.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.23333, 3.03333, 4.46667, 6.43333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4be0k"]
+resource_name = "Aurora_4"
+length = 13.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.2, 3.76667, 4.9, 7.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_rr51l"]
+resource_name = "Aurora_5"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.2, 1.63333, 3.46667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_xh7vc"]
+resource_name = "Aurora_6"
+length = 5.1
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.633333, 2.23333, 3.2, 4.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_wh5nc"]
+resource_name = "Aurora_7"
+length = 6.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.233333, 2.63333, 3.36667, 5.56667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ouy2b"]
+_data = {
+&"Aurora1": SubResource("Animation_2l03a"),
+&"Aurora2": SubResource("Animation_5qphd"),
+&"Aurora_3": SubResource("Animation_ouy2b"),
+&"Aurora_4": SubResource("Animation_4be0k"),
+&"Aurora_5": SubResource("Animation_rr51l"),
+&"Aurora_6": SubResource("Animation_xh7vc"),
+&"Aurora_7": SubResource("Animation_wh5nc"),
+&"RESET": SubResource("Animation_forbh")
+}
+
+[node name="WinterWonderham" type="Node2D"]
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_qm6gi")
+autoplay = true
+parameters/looping = true
+
+[node name="Parallax2D" type="Parallax2D" parent="."]
+scroll_offset = Vector2(-568, 5)
+repeat_size = Vector2(1238.72, 0)
+autoscroll = Vector2(70, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
+texture_repeat = 2
+position = Vector2(3530.77, -307)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("2_i5715")
+region_rect = Rect2(0, 0, 7000, 500)
+region_filter_clip_enabled = true
+
+[node name="Parallax2D2" type="Parallax2D" parent="."]
+scroll_offset = Vector2(425, 4)
+autoscroll = Vector2(80, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2"]
+texture_repeat = 2
+position = Vector2(2376, -116)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("3_gq1u7")
+region_rect = Rect2(0, 0, 7000, 424)
+region_filter_clip_enabled = true
+
+[node name="Parallax2D3" type="Parallax2D" parent="."]
+scroll_offset = Vector2(425, 4)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Background" type="Polygon2D" parent="Parallax2D3"]
+z_index = -3
+material = SubResource("ShaderMaterial_fe1eb")
+position = Vector2(1449, -1464)
+scale = Vector2(2.26761, 2.26761)
+texture = ExtResource("5_c4q1c")
+polygon = PackedVector2Array(-2563.96, -2635.9, 3301.97, -2606.29, 4731.85, -363.378, 3788.36, 2699.25, -2770.29, 2611.03)
+uv = PackedVector2Array(0.0171223, 0.0758483, 489.99, -0.00110936, 490.009, 301.616, 0.00635147, 301.523)
+
+[node name="Parallax2D4" type="Parallax2D" parent="."]
+scroll_offset = Vector2(425, 4)
+autoscroll = Vector2(90, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D4"]
+texture_repeat = 2
+position = Vector2(1253, -100)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("6_m8fdq")
+region_rect = Rect2(0, 0, 7000, 457)
+region_filter_clip_enabled = true
+
+[node name="Parallax2D6" type="Parallax2D" parent="."]
+visible = false
+scroll_offset = Vector2(425, 4)
+autoscroll = Vector2(100, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D6"]
+texture_repeat = 2
+position = Vector2(2400.85, 106)
+scale = Vector2(3.24752, 3.24752)
+texture = ExtResource("7_m4jje")
+region_enabled = true
+region_rect = Rect2(0, 0, 2000, 101)
+
+[node name="Parallax2D5" type="Parallax2D" parent="."]
+scroll_offset = Vector2(425, 4)
+autoscroll = Vector2(40, 0)
+repeat_times = 5
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(493, -644.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("8_0h2nn")
+region_rect = Rect2(0, 0, 5000, 191)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora1"
+
+[node name="Sprite2D2" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(715, -770.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("9_tp82q")
+region_rect = Rect2(0, 0, 5000, 236)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D2"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora2"
+
+[node name="Sprite2D3" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(408, -665.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("10_3kym2")
+region_rect = Rect2(0, 0, 5000, 284)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D3"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_3"
+
+[node name="Sprite2D4" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(1528, -739.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("11_jfv85")
+region_rect = Rect2(0, 0, 5000, 333)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D4"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_4"
+
+[node name="Sprite2D5" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(1039, -739.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("12_n410k")
+region_rect = Rect2(0, 0, 5000, 326)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D5"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_5"
+
+[node name="Sprite2D6" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(1651, -773.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("13_gi58l")
+region_rect = Rect2(0, 0, 5000, 207)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D6"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_6"
+
+[node name="Sprite2D7" type="Sprite2D" parent="Parallax2D5"]
+texture_repeat = 2
+position = Vector2(1530, -665.44)
+scale = Vector2(3.48, 3.48)
+texture = ExtResource("14_22jwm")
+region_rect = Rect2(0, 0, 5000, 177)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Parallax2D5/Sprite2D7"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_7"

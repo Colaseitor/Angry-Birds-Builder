@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3 uid="uid://ca7judoc1kltx"]
+
+[ext_resource type="Texture2D" uid="uid://b0boqryad5al5" path="res://Assets/Graphics/Themes/Other/Coca-Cola 1/Coca-Cola weird background thing.png" id="1_p0byw"]
+[ext_resource type="Texture2D" uid="uid://burtuwja0do06" path="res://Assets/Graphics/Themes/Other/Coca-Cola 1/Coca-Cola 1 background.png" id="2_p0byw"]
+[ext_resource type="Texture2D" uid="uid://w821cabkdleb" path="res://Assets/Graphics/Themes/Other/Coca-Cola 1/Coca-Cola 1 ground 1.png" id="3_p0byw"]
+[ext_resource type="Texture2D" uid="uid://bbagjeb5ts87w" path="res://Assets/Graphics/Themes/Other/Coca-Cola 1/Coca-Cola 1 ground 2.png" id="4_3v045"]
+[ext_resource type="AudioStream" uid="uid://dah0n5ee6hh7j" path="res://Assets/Audio/Main Menu Music/Other/108_Coke_Theme.mp3" id="4_p0byw"]
+
+[node name="Coca-Cola-1" type="Node2D"]
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-284, 253)
+repeat_size = Vector2(3266.42, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(1498, -471)
+scale = Vector2(5.25281, 5.25281)
+texture = ExtResource("1_p0byw")
+region_enabled = true
+region_rect = Rect2(0, 0, 622, 172)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+scroll_offset = Vector2(-76, 6)
+repeat_size = Vector2(2974, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(1173, -684)
+scale = Vector2(5.39, 5.39)
+texture = ExtResource("2_p0byw")
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(-79.28, 940)
+repeat_size = Vector2(1636, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+z_index = 2
+texture_repeat = 2
+position = Vector2(419.28, 27.2076)
+scale = Vector2(7.57642, 7.57642)
+texture = ExtResource("3_p0byw")
+region_enabled = true
+region_rect = Rect2(0, 0, 216, 41)
+region_filter_clip_enabled = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="Ground"]
+texture_repeat = 2
+position = Vector2(419.28, -195)
+scale = Vector2(7.576, 7.576)
+texture = ExtResource("4_3v045")
+region_enabled = true
+region_rect = Rect2(0, 0, 216, 23)
+region_filter_clip_enabled = true
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_p0byw")
+autoplay = true
+parameters/looping = true

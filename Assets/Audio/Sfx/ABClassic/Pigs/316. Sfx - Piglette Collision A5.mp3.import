@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yxdlocdurigx"
+path="res://.godot/imported/316. Sfx - Piglette Collision A5.mp3-4ee72c41609a82728bdece6e29e4bd6b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/316. Sfx - Piglette Collision A5.mp3"
+dest_files=["res://.godot/imported/316. Sfx - Piglette Collision A5.mp3-4ee72c41609a82728bdece6e29e4bd6b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

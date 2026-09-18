@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c44p42nxqu2cg"
+path="res://.godot/imported/162. Inflating Pigs Use Var5.mp3-e45dbecee922a9b5bdae80084f528733.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Powerups/162. Inflating Pigs Use Var5.mp3"
+dest_files=["res://.godot/imported/162. Inflating Pigs Use Var5.mp3-e45dbecee922a9b5bdae80084f528733.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

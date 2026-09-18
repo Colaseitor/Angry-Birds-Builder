@@ -1,0 +1,8 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000,"star3":40000,"theme":"Poached Eggs 3","type":"main"}
+{"floating":false,"life":0,"name":"Old Pig","position x":689.173950195313,"position y":-41.3605346679688,"rotation":0.0,"type":"block"}
+{"name":"Tony","position x":199.655578613281,"position y":-260.566040039063,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-115.4853515625,"position y":-39.552978515625,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-169.316528320313,"position y":-188.420715332031,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-263.030639648438,"position y":-187.330932617188,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-356.744750976563,"position y":-187.330932617188,"rotation":0.0,"type":"bird"}
+{"heigth":0.200000002980232,"name":"Ground Square","position x":-282.863128662109,"position y":-137.6357421875,"rotation":0.0,"type":"ground","width":3.0}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crabau8d7x70o"
+path="res://.godot/imported/092. Collision01.mp3-36f9eb19792c4a52aa6e8d804786154f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/092. Collision01.mp3"
+dest_files=["res://.godot/imported/092. Collision01.mp3-36f9eb19792c4a52aa6e8d804786154f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

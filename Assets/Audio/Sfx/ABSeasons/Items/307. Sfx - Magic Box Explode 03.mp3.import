@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmlg7i6i0q3v5"
+path="res://.godot/imported/307. Sfx - Magic Box Explode 03.mp3-0e8676573ab9d0fdb942d415529b0fbc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/307. Sfx - Magic Box Explode 03.mp3"
+dest_files=["res://.godot/imported/307. Sfx - Magic Box Explode 03.mp3-0e8676573ab9d0fdb942d415529b0fbc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

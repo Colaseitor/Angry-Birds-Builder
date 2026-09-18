@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bo7i2fypj0oar"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_i63mi"]
+[ext_resource type="Texture2D" uid="uid://bsx4vs6pm0kbi" path="res://Assets/Graphics/EditorIcons/Glass brick icon.png" id="2_wumwt"]
+
+[node name="SpotSquareWood" instance=ExtResource("1_i63mi")]
+thing_name = "Glass Brick"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_wumwt")

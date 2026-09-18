@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://31do0d2v3kbu"
+path="res://.godot/imported/338. Sfx - Metal Light Collision 01.mp3-f4b2579cded9cec73ac43d2daee151fb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/338. Sfx - Metal Light Collision 01.mp3"
+dest_files=["res://.godot/imported/338. Sfx - Metal Light Collision 01.mp3-f4b2579cded9cec73ac43d2daee151fb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

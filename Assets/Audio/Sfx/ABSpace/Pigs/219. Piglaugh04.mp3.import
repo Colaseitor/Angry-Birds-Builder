@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bc5gxoxv6vd1q"
+path="res://.godot/imported/219. Piglaugh04.mp3-6333add2a36da0373588c2e54fb6bd2a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/219. Piglaugh04.mp3"
+dest_files=["res://.godot/imported/219. Piglaugh04.mp3-6333add2a36da0373588c2e54fb6bd2a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

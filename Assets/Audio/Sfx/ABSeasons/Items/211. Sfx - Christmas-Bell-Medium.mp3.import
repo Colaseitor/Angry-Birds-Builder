@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drepyympaak88"
+path="res://.godot/imported/211. Sfx - Christmas-Bell-Medium.mp3-90cca776c8936a4bf23aca72bddc6b4c.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/211. Sfx - Christmas-Bell-Medium.mp3"
+dest_files=["res://.godot/imported/211. Sfx - Christmas-Bell-Medium.mp3-90cca776c8936a4bf23aca72bddc6b4c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

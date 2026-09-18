@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ccwfeljvnm55b"
+path="res://.godot/imported/057. Season5-Skiresort-Theme.mp3-e7f4a284e35af8ce56e0fa61630e88c0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/057. Season5-Skiresort-Theme.mp3"
+dest_files=["res://.godot/imported/057. Season5-Skiresort-Theme.mp3-e7f4a284e35af8ce56e0fa61630e88c0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

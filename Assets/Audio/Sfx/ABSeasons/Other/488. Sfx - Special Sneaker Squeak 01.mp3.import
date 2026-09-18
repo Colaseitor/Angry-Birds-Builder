@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8b1wjd8fbqpb"
+path="res://.godot/imported/488. Sfx - Special Sneaker Squeak 01.mp3-b63344fa761e96eb6903b046c5a18ab5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Other/488. Sfx - Special Sneaker Squeak 01.mp3"
+dest_files=["res://.godot/imported/488. Sfx - Special Sneaker Squeak 01.mp3-b63344fa761e96eb6903b046c5a18ab5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

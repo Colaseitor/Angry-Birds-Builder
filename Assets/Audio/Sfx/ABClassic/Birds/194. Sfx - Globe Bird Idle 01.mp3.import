@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de84be5hvlp5i"
+path="res://.godot/imported/194. Sfx - Globe Bird Idle 01.mp3-ea80b8d82e14f15cce57592b6585b5da.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/194. Sfx - Globe Bird Idle 01.mp3"
+dest_files=["res://.godot/imported/194. Sfx - Globe Bird Idle 01.mp3-ea80b8d82e14f15cce57592b6585b5da.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

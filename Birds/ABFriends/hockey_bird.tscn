@@ -1,0 +1,175 @@
+[gd_scene load_steps=29 format=3 uid="uid://5wlunv7l3o0a"]
+
+[ext_resource type="Script" uid="uid://b7wpfdt8b62ht" path="res://Birds/ABFriends/hockey_bird.gd" id="1_5r4jk"]
+[ext_resource type="Texture2D" uid="uid://dlguvmetyo86p" path="res://Assets/Graphics/Birds/ABFriends/Hockey Bird.png" id="2_dpoxg"]
+[ext_resource type="AudioStream" uid="uid://cqywbo8cijugr" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Select.mp3" id="3_pvj0t"]
+[ext_resource type="AudioStream" uid="uid://c04ge3p1ubirv" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Flying.mp3" id="4_16kxp"]
+[ext_resource type="AudioStream" uid="uid://bc2e4aupw7a8k" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Collision A1.mp3" id="5_1oawl"]
+[ext_resource type="AudioStream" uid="uid://c3clwedcpk0lg" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Collision A2.mp3" id="6_xgfdd"]
+[ext_resource type="AudioStream" uid="uid://cq1w4whw85pw" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Collision A3.mp3" id="7_dgmn7"]
+[ext_resource type="AudioStream" uid="uid://blgyo5q6gpt40" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Collision A4.mp3" id="8_oiv1e"]
+[ext_resource type="AudioStream" uid="uid://dcljhuxtfik2d" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Collision A5.mp3" id="9_aum6b"]
+[ext_resource type="AudioStream" uid="uid://nybhnomvkyv3" path="res://Assets/Audio/Sfx/ABClassic/Birds/415. Sfx - Special Boost.mp3" id="10_k4e57"]
+[ext_resource type="Texture2D" uid="uid://bajhnmiogfqpc" path="res://Assets/Graphics/Particles/ABClassic/Chuck particles.png" id="11_aulf6"]
+[ext_resource type="AudioStream" uid="uid://dskbxwxyhutwh" path="res://Assets/Audio/Sfx/ABClassic/Birds/83. Sfx - Bird Destroyed.mp3" id="12_wwgr5"]
+[ext_resource type="AudioStream" uid="uid://m0ulh5tphy8p" path="res://Assets/Audio/Sfx/ABClassic/Birds/84. Sfx - Bird Misc A1.mp3" id="13_6ysws"]
+[ext_resource type="AudioStream" uid="uid://dg2my4fq6kmxr" path="res://Assets/Audio/Sfx/ABClassic/Birds/85. Sfx - Bird Misc A10.mp3" id="14_shire"]
+[ext_resource type="AudioStream" uid="uid://d2tpcxhdoracq" path="res://Assets/Audio/Sfx/ABClassic/Birds/86. Sfx - Bird Misc A11.mp3" id="15_uq62b"]
+[ext_resource type="AudioStream" uid="uid://bxdxsybgjnog" path="res://Assets/Audio/Sfx/ABClassic/Birds/87. Sfx - Bird Misc A12.mp3" id="16_uq266"]
+[ext_resource type="AudioStream" uid="uid://cytvqcueoium7" path="res://Assets/Audio/Sfx/ABClassic/Birds/88. Sfx - Bird Misc A2.mp3" id="17_igtj0"]
+[ext_resource type="AudioStream" uid="uid://duynuv4htnayt" path="res://Assets/Audio/Sfx/ABClassic/Birds/89. Sfx - Bird Misc A3.mp3" id="18_cwxvj"]
+[ext_resource type="AudioStream" uid="uid://bc4p0rrroimku" path="res://Assets/Audio/Sfx/ABClassic/Birds/90. Sfx - Bird Misc A4.mp3" id="19_icqom"]
+[ext_resource type="AudioStream" uid="uid://bg4uqt800cjb0" path="res://Assets/Audio/Sfx/ABClassic/Birds/91. Sfx - Bird Misc A5.mp3" id="20_hvsm7"]
+[ext_resource type="AudioStream" uid="uid://bvq0i153hvjfa" path="res://Assets/Audio/Sfx/ABClassic/Birds/92. Sfx - Bird Misc A6.mp3" id="21_rcagl"]
+[ext_resource type="AudioStream" uid="uid://gb1jtayd7csp" path="res://Assets/Audio/Sfx/ABClassic/Birds/93. Sfx - Bird Misc A7.mp3" id="22_b2noh"]
+[ext_resource type="AudioStream" uid="uid://dkp3oltwn1aij" path="res://Assets/Audio/Sfx/ABClassic/Birds/94. Sfx - Bird Misc A8.mp3" id="23_tatlx"]
+[ext_resource type="AudioStream" uid="uid://bvjetnddljscy" path="res://Assets/Audio/Sfx/ABClassic/Birds/95. Sfx - Bird Misc A9.mp3" id="24_a3cr4"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5qf00"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o31c2"]
+radius = 19.0263
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_dnk8t"]
+particles_animation = true
+particles_anim_h_frames = 3
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_balqw"]
+_data = [Vector2(0, 1.01), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="HockeyBird" type="RigidBody2D" groups=["Bird", "Player"]]
+z_index = 1
+physics_material_override = SubResource("PhysicsMaterial_5qf00")
+gravity_scale = 0.8
+freeze_mode = 1
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_5r4jk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+shape = SubResource("CircleShape2D_o31c2")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-17, -4)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_dpoxg")
+hframes = 3
+vframes = 2
+
+[node name="Pulling" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_pvj0t")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_16kxp")
+
+[node name="Sfx-Bird01CollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_1oawl")
+
+[node name="Sfx-Bird01CollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_xgfdd")
+
+[node name="Sfx-Bird01CollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_dgmn7")
+
+[node name="Sfx-Bird01CollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_oiv1e")
+
+[node name="Sfx-Bird03CollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_aum6b")
+
+[node name="415_Sfx-SpecialBoost" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_k4e57")
+
+[node name="GemidoTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+top_level = true
+z_index = 2
+material = SubResource("CanvasItemMaterial_dnk8t")
+emitting = false
+amount = 10
+texture = ExtResource("11_aulf6")
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.6
+explosiveness = 1.0
+randomness = 1.0
+emission_shape = 1
+emission_sphere_radius = 10.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 1.0
+initial_velocity_max = 100.0
+angle_max = 360.0
+scale_amount_curve = SubResource("Curve_balqw")
+anim_offset_max = 1.0
+
+[node name="83_Sfx-BirdDestroyed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_wwgr5")
+
+[node name="84_Sfx-BirdMiscA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_6ysws")
+
+[node name="85_Sfx-BirdMiscA10" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_shire")
+
+[node name="86_Sfx-BirdMiscA11" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_uq62b")
+
+[node name="87_Sfx-BirdMiscA12" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_uq266")
+
+[node name="88_Sfx-BirdMiscA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_igtj0")
+
+[node name="89_Sfx-BirdMiscA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18_cwxvj")
+
+[node name="90_Sfx-BirdMiscA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_icqom")
+
+[node name="91_Sfx-BirdMiscA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_hvsm7")
+
+[node name="92_Sfx-BirdMiscA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_rcagl")
+
+[node name="93_Sfx-BirdMiscA7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("22_b2noh")
+
+[node name="94_Sfx-BirdMiscA8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_tatlx")
+
+[node name="95_Sfx-BirdMiscA9" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_a3cr4")
+
+[node name="ScreamTimer" type="Timer" parent="."]
+
+[node name="UnYellTimer" type="Timer" parent="ScreamTimer"]
+one_shot = true
+
+[node name="BlinkTimer" type="Timer" parent="ScreamTimer"]
+
+[node name="UnBlinkTimer" type="Timer" parent="ScreamTimer/BlinkTimer"]
+wait_time = 0.1
+one_shot = true
+
+[node name="PointTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="GemidoTimer" to="." method="_on_gemido_timer_timeout"]
+[connection signal="finished" from="83_Sfx-BirdDestroyed" to="." method="_on__sfx_bird_destroyed_finished"]
+[connection signal="timeout" from="ScreamTimer" to="." method="_on_scream_timer_timeout"]
+[connection signal="timeout" from="ScreamTimer/UnYellTimer" to="." method="_on_un_yell_timer_timeout"]
+[connection signal="timeout" from="ScreamTimer/BlinkTimer" to="." method="_on_blink_timer_timeout"]
+[connection signal="timeout" from="ScreamTimer/BlinkTimer/UnBlinkTimer" to="." method="_on_un_blink_timer_timeout"]
+[connection signal="timeout" from="PointTimer" to="." method="_on_point_timer_timeout"]

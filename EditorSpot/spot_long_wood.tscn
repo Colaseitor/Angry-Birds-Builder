@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cppov078eabq5"]
+
+[ext_resource type="PackedScene" uid="uid://c543orhs5w5bw" path="res://EditorSpot/spot_chuck.tscn" id="1_evmkc"]
+[ext_resource type="Texture2D" uid="uid://0svb6dfxf6ri" path="res://Assets/Graphics/Blocks/ABClassic/Wood long.png" id="2_2obud"]
+
+[node name="SpotLongWood" instance=ExtResource("1_evmkc")]
+thing_name = "Long Wood"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(0.570886, 0.570886)
+texture = ExtResource("2_2obud")
+vframes = 4

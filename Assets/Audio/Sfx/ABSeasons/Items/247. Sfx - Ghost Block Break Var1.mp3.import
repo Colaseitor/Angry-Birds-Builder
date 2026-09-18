@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pm23ld3afvrv"
+path="res://.godot/imported/247. Sfx - Ghost Block Break Var1.mp3-86cab40dddcc7f65164e8ac85c75b0f7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/247. Sfx - Ghost Block Break Var1.mp3"
+dest_files=["res://.godot/imported/247. Sfx - Ghost Block Break Var1.mp3-86cab40dddcc7f65164e8ac85c75b0f7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

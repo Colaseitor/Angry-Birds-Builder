@@ -1,0 +1,73 @@
+[gd_scene load_steps=6 format=3 uid="uid://bq76xv1y25fks"]
+
+[ext_resource type="Texture2D" uid="uid://cnl3p8dcqierg" path="res://Assets/Graphics/Themes/ABSeasons/South Hamerica/South Hamerica mountains.png" id="1_c04my"]
+[ext_resource type="Texture2D" uid="uid://b2nif464eiadk" path="res://Assets/Graphics/Themes/ABSeasons/South Hamerica/South Hamerica Background fix mountains.png" id="2_c6m52"]
+[ext_resource type="Texture2D" uid="uid://bl7g0qv22oa03" path="res://Assets/Graphics/Themes/ABSeasons/South Hamerica/South Hamerica front clouds.png" id="3_c04my"]
+[ext_resource type="AudioStream" uid="uid://dyk1eclbwuw48" path="res://Assets/Audio/Main Menu Music/ABSeasons/001. AB Seasons 4.1 Title GAME.mp3" id="4_c04my"]
+[ext_resource type="Texture2D" uid="uid://dbapfki0exn6v" path="res://Assets/Graphics/Themes/ABSeasons/South Hamerica/South Hamerica Ground.png" id="4_qvccu"]
+
+[node name="SouthHamerica" type="Node2D"]
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(0, 415)
+repeat_size = Vector2(1800, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(0, 6.494)
+scale = Vector2(0.958154, 0.958154)
+texture = ExtResource("1_c04my")
+offset = Vector2(850.95, 0)
+region_enabled = true
+region_rect = Rect2(0, 0, 1702, 765)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+scale = Vector2(0.879999, 0.879999)
+scroll_offset = Vector2(0, 114)
+repeat_size = Vector2(5047.55, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(0, -807.955)
+scale = Vector2(1.88386, 1.88386)
+texture = ExtResource("2_c6m52")
+offset = Vector2(-1341, 0)
+
+[node name="Foreground" type="Parallax2D" parent="."]
+z_index = -2
+scroll_offset = Vector2(0, -20)
+repeat_size = Vector2(2367, 0)
+autoscroll = Vector2(180, 0)
+repeat_times = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="Foreground"]
+z_index = 5
+texture_repeat = 2
+position = Vector2(0, 885.228)
+texture = ExtResource("3_c04my")
+region_enabled = true
+region_rect = Rect2(0, 0, 2375, 735)
+region_filter_clip_enabled = true
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(0, 419)
+repeat_size = Vector2(736.215, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+position = Vector2(0, 408.99)
+scale = Vector2(1.0349, 1.0349)
+texture = ExtResource("4_qvccu")
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_c04my")
+autoplay = true
+parameters/looping = true

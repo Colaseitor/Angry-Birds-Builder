@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ci156w0i8aqth"
+path="res://.godot/imported/017. Ab Piggywood Ambient.mp3-b902ac4055f7cb6d5214c90c98a59b7b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/017. Ab Piggywood Ambient.mp3"
+dest_files=["res://.godot/imported/017. Ab Piggywood Ambient.mp3-b902ac4055f7cb6d5214c90c98a59b7b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

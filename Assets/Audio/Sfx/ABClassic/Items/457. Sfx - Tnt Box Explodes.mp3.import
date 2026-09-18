@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b45wcp0i8xn4m"
+path="res://.godot/imported/457. Sfx - Tnt Box Explodes.mp3-80921835fa202374e198e02838f0d406.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/457. Sfx - Tnt Box Explodes.mp3"
+dest_files=["res://.godot/imported/457. Sfx - Tnt Box Explodes.mp3-80921835fa202374e198e02838f0d406.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

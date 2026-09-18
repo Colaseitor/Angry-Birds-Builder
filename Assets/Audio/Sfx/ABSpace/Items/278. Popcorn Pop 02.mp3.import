@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy484cfxcqape"
+path="res://.godot/imported/278. Popcorn Pop 02.mp3-6b66876a68042409449d7ae58c18cc43.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/278. Popcorn Pop 02.mp3"
+dest_files=["res://.godot/imported/278. Popcorn Pop 02.mp3-6b66876a68042409449d7ae58c18cc43.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

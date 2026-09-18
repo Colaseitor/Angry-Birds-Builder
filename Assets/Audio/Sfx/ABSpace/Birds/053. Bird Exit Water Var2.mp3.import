@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1fahqdruamag"
+path="res://.godot/imported/053. Bird Exit Water Var2.mp3-6ea18d8422909e512a05739c5c1c0ac5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/053. Bird Exit Water Var2.mp3"
+dest_files=["res://.godot/imported/053. Bird Exit Water Var2.mp3-6ea18d8422909e512a05739c5c1c0ac5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

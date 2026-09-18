@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dav06hfgqthb5"
+path="res://.godot/imported/172. Lazerlaunch.mp3-0db9f25bc4d08404f8da10440a0e4040.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/172. Lazerlaunch.mp3"
+dest_files=["res://.godot/imported/172. Lazerlaunch.mp3-0db9f25bc4d08404f8da10440a0e4040.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

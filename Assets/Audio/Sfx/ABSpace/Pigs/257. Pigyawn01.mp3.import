@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://kgllgxq7dwmn"
+path="res://.godot/imported/257. Pigyawn01.mp3-e1b6f22894940126af17120a4ac2ed42.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/257. Pigyawn01.mp3"
+dest_files=["res://.godot/imported/257. Pigyawn01.mp3-e1b6f22894940126af17120a4ac2ed42.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

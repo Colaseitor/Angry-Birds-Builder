@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctxriob3pslcx"
+path="res://.godot/imported/276. Sfx - Mighty Eagle Screech.mp3-de5ffa56e8e7903b3eb4b24eda4a3eed.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Powerups/276. Sfx - Mighty Eagle Screech.mp3"
+dest_files=["res://.godot/imported/276. Sfx - Mighty Eagle Screech.mp3-de5ffa56e8e7903b3eb4b24eda4a3eed.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

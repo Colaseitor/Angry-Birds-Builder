@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ioijm5gqx5tc"
+path="res://.godot/imported/269. Plant Breaks A3.mp3-dbcd13bca84d9f8e441a770f76d10a01.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/269. Plant Breaks A3.mp3"
+dest_files=["res://.godot/imported/269. Plant Breaks A3.mp3-dbcd13bca84d9f8e441a770f76d10a01.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

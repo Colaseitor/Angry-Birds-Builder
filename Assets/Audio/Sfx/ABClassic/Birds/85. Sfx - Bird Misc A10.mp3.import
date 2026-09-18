@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dg2my4fq6kmxr"
+path="res://.godot/imported/85. Sfx - Bird Misc A10.mp3-da463336c1f5c7732f7ffd1a307579e6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/85. Sfx - Bird Misc A10.mp3"
+dest_files=["res://.godot/imported/85. Sfx - Bird Misc A10.mp3-da463336c1f5c7732f7ffd1a307579e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

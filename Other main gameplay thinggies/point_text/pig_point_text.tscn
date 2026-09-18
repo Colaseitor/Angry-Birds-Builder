@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dheu3tnroso6v"]
+
+[ext_resource type="Script" uid="uid://jufdi8xj457m" path="res://Other main gameplay thinggies/point_text/pig_point_text.gd" id="1_yje0r"]
+[ext_resource type="Texture2D" uid="uid://cne433pmw1t88" path="res://Assets/Graphics/ScoreText/ABClassic/PigScore.png" id="2_t3ln0"]
+
+[node name="PigPointText" type="Control"]
+top_level = true
+z_index = 5
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_yje0r")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.49, 1.49)
+texture = ExtResource("2_t3ln0")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

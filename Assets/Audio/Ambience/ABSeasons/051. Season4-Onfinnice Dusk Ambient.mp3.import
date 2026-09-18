@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cn8mb66jjom3s"
+path="res://.godot/imported/051. Season4-Onfinnice Dusk Ambient.mp3-318e8ba6dc02180206d704b8f54d523f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/051. Season4-Onfinnice Dusk Ambient.mp3"
+dest_files=["res://.godot/imported/051. Season4-Onfinnice Dusk Ambient.mp3-318e8ba6dc02180206d704b8f54d523f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2e3qy38d1x6w"
+path="res://.godot/imported/169. Sfx - Bomb Drop 01.mp3-108b4cb3718cf7c02fd35a1626852b67.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/169. Sfx - Bomb Drop 01.mp3"
+dest_files=["res://.godot/imported/169. Sfx - Bomb Drop 01.mp3-108b4cb3718cf7c02fd35a1626852b67.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxtwwt5302o46"
+path="res://.godot/imported/556. Sfx - Underwater Explosion 1.mp3-28800e6e553c158ab71d0643e16c8ae4.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/556. Sfx - Underwater Explosion 1.mp3"
+dest_files=["res://.godot/imported/556. Sfx - Underwater Explosion 1.mp3-28800e6e553c158ab71d0643e16c8ae4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

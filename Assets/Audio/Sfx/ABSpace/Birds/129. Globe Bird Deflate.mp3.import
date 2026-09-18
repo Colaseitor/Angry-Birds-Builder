@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgmoqf0yu6yna"
+path="res://.godot/imported/129. Globe Bird Deflate.mp3-094b70988f649e76eb653db226f53a93.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/129. Globe Bird Deflate.mp3"
+dest_files=["res://.godot/imported/129. Globe Bird Deflate.mp3-094b70988f649e76eb653db226f53a93.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

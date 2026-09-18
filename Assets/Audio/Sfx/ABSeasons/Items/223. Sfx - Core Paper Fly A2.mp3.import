@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v8nnnfmwbb7t"
+path="res://.godot/imported/223. Sfx - Core Paper Fly A2.mp3-2b4829a2cacf7b23313eeafac2b0b673.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/223. Sfx - Core Paper Fly A2.mp3"
+dest_files=["res://.godot/imported/223. Sfx - Core Paper Fly A2.mp3-2b4829a2cacf7b23313eeafac2b0b673.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d24s7tvbisro2"
+path="res://.godot/imported/158. Icespecial.mp3-7f94726050110dcfc3a2ccb837255a9a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/158. Icespecial.mp3"
+dest_files=["res://.godot/imported/158. Icespecial.mp3-7f94726050110dcfc3a2ccb837255a9a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

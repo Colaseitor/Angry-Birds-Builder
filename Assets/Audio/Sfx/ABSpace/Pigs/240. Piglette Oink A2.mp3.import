@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpgrf7lh2ln4n"
+path="res://.godot/imported/240. Piglette Oink A2.mp3-4e93f6df10320d8e855cdc4028095c3b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/240. Piglette Oink A2.mp3"
+dest_files=["res://.godot/imported/240. Piglette Oink A2.mp3-4e93f6df10320d8e855cdc4028095c3b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

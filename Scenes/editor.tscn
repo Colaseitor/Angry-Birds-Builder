@@ -1,0 +1,592 @@
+[gd_scene load_steps=59 format=3 uid="uid://ywy7f2tewtgx"]
+
+[ext_resource type="Script" uid="uid://b5x5phwvmm3cx" path="res://editor.gd" id="1_eyy8u"]
+[ext_resource type="Texture2D" uid="uid://cgf5phkv3dgeb" path="res://Assets/Graphics/Botones/Exit.png" id="2_24ceq"]
+[ext_resource type="Texture2D" uid="uid://p6gsedopgmmb" path="res://Assets/Graphics/Botones/Plus.png" id="3_a7iym"]
+[ext_resource type="Script" uid="uid://c8ywkyuhvt5ra" path="res://Scenes/editor_camera_2d.gd" id="3_ruwpr"]
+[ext_resource type="Script" uid="uid://co301iuynvkq1" path="res://Scenes/add.gd" id="4_7wlcy"]
+[ext_resource type="Texture2D" uid="uid://ddfc8jhr1gljc" path="res://Assets/Graphics/Other/12 de agosto.png" id="5_wkuwf"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="6_7fkqn"]
+[ext_resource type="Texture2D" uid="uid://ry6t68nt11y" path="res://Assets/Graphics/Botones/EmptyButton.png" id="7_lo3ql"]
+[ext_resource type="Texture2D" uid="uid://cchwgsboy0t23" path="res://Assets/Graphics/Botones/Edit.png" id="7_ruwpr"]
+[ext_resource type="Texture2D" uid="uid://mh4j4vi5gel2" path="res://Assets/Graphics/EditorIcons/Wood square 1.png" id="7_yl2l4"]
+[ext_resource type="Texture2D" uid="uid://skgjt0o6go1j" path="res://Assets/Graphics/Botones/Settings.png" id="8_5yagh"]
+[ext_resource type="Texture2D" uid="uid://dvmmhow18xxt4" path="res://Assets/Graphics/EditorIcons/Wood triangle 1.png" id="8_eo2o7"]
+[ext_resource type="Script" uid="uid://dbchp8emu1ex4" path="res://Scenes/texture_button.gd" id="8_fls10"]
+[ext_resource type="Script" uid="uid://dtpptvteah5yn" path="res://Scenes/item_list.gd" id="9_32ik4"]
+[ext_resource type="Texture2D" uid="uid://c4r8thuawmeqp" path="res://Assets/Graphics/Items/ABClassic/TNT.png" id="10_32ik4"]
+[ext_resource type="Texture2D" uid="uid://dik5mm2ukviux" path="res://Assets/Graphics/Botones/Text box.png" id="10_r6kqb"]
+[ext_resource type="Texture2D" uid="uid://n28wchgscr64" path="res://Assets/Graphics/Other/LosePig.png" id="11_1k58v"]
+[ext_resource type="Texture2D" uid="uid://dt8uu800lnjj1" path="res://Assets/Graphics/Botones/ABClassic.png" id="11_o8yew"]
+[ext_resource type="FontFile" uid="uid://cnqr2g55xtlcj" path="res://AngryBirdsText-Regular.ttf" id="11_sdqln"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="12_hhub4"]
+[ext_resource type="Texture2D" uid="uid://dgfyqodsjiqkj" path="res://Assets/Graphics/Botones/ABSeasons.png" id="12_u6te5"]
+[ext_resource type="Texture2D" uid="uid://bmvspbe537ufx" path="res://Assets/Graphics/EditorIcons/Red 1.png" id="12_yoksu"]
+[ext_resource type="Texture2D" uid="uid://dft0wmihjrr1n" path="res://Assets/Graphics/Botones/Confirm.png" id="13_1pi8w"]
+[ext_resource type="Texture2D" uid="uid://crp6tgjf7brt2" path="res://Assets/Graphics/Botones/ABRio.png" id="13_efg2m"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="14_hhub4"]
+[ext_resource type="Texture2D" uid="uid://cohi8hn0v0ehu" path="res://Assets/Graphics/Botones/ABSpace.png" id="14_iis80"]
+[ext_resource type="Texture2D" uid="uid://duu2872ol2up3" path="res://Assets/Graphics/Botones/ABStar Wars.png" id="15_06d57"]
+[ext_resource type="Texture2D" uid="uid://c7ueapod8hpgr" path="res://Assets/Graphics/Botones/ABFriends.png" id="16_af0oh"]
+[ext_resource type="Texture2D" uid="uid://b2lgh71tnh56b" path="res://Assets/Graphics/Botones/ABStar Wars II.jpg" id="17_l5j4h"]
+[ext_resource type="Texture2D" uid="uid://lf3c26yukq2s" path="res://Assets/Graphics/Botones/ABStella.png" id="18_ukxwk"]
+[ext_resource type="Texture2D" uid="uid://cfvxqd4me3cpx" path="res://Assets/Graphics/Botones/AB2.png" id="19_ruwpr"]
+[ext_resource type="Texture2D" uid="uid://bos0iex5ipqoc" path="res://Assets/Graphics/Botones/ABReloaded.png" id="20_1giqv"]
+[ext_resource type="Texture2D" uid="uid://by7ap4vjwhnwx" path="res://Assets/Graphics/Botones/ABJourney.png" id="21_6utg8"]
+[ext_resource type="Texture2D" uid="uid://t8jlpeon72r3" path="res://Assets/Graphics/EditorIcons/Dog Piggen 1 1.png" id="23_iis80"]
+[ext_resource type="Texture2D" uid="uid://c80m14dviqqxw" path="res://Assets/Graphics/Botones/Back.png" id="24_efg2m"]
+[ext_resource type="Texture2D" uid="uid://c4880exryowvr" path="res://Assets/Graphics/EditorIcons/Pig 1 1.png" id="25_l5j4h"]
+[ext_resource type="AudioStream" uid="uid://cvhtycn8o4y08" path="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3" id="26_af0oh"]
+[ext_resource type="AudioStream" uid="uid://c7gsnlxpa7oay" path="res://Assets/Audio/Main/ABClassic/252. Sfx - Menu Back.mp3" id="27_l5j4h"]
+[ext_resource type="Texture2D" uid="uid://dkacj7vk5wpmt" path="res://Assets/Graphics/EditorIcons/Chuck 1.png" id="28_ng50i"]
+[ext_resource type="Texture2D" uid="uid://dxuwx7qqi6xr6" path="res://Assets/Graphics/Slingshots/Classic Slingshot A.png" id="30_1giqv"]
+[ext_resource type="Script" uid="uid://blrux1u0cf6qv" path="res://Scenes/editor_slingshot.gd" id="30_6utg8"]
+[ext_resource type="Texture2D" uid="uid://bspfntcutuq1t" path="res://Assets/Graphics/Slingshots/Classic Slingshot B.png" id="31_6utg8"]
+[ext_resource type="Texture2D" uid="uid://c5iyddhvq1n2u" path="res://Assets/Graphics/EditorIcons/Wood long 1.png" id="35_u1k11"]
+[ext_resource type="Texture2D" uid="uid://cseus4b12ha3n" path="res://Assets/Graphics/EditorIcons/Blues 1.png" id="36_6rfi4"]
+[ext_resource type="Texture2D" uid="uid://vhffc665kiqj" path="res://Assets/Graphics/EditorIcons/Stone circle 1.png" id="36_asgqx"]
+[ext_resource type="Texture2D" uid="uid://cp68f1phfvukd" path="res://Assets/Graphics/EditorIcons/Longer stone 1.png" id="36_ij0l5"]
+[ext_resource type="Texture2D" uid="uid://ck3kaucsub64" path="res://Assets/Graphics/EditorIcons/GroundCircle.png" id="37_1l34x"]
+[ext_resource type="Texture2D" uid="uid://duevkmvdyoa5p" path="res://Assets/Graphics/EditorIcons/Glass square 1.png" id="37_3vnj4"]
+[ext_resource type="Texture2D" uid="uid://bsx4vs6pm0kbi" path="res://Assets/Graphics/EditorIcons/Glass brick icon.png" id="37_50fx4"]
+[ext_resource type="Texture2D" uid="uid://cwiadfxxiar7e" path="res://Assets/Graphics/EditorIcons/Lazer Bird 1.png" id="37_gbgnm"]
+[ext_resource type="Texture2D" uid="uid://cmcsr71i6hala" path="res://Assets/Graphics/EditorIcons/GroundTriangle.png" id="38_gbgnm"]
+[ext_resource type="Texture2D" uid="uid://bwid705q8aqbo" path="res://Assets/Graphics/EditorIcons/GroundSquare.png" id="42_1pi8w"]
+[ext_resource type="Texture2D" uid="uid://cnlo68hkeq6md" path="res://Assets/Graphics/EditorIcons/Terence 1.png" id="43_ekxub"]
+[ext_resource type="Texture2D" uid="uid://byoeyxnn4q8po" path="res://Assets/Graphics/EditorIcons/Bomb 1.png" id="44_18kx1"]
+[ext_resource type="Texture2D" uid="uid://451fktgycq5a" path="res://Assets/Graphics/EditorIcons/Tony 1.png" id="45_ml0cc"]
+[ext_resource type="PackedScene" uid="uid://dktad06y2btyj" path="res://Scenes/theme_selector.tscn" id="46_hppm4"]
+
+[sub_resource type="Theme" id="Theme_ruwpr"]
+default_base_scale = 1.0
+default_font_size = 0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1giqv"]
+size = Vector2(66, 199)
+
+[node name="Editor" type="Node2D"]
+script = ExtResource("1_eyy8u")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -8)
+zoom = Vector2(1.5, 1.5)
+process_callback = 0
+limit_left = -700
+limit_top = -4000
+limit_right = 3000
+limit_bottom = 205
+position_smoothing_enabled = true
+script = ExtResource("3_ruwpr")
+
+[node name="Blocks" type="Node2D" parent="."]
+
+[node name="Birds" type="Node2D" parent="."]
+
+[node name="EditorUI" type="CanvasLayer" parent="."]
+layer = 6
+
+[node name="Exit" type="TextureButton" parent="EditorUI"]
+z_index = 2
+offset_left = 45.0002
+offset_top = 30.0001
+offset_right = 142.0
+offset_bottom = 126.0
+scale = Vector2(2.035, 2.035)
+texture_normal = ExtResource("2_24ceq")
+
+[node name="Add" type="TextureButton" parent="EditorUI"]
+offset_left = 3260.0
+offset_top = 57.0
+offset_right = 3300.0
+offset_bottom = 97.0
+scale = Vector2(4.19, 4.19)
+texture_normal = ExtResource("3_a7iym")
+script = ExtResource("4_7wlcy")
+
+[node name="Save" type="TextureButton" parent="EditorUI"]
+offset_left = 45.0
+offset_top = 243.0
+offset_right = 145.0
+offset_bottom = 343.0
+scale = Vector2(2, 2)
+texture_normal = ExtResource("7_ruwpr")
+
+[node name="FileDialog" type="FileDialog" parent="EditorUI/Save"]
+position = Vector2i(0, 36)
+size = Vector2i(3380, 1840)
+content_scale_size = Vector2i(200, 200)
+content_scale_aspect = 4
+content_scale_factor = 4.71
+theme = SubResource("Theme_ruwpr")
+access = 2
+
+[node name="SettingsButton" type="TextureButton" parent="EditorUI"]
+offset_left = 3239.0
+offset_top = 1750.0
+offset_right = 3343.0
+offset_bottom = 1861.0
+scale = Vector2(2, 2)
+texture_normal = ExtResource("7_lo3ql")
+script = ExtResource("8_fls10")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorUI/SettingsButton"]
+position = Vector2(52, 49)
+texture = ExtResource("8_5yagh")
+
+[node name="ExitCofirm" type="Sprite2D" parent="EditorUI"]
+visible = false
+position = Vector2(1899, 940)
+scale = Vector2(4.36, 4.36)
+texture = ExtResource("10_r6kqb")
+
+[node name="Label" type="Label" parent="EditorUI/ExitCofirm"]
+offset_left = -168.0
+offset_top = -94.0
+offset_right = 166.0
+offset_bottom = 74.0
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("11_sdqln")
+theme_override_font_sizes/font_size = 31
+text = "Are you sure you want to leave the editor? The level won't be saved."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Cancel" type="TextureButton" parent="EditorUI/ExitCofirm"]
+offset_left = 54.8165
+offset_top = 55.5046
+offset_right = 189.817
+offset_bottom = 192.505
+scale = Vector2(0.6, 0.6)
+texture_normal = ExtResource("12_hhub4")
+
+[node name="Confirm" type="TextureButton" parent="EditorUI/ExitCofirm"]
+offset_left = -142.431
+offset_top = 55.5046
+offset_right = -7.4312
+offset_bottom = 192.505
+scale = Vector2(0.6, 0.6)
+texture_normal = ExtResource("13_1pi8w")
+
+[node name="Settings" type="Sprite2D" parent="EditorUI"]
+visible = false
+position = Vector2(1894, 972)
+scale = Vector2(4.83518, 4.83518)
+texture = ExtResource("14_hhub4")
+
+[node name="Star2" type="LineEdit" parent="EditorUI/Settings"]
+offset_left = 17.5795
+offset_top = -156.354
+offset_right = 161.579
+offset_bottom = -106.354
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 36
+text = "20000"
+placeholder_text = "20000"
+max_length = 6
+virtual_keyboard_type = 2
+
+[node name="Star2Label" type="Label" parent="EditorUI/Settings"]
+offset_left = -145.186
+offset_top = -156.354
+offset_right = -1.1859
+offset_bottom = -106.354
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 36
+text = "Star 2"
+vertical_alignment = 1
+
+[node name="Star3" type="LineEdit" parent="EditorUI/Settings"]
+offset_left = 17.5795
+offset_top = -93.4815
+offset_right = 161.579
+offset_bottom = -43.4815
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 36
+text = "40000"
+placeholder_text = "40000"
+max_length = 6
+virtual_keyboard_type = 2
+
+[node name="Star3Label" type="Label" parent="EditorUI/Settings"]
+offset_left = -145.186
+offset_top = -94.9293
+offset_right = -1.1859
+offset_bottom = -44.9293
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 36
+text = "Star 3"
+vertical_alignment = 1
+
+[node name="SelectTheme" type="Button" parent="EditorUI/Settings"]
+offset_left = -159.0
+offset_top = -15.0
+offset_right = 161.0
+offset_bottom = 62.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 56
+text = "Select Theme"
+
+[node name="Cancel" type="TextureButton" parent="EditorUI/Settings"]
+offset_left = 128.434
+offset_top = 126.986
+offset_right = 263.434
+offset_bottom = 263.986
+scale = Vector2(0.6, 0.6)
+texture_normal = ExtResource("12_hhub4")
+
+[node name="OptionButton" type="OptionButton" parent="EditorUI/Settings"]
+offset_left = -130.295
+offset_top = 80.8656
+offset_right = 138.705
+offset_bottom = 130.866
+theme_override_fonts/font = ExtResource("6_7fkqn")
+
+[node name="AssetSelector" type="CanvasLayer" parent="."]
+layer = 15
+visible = false
+
+[node name="BlackThingCoveringGame" type="Sprite2D" parent="AssetSelector"]
+visible = false
+self_modulate = Color(0, 0, 0, 0.447059)
+z_index = -3
+position = Vector2(2816, 886)
+scale = Vector2(4.336, 2.812)
+texture = ExtResource("5_wkuwf")
+
+[node name="TypeSelect" type="ItemList" parent="AssetSelector"]
+offset_right = 3454.0
+offset_bottom = 1931.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 5
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(685, 685)
+item_0/text = "Blocks"
+item_0/icon = ExtResource("7_yl2l4")
+item_1/text = "Items"
+item_1/icon = ExtResource("10_32ik4")
+item_2/text = "Pigs"
+item_2/icon = ExtResource("11_1k58v")
+item_3/text = "Birds"
+item_3/icon = ExtResource("12_yoksu")
+item_4/text = "Ground"
+item_4/icon = ExtResource("42_1pi8w")
+script = ExtResource("9_32ik4")
+
+[node name="GameSelect" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 2178.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 12
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Classic"
+item_0/icon = ExtResource("11_o8yew")
+item_1/text = "Seasons"
+item_1/icon = ExtResource("12_u6te5")
+item_2/text = "Rio"
+item_2/icon = ExtResource("13_efg2m")
+item_3/text = "Space"
+item_3/icon = ExtResource("14_iis80")
+item_4/text = "Star Wars"
+item_4/icon = ExtResource("15_06d57")
+item_5/text = "Friends"
+item_5/icon = ExtResource("16_af0oh")
+item_6/text = "Star Wars II"
+item_6/icon = ExtResource("17_l5j4h")
+item_7/text = "Stella"
+item_7/icon = ExtResource("18_ukxwk")
+item_8/text = "Angry Birds 2"
+item_8/icon = ExtResource("19_ruwpr")
+item_9/text = "Reloaded"
+item_9/icon = ExtResource("20_1giqv")
+item_10/text = "Journey"
+item_10/icon = ExtResource("21_6utg8")
+item_11/text = "Fanmade"
+item_11/icon = ExtResource("23_iis80")
+script = ExtResource("9_32ik4")
+
+[node name="ABCBlockList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 7
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Long Wood"
+item_0/icon = ExtResource("35_u1k11")
+item_1/text = "Wood Square"
+item_1/icon = ExtResource("7_yl2l4")
+item_2/text = "Wood Triangle"
+item_2/icon = ExtResource("8_eo2o7")
+item_3/text = "Longer Stone"
+item_3/icon = ExtResource("36_ij0l5")
+item_4/text = "Big Rock"
+item_4/icon = ExtResource("36_asgqx")
+item_5/text = "Glass Square"
+item_5/icon = ExtResource("37_3vnj4")
+item_6/text = "Glass Brick"
+item_6/icon = ExtResource("37_50fx4")
+script = ExtResource("9_32ik4")
+
+[node name="ABCItemList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "TNT"
+item_0/icon = ExtResource("10_32ik4")
+script = ExtResource("9_32ik4")
+
+[node name="ABCPigList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 2
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Old Pig"
+item_0/icon = ExtResource("25_l5j4h")
+item_1/text = "Old Small Pig"
+item_1/icon = ExtResource("25_l5j4h")
+script = ExtResource("9_32ik4")
+
+[node name="FanPigList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Dog Piggen"
+item_0/icon = ExtResource("23_iis80")
+script = ExtResource("9_32ik4")
+
+[node name="ABCBirdList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 5
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Red"
+item_0/icon = ExtResource("12_yoksu")
+item_1/text = "The Blues"
+item_1/icon = ExtResource("36_6rfi4")
+item_2/text = "Chuck"
+item_2/icon = ExtResource("28_ng50i")
+item_3/text = "Bomb"
+item_3/icon = ExtResource("44_18kx1")
+item_4/text = "Terence"
+item_4/icon = ExtResource("43_ekxub")
+script = ExtResource("9_32ik4")
+
+[node name="ABSeBirdList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Tony"
+item_0/icon = ExtResource("45_ml0cc")
+script = ExtResource("9_32ik4")
+
+[node name="ABSpBirdList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 1
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Lazer Bird"
+item_0/icon = ExtResource("37_gbgnm")
+script = ExtResource("9_32ik4")
+
+[node name="GroundList" type="ItemList" parent="AssetSelector"]
+visible = false
+offset_right = 3454.0
+offset_bottom = 1238.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 81
+max_text_lines = 5
+item_count = 3
+max_columns = 0
+same_column_width = true
+icon_mode = 0
+fixed_icon_size = Vector2i(500, 500)
+item_0/text = "Square"
+item_0/icon = ExtResource("42_1pi8w")
+item_1/text = "Circle"
+item_1/icon = ExtResource("37_1l34x")
+item_2/text = "Triangle"
+item_2/icon = ExtResource("38_gbgnm")
+script = ExtResource("9_32ik4")
+
+[node name="BackButton" type="TextureButton" parent="AssetSelector"]
+z_index = 2
+offset_left = 8.0
+offset_top = 1643.0
+offset_right = 105.0
+offset_bottom = 1740.0
+scale = Vector2(3.47, 3.47)
+texture_normal = ExtResource("24_efg2m")
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_af0oh")
+volume_db = -5.0
+
+[node name="ButtonBack" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27_l5j4h")
+volume_db = -5.0
+
+[node name="Slingshot" type="Area2D" parent="."]
+z_index = 1
+script = ExtResource("30_6utg8")
+
+[node name="Sprites" type="Node2D" parent="Slingshot"]
+
+[node name="A" type="Sprite2D" parent="Slingshot/Sprites"]
+position = Vector2(4, -98.5)
+texture = ExtResource("30_1giqv")
+
+[node name="B" type="Sprite2D" parent="Slingshot/Sprites"]
+z_index = 3
+position = Vector2(-22, -139.5)
+scale = Vector2(0.925, 0.925)
+texture = ExtResource("31_6utg8")
+
+[node name="RightLine" type="Line2D" parent="Slingshot"]
+z_index = -1
+points = PackedVector2Array(13, -167, -12, -167)
+default_color = Color(0.332031, 0.132813, 0.0664063, 1)
+
+[node name="LeftLine" type="Line2D" parent="Slingshot"]
+z_index = 2
+points = PackedVector2Array(-28, -170, -8, -167)
+default_color = Color(0.332031, 0.132813, 0.0664063, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Slingshot"]
+position = Vector2(-10, -99.5)
+shape = SubResource("RectangleShape2D_1giqv")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Slingshot"]
+layer = 10
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="Slingshot/CanvasLayer"]
+z_index = 5
+position = Vector2(783, 844)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("14_hhub4")
+
+[node name="Rotation" type="Label" parent="Slingshot/CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 217.0
+offset_right = 662.0
+offset_bottom = 386.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+
+[node name="TextEdit" type="LineEdit" parent="Slingshot/CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("6_7fkqn")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+
+[node name="Close" type="TextureButton" parent="Slingshot/CanvasLayer"]
+z_index = 5
+offset_left = 597.0
+offset_top = 1457.0
+offset_right = 732.0
+offset_bottom = 1594.0
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("12_hhub4")
+
+[node name="Ground" type="Node2D" parent="."]
+
+[node name="ThemeSelector" parent="." instance=ExtResource("46_hppm4")]
+layer = 15
+
+[connection signal="button_down" from="EditorUI/Exit" to="." method="_on_exit_button_down"]
+[connection signal="button_down" from="EditorUI/Add" to="." method="_on_add_button_down"]
+[connection signal="button_down" from="EditorUI/Save" to="." method="_on_texture_button_button_down"]
+[connection signal="file_selected" from="EditorUI/Save/FileDialog" to="." method="_on_file_dialog_save_file_selected"]
+[connection signal="button_down" from="EditorUI/SettingsButton" to="." method="_on_settings_button_button_down"]
+[connection signal="button_down" from="EditorUI/ExitCofirm/Cancel" to="." method="_on_cancel_button_down"]
+[connection signal="button_down" from="EditorUI/ExitCofirm/Confirm" to="." method="_on_confirm_button_down"]
+[connection signal="text_changed" from="EditorUI/Settings/Star2" to="." method="_on_star_2_text_changed"]
+[connection signal="text_changed" from="EditorUI/Settings/Star3" to="." method="_on_star_3_text_changed"]
+[connection signal="button_down" from="EditorUI/Settings/SelectTheme" to="." method="_on_select_theme_button_down"]
+[connection signal="button_down" from="EditorUI/Settings/Cancel" to="." method="_on_settings_cancel_button_down"]
+[connection signal="item_selected" from="EditorUI/Settings/OptionButton" to="." method="_on_option_button_item_selected"]
+[connection signal="item_activated" from="AssetSelector/TypeSelect" to="." method="_on_type_select_item_activated"]
+[connection signal="item_activated" from="AssetSelector/GameSelect" to="." method="_on_game_select_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABCBlockList" to="." method="_on_abc_block_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABCItemList" to="." method="_on_abc_item_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABCPigList" to="." method="_on_abc_pig_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/FanPigList" to="." method="_on_fan_pig_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABCBirdList" to="." method="_on_abc_bird_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABSeBirdList" to="." method="_on_ab_se_bird_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/ABSpBirdList" to="." method="_on_abs_bird_list_item_activated"]
+[connection signal="item_activated" from="AssetSelector/GroundList" to="." method="_on_ground_list_item_activated"]
+[connection signal="button_down" from="AssetSelector/BackButton" to="." method="_on_back_button_button_down"]
+[connection signal="input_event" from="Slingshot" to="Slingshot" method="_on_input_event"]
+[connection signal="text_changed" from="Slingshot/CanvasLayer/Rotation/TextEdit" to="Slingshot" method="_on_text_edit_text_changed"]
+[connection signal="button_down" from="Slingshot/CanvasLayer/Close" to="Slingshot" method="_on_close_button_down"]

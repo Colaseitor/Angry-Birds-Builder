@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bl10732pycng4"
+path="res://.godot/imported/093. Sfx - Rocket Explode01.mp3-d717c3c7a671bbc6adada1cc71195f7a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/093. Sfx - Rocket Explode01.mp3"
+dest_files=["res://.godot/imported/093. Sfx - Rocket Explode01.mp3-d717c3c7a671bbc6adada1cc71195f7a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

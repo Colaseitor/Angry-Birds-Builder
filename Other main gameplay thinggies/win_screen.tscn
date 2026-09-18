@@ -1,0 +1,121 @@
+[gd_scene load_steps=16 format=3 uid="uid://kp1abo7ch8pq"]
+
+[ext_resource type="Texture2D" uid="uid://ddfc8jhr1gljc" path="res://Assets/Graphics/Other/12 de agosto.png" id="1_lpvob"]
+[ext_resource type="Script" uid="uid://c2bdr0quw4jub" path="res://Other main gameplay thinggies/win_screen.gd" id="1_yqbht"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="2_yqbht"]
+[ext_resource type="Texture2D" uid="uid://ceb5g3br36hx2" path="res://Assets/Graphics/Other/ClassicStarSpot1.png" id="3_xjgje"]
+[ext_resource type="Texture2D" uid="uid://c01tcexbwjtk6" path="res://Assets/Graphics/Other/ClassicStarSpot2.png" id="4_ycon5"]
+[ext_resource type="Texture2D" uid="uid://cravcxagkf1so" path="res://Assets/Graphics/Other/ClassicStarSpot3.png" id="5_k5kwf"]
+[ext_resource type="AudioStream" uid="uid://dj61xh1tahx6r" path="res://Assets/Audio/Main/ABClassic/184. Sfx - Gamescorescreen Score Count Loop.mp3" id="7_xjgje"]
+[ext_resource type="Texture2D" uid="uid://jkjptrhd2iip" path="res://Assets/Graphics/Other/ClassicStar1.png" id="8_cxts0"]
+[ext_resource type="Texture2D" uid="uid://djmcqds6sl0nk" path="res://Assets/Graphics/Other/ClassicStar2.png" id="9_rt4ml"]
+[ext_resource type="Texture2D" uid="uid://u84mdelyqhrh" path="res://Assets/Graphics/Other/ClassicStar3.png" id="10_bbhrt"]
+[ext_resource type="AudioStream" uid="uid://06axxh61tas0" path="res://Assets/Audio/Main/ABSeasons/502. Sfx - Star 1.mp3" id="11_cxts0"]
+[ext_resource type="AudioStream" uid="uid://b3yybs57nnh4h" path="res://Assets/Audio/Main/ABSeasons/504. Sfx - Star 2.mp3" id="12_rt4ml"]
+[ext_resource type="AudioStream" uid="uid://cv51mi0mo0wrn" path="res://Assets/Audio/Main/ABSeasons/506. Sfx - Star 3.mp3" id="13_bbhrt"]
+[ext_resource type="Texture2D" uid="uid://b8u7j1kabmvdg" path="res://Assets/Graphics/Botones/Restart.png" id="14_bbhrt"]
+[ext_resource type="Texture2D" uid="uid://cn6k2v0rblcx4" path="res://Assets/Graphics/Botones/Menu.png" id="15_inwe5"]
+
+[node name="WinScreen" type="CanvasLayer"]
+process_mode = 2
+layer = 20
+script = ExtResource("1_yqbht")
+
+[node name="BlackThingStars" type="Sprite2D" parent="."]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1846, 966)
+scale = Vector2(0.515333, 0.775)
+texture = ExtResource("1_lpvob")
+
+[node name="BlackThingCoveringGame" type="Sprite2D" parent="."]
+self_modulate = Color(0, 0, 0, 0.447059)
+z_index = -3
+position = Vector2(1846, 951)
+scale = Vector2(1.566, 0.992)
+texture = ExtResource("1_lpvob")
+
+[node name="LevelComplete" type="Label" parent="."]
+offset_left = 762.0
+offset_top = 64.0
+offset_right = 2999.0
+offset_bottom = 440.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_yqbht")
+theme_override_font_sizes/font_size = 156
+text = "LEVEL COMPLETE!"
+horizontal_alignment = 1
+
+[node name="StarSpot1" type="Sprite2D" parent="."]
+position = Vector2(1359, 643)
+scale = Vector2(3, 3)
+texture = ExtResource("3_xjgje")
+
+[node name="Star1" type="Sprite2D" parent="StarSpot1"]
+visible = false
+texture = ExtResource("8_cxts0")
+
+[node name="StarSpot2" type="Sprite2D" parent="."]
+position = Vector2(1852, 519)
+scale = Vector2(3, 3)
+texture = ExtResource("4_ycon5")
+
+[node name="Star2" type="Sprite2D" parent="StarSpot2"]
+visible = false
+texture = ExtResource("9_rt4ml")
+
+[node name="StarSpot3" type="Sprite2D" parent="."]
+position = Vector2(2370, 643)
+scale = Vector2(3, 3)
+texture = ExtResource("5_k5kwf")
+
+[node name="Star3" type="Sprite2D" parent="StarSpot3"]
+visible = false
+texture = ExtResource("10_bbhrt")
+
+[node name="Points" type="Label" parent="."]
+offset_left = 1643.0
+offset_top = 953.0
+offset_right = 2063.0
+offset_bottom = 1117.0
+theme_override_fonts/font = ExtResource("2_yqbht")
+theme_override_font_sizes/font_size = 141
+text = "0"
+horizontal_alignment = 1
+
+[node name="184_Sfx-GamescorescreenScoreCountLoop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_xjgje")
+volume_db = -10.0
+parameters/looping = true
+
+[node name="StarTimer" type="Timer" parent="."]
+wait_time = 0.8
+autostart = true
+
+[node name="Star1Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_cxts0")
+
+[node name="Star2Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_rt4ml")
+
+[node name="Star3Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_bbhrt")
+
+[node name="Restart" type="TextureButton" parent="."]
+offset_left = 2070.0
+offset_top = 1642.0
+offset_right = 2178.0
+offset_bottom = 1754.0
+scale = Vector2(2.98, 2.98)
+texture_normal = ExtResource("14_bbhrt")
+
+[node name="Menu" type="TextureButton" parent="."]
+offset_left = 1354.0
+offset_top = 1642.0
+offset_right = 1462.0
+offset_bottom = 1754.0
+scale = Vector2(2.98, 2.98)
+texture_normal = ExtResource("15_inwe5")
+
+[connection signal="timeout" from="StarTimer" to="." method="_on_star_timer_timeout"]
+[connection signal="button_down" from="Restart" to="." method="_on_restart_button_down"]
+[connection signal="button_down" from="Menu" to="." method="_on_menu_button_down"]

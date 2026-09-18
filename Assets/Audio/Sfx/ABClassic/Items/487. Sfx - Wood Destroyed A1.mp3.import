@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmdow3sr31sim"
+path="res://.godot/imported/487. Sfx - Wood Destroyed A1.mp3-08085be1811043b4c9aa26cfd3538650.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/487. Sfx - Wood Destroyed A1.mp3"
+dest_files=["res://.godot/imported/487. Sfx - Wood Destroyed A1.mp3-08085be1811043b4c9aa26cfd3538650.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

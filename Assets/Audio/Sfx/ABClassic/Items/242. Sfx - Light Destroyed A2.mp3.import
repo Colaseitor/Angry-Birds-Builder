@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1yg18hbgi5kd"
+path="res://.godot/imported/242. Sfx - Light Destroyed A2.mp3-c0baaf1fa727d666ddd4c186457a0647.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/242. Sfx - Light Destroyed A2.mp3"
+dest_files=["res://.godot/imported/242. Sfx - Light Destroyed A2.mp3-c0baaf1fa727d666ddd4c186457a0647.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

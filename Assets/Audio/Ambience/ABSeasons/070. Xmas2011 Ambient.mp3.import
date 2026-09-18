@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bb01140ka4jn7"
+path="res://.godot/imported/070. Xmas2011 Ambient.mp3-51a8a6975fbeac7f950db9f30b10a373.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABSeasons/070. Xmas2011 Ambient.mp3"
+dest_files=["res://.godot/imported/070. Xmas2011 Ambient.mp3-51a8a6975fbeac7f950db9f30b10a373.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

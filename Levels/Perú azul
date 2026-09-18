@@ -1,0 +1,18 @@
+{"ambience":0,"sling rot":0.0,"sling x":302.497985839844,"sling y":-379.463684082031,"star2":20000,"star3":40000,"theme":"South Hamerica-NG","type":"main"}
+{"floating":true,"life":0,"name":"Dog Piggen","position x":1619.84643554688,"position y":-283.630615234375,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Dog Piggen","position x":1634.11157226563,"position y":-829.327331542969,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Dog Piggen","position x":1619.84643554688,"position y":-554.695617675781,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1218.63903808594,"position y":-269.364013671875,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1220.42211914063,"position y":-394.196533203125,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1223.98840332031,"position y":-522.595825195313,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1223.98840332031,"position y":-661.694946289063,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1229.337890625,"position y":-759.777770996094,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0,"name":"Wood Square","position x":1227.5546875,"position y":-881.043701171875,"rotation":0.0,"type":"block"}
+{"name":"The Blues","position x":194.425048828125,"position y":-393.958618164063,"rotation":0.0,"type":"bird"}
+{"name":"Lazer Bird","position x":97.6598510742188,"position y":-400.497436523438,"rotation":0.0,"type":"bird"}
+{"name":"Lazer Bird","position x":-6.95135498046875,"position y":-399.189697265625,"rotation":0.0,"type":"bird"}
+{"name":"Red","position x":-120.715881347656,"position y":-322.031311035156,"rotation":0.0,"type":"bird"}
+{"name":"Red","position x":-174.3291015625,"position y":-322.031311035156,"rotation":0.0,"type":"bird"}
+{"name":"Red","position x":-230.557586669922,"position y":-322.031311035156,"rotation":0.0,"type":"bird"}
+{"heigth":9.0,"name":"Ground Square","position x":288.901916503906,"position y":74.222900390625,"rotation":0.0,"type":"ground","width":7.0}
+{"heigth":0.5,"name":"Ground Square","position x":-162.560363769531,"position y":-278.874877929688,"rotation":0.0,"type":"ground","width":2.0}

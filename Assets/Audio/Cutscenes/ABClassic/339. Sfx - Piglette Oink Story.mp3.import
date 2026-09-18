@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chrvy7spqbags"
+path="res://.godot/imported/339. Sfx - Piglette Oink Story.mp3-07ef3845d5c400de7efb4f7ed4e6d494.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Cutscenes/ABClassic/339. Sfx - Piglette Oink Story.mp3"
+dest_files=["res://.godot/imported/339. Sfx - Piglette Oink Story.mp3-07ef3845d5c400de7efb4f7ed4e6d494.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,9 @@
+{"ambience":0.0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":20000.0,"star3":40000.0,"theme":"Poached Eggs","type":"main"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":1045.69799804688,"position y":-132.404663085938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1640.673828125,"position y":-43.476318359375,"rotation":0.0,"type":"block"}
+{"name":"Chuck","position x":-76.2561645507813,"position y":-25.16748046875,"rotation":0.0,"type":"bird"}
+{"name":"Chuck","position x":-135.099914550781,"position y":-17.32080078125,"rotation":0.0,"type":"bird"}
+{"name":"Chuck","position x":-187.405456542969,"position y":-23.8597412109375,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-239.711029052734,"position y":-29.0908203125,"rotation":0.0,"type":"bird"}
+{"name":"Shakira","position x":-301.170043945313,"position y":-30.3985595703125,"rotation":0.0,"type":"bird"}
+{"heigth":1.0,"name":"Ground Circle","position x":1028.69873046875,"position y":3.603515625,"rotation":0.0,"type":"ground","width":7.0}

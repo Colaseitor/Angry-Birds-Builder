@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://42nkd7ivqgch"
+path="res://.godot/imported/281. Sfx - Page Turn 01.mp3-5d00ff6e2198c552665fcbc2f551624b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/281. Sfx - Page Turn 01.mp3"
+dest_files=["res://.godot/imported/281. Sfx - Page Turn 01.mp3-5d00ff6e2198c552665fcbc2f551624b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

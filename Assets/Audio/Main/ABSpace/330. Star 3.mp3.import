@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dloptf4cthjat"
+path="res://.godot/imported/330. Star 3.mp3-b17a3b7448be8863fa212dc08fa48570.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSpace/330. Star 3.mp3"
+dest_files=["res://.godot/imported/330. Star 3.mp3-b17a3b7448be8863fa212dc08fa48570.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

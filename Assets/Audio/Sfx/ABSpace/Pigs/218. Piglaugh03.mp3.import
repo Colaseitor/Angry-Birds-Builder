@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvpshjn50hdu0"
+path="res://.godot/imported/218. Piglaugh03.mp3-e9167f6c46a59c5f0d0ab196a530cd28.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/218. Piglaugh03.mp3"
+dest_files=["res://.godot/imported/218. Piglaugh03.mp3-e9167f6c46a59c5f0d0ab196a530cd28.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

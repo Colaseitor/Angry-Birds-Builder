@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkg0ce2go07jt"
+path="res://.godot/imported/177. Level Failed Piglets A2.mp3-ce29760ebb7c1d927480c4714c18af2d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSpace/177. Level Failed Piglets A2.mp3"
+dest_files=["res://.godot/imported/177. Level Failed Piglets A2.mp3-ce29760ebb7c1d927480c4714c18af2d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

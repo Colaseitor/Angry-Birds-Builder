@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvast8o10ejoi"
+path="res://.godot/imported/520. Sfx - Teaparty-Hedge-Collision-2.mp3-e8a2f96b3c7a692657d0d23ec18457e0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/520. Sfx - Teaparty-Hedge-Collision-2.mp3"
+dest_files=["res://.godot/imported/520. Sfx - Teaparty-Hedge-Collision-2.mp3-e8a2f96b3c7a692657d0d23ec18457e0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

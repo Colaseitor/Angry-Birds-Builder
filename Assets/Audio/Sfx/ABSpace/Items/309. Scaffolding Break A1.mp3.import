@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dt50dat3muti2"
+path="res://.godot/imported/309. Scaffolding Break A1.mp3-029df150b71d2eb302fbcb99d2b614e2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/309. Scaffolding Break A1.mp3"
+dest_files=["res://.godot/imported/309. Scaffolding Break A1.mp3-029df150b71d2eb302fbcb99d2b614e2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

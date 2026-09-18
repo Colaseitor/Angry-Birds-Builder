@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yyhteoepui2d"
+path="res://.godot/imported/100. Sfx - Bird Shot-A1.mp3-682cb2e849cf7e20dd68d9a886c078ba.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Slingshot/100. Sfx - Bird Shot-A1.mp3"
+dest_files=["res://.godot/imported/100. Sfx - Bird Shot-A1.mp3-682cb2e849cf7e20dd68d9a886c078ba.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

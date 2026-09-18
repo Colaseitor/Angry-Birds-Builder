@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ceilvis0k7b4v"
+path="res://.godot/imported/351. Sfx - Misc Torch Loop 01.mp3-31b6efc836fa654789fd697a741b756b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/351. Sfx - Misc Torch Loop 01.mp3"
+dest_files=["res://.godot/imported/351. Sfx - Misc Torch Loop 01.mp3-31b6efc836fa654789fd697a741b756b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

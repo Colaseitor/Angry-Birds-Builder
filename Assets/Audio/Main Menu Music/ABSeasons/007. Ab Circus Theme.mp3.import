@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbwlabrbc7lcm"
+path="res://.godot/imported/007. Ab Circus Theme.mp3-e639259f55cc8ec624652e1cffa3aa79.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/007. Ab Circus Theme.mp3"
+dest_files=["res://.godot/imported/007. Ab Circus Theme.mp3-e639259f55cc8ec624652e1cffa3aa79.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

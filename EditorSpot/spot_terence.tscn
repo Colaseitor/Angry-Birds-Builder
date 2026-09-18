@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ch7iyft2klnrn"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_jecim"]
+[ext_resource type="Texture2D" uid="uid://cnlo68hkeq6md" path="res://Assets/Graphics/EditorIcons/Terence 1.png" id="2_lnp8m"]
+
+[node name="SpotTerence" instance=ExtResource("1_jecim")]
+thing_name = "Terence"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_lnp8m")

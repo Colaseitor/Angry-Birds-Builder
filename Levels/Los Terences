@@ -1,0 +1,22 @@
+{"ambience":1.0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":40000.0,"star3":50000.0,"theme":"South Hamerica","type":"main"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":938.471618652344,"position y":-209.563049316406,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":941.495483398438,"position y":-291.543823242188,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":941.495483398438,"position y":-372.462158203125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":939.043579101563,"position y":-453.380432128906,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1159.70776367188,"position y":-209.399536132813,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1163.38537597656,"position y":-291.543823242188,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1162.15954589844,"position y":-371.236083984375,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1158.48168945313,"position y":-452.154357910156,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":1135.189453125,"position y":-533.072631835938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Wood Square","position x":964.787719726563,"position y":-533.072631835938,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1053.05334472656,"position y":-209.399536132813,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1022.40563964844,"position y":-286.639709472656,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1073.89379882813,"position y":-352.845520019531,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1022.40563964844,"position y":-426.407653808594,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":1457.60424804688,"position y":-41.432861328125,"rotation":0.0,"type":"block"}
+{"floating":false,"life":0.0,"name":"Old Pig","position x":-290.545684814453,"position y":-51.2411499023438,"rotation":0.0,"type":"block"}
+{"name":"Terence","position x":-94.75,"position y":-44.4104614257813,"rotation":0.0,"type":"bird"}
+{"name":"Terence Rio 2","position x":-193.756958007813,"position y":-49.0811157226563,"rotation":0.0,"type":"bird"}
+{"name":"Terence Rio 2","position x":-391.770843505859,"position y":-53.7516479492188,"rotation":0.0,"type":"bird"}
+{"name":"Terence Rio 2","position x":-480.503479003906,"position y":-56.5540771484375,"rotation":0.0,"type":"bird"}
+{"heigth":2.0,"name":"Ground Square","position x":1069.2353515625,"position y":-68.323974609375,"rotation":0.0,"type":"ground","width":4.0}

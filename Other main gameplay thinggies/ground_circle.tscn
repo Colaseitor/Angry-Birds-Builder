@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dja4gctt5x3kf"]
+
+[ext_resource type="Script" uid="uid://cdt1gyiujldtu" path="res://Other main gameplay thinggies/ground.gd" id="1_kk1pn"]
+[ext_resource type="Texture2D" uid="uid://ck3kaucsub64" path="res://Assets/Graphics/EditorIcons/GroundCircle.png" id="2_g0uio"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_awk3h"]
+bounce = 0.2
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_85q1l"]
+radius = 14.2
+
+[node name="GroundCircle" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_awk3h")
+freeze = true
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_kk1pn")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(1, 1, 1, 0)
+texture = ExtResource("2_g0uio")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.14577e-06)
+scale = Vector2(5.05, 5.05)
+shape = SubResource("CircleShape2D_85q1l")

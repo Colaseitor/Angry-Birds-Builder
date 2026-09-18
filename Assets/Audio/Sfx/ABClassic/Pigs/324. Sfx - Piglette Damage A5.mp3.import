@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pg274p6sxte"
+path="res://.godot/imported/324. Sfx - Piglette Damage A5.mp3-0396825d6b19b1c914602ce8a35d7e04.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/324. Sfx - Piglette Damage A5.mp3"
+dest_files=["res://.godot/imported/324. Sfx - Piglette Damage A5.mp3-0396825d6b19b1c914602ce8a35d7e04.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://whxn4mocdc81"
+path="res://.godot/imported/317. Space Eagle.mp3-6a17d8fefcfcecdae7b1bb217c4679c1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Powerups/317. Space Eagle.mp3"
+dest_files=["res://.godot/imported/317. Space Eagle.mp3-6a17d8fefcfcecdae7b1bb217c4679c1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

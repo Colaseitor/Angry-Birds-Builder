@@ -1,0 +1,21 @@
+[gd_resource type="TileSet" load_steps=4 format=3 uid="uid://b6vmle17uaqhi"]
+
+[ext_resource type="Texture2D" uid="uid://dinwe3umh3qxg" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs ground.png" id="1_qwnna"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8wic2"]
+friction = 3.0
+rough = true
+bounce = 0.2
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h68jm"]
+resource_name = "Ground"
+texture = ExtResource("1_qwnna")
+texture_region_size = Vector2i(346, 205)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-173, -102.5, 173, -102.5, 173, 102.5, -173, 102.5)
+
+[resource]
+tile_size = Vector2i(346, 205)
+physics_layer_0/collision_layer = 1
+physics_layer_0/physics_material = SubResource("PhysicsMaterial_8wic2")
+sources/0 = SubResource("TileSetAtlasSource_h68jm")

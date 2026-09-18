@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4kv2i1yirpvj"
+path="res://.godot/imported/275. Sfx - Mighty Eagle Fly.mp3-0cee558326cc9e5c354d0e672cd870f7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Powerups/275. Sfx - Mighty Eagle Fly.mp3"
+dest_files=["res://.godot/imported/275. Sfx - Mighty Eagle Fly.mp3-0cee558326cc9e5c354d0e672cd870f7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

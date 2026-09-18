@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dp0af68d67dvq"
+path="res://.godot/imported/180. Levellocked.mp3-3bc8174a6d0024aa8c590e6665f9bcaf.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSpace/180. Levellocked.mp3"
+dest_files=["res://.godot/imported/180. Levellocked.mp3-3bc8174a6d0024aa8c590e6665f9bcaf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

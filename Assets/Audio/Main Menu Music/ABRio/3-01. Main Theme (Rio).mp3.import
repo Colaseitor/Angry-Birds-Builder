@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dm38md62fp4kt"
+path="res://.godot/imported/3-01. Main Theme (Rio).mp3-c7a49d40e5dc40ae9a1917f303aa5734.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABRio/3-01. Main Theme (Rio).mp3"
+dest_files=["res://.godot/imported/3-01. Main Theme (Rio).mp3-c7a49d40e5dc40ae9a1917f303aa5734.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bde6g1ous3431"
+path="res://.godot/imported/009. Ab Space Mirror Theme.mp3-b2708e1043efecdd79c41e710fa9dfb8.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSpace/009. Ab Space Mirror Theme.mp3"
+dest_files=["res://.godot/imported/009. Ab Space Mirror Theme.mp3-b2708e1043efecdd79c41e710fa9dfb8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

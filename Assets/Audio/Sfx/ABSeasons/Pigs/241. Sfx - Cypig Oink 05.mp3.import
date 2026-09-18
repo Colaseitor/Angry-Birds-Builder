@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bc5l683jg12y4"
+path="res://.godot/imported/241. Sfx - Cypig Oink 05.mp3-27124cdb2b7b4c08a1c29fc55c605902.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Pigs/241. Sfx - Cypig Oink 05.mp3"
+dest_files=["res://.godot/imported/241. Sfx - Cypig Oink 05.mp3-27124cdb2b7b4c08a1c29fc55c605902.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

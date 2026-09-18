@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dy6s3qjqrwpnf"
+path="res://.godot/imported/461. Sfx - Snowball Breaks A1.mp3-faac91533d8c757520cd65e95836cb87.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/461. Sfx - Snowball Breaks A1.mp3"
+dest_files=["res://.godot/imported/461. Sfx - Snowball Breaks A1.mp3-faac91533d8c757520cd65e95836cb87.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

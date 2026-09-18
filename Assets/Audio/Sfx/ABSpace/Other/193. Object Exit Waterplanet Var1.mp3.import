@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by7fi7wm0b2ry"
+path="res://.godot/imported/193. Object Exit Waterplanet Var1.mp3-d6d05deaa43add22407f334676506bc1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Other/193. Object Exit Waterplanet Var1.mp3"
+dest_files=["res://.godot/imported/193. Object Exit Waterplanet Var1.mp3-d6d05deaa43add22407f334676506bc1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

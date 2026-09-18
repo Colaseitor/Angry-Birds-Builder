@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhg4i70tiviho"
+path="res://.godot/imported/175. Level Clear Military A2.mp3-7a8ad1f1207a98f3a2b0c3b2cd73b922.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSpace/175. Level Clear Military A2.mp3"
+dest_files=["res://.godot/imported/175. Level Clear Military A2.mp3-7a8ad1f1207a98f3a2b0c3b2cd73b922.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dyt1vggpmwfml"
+path="res://.godot/imported/467. Sfx - Snowball Damaged A3.mp3-5cd207e22b4046dd4a24c05e3c1933e6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/467. Sfx - Snowball Damaged A3.mp3"
+dest_files=["res://.godot/imported/467. Sfx - Snowball Damaged A3.mp3-5cd207e22b4046dd4a24c05e3c1933e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

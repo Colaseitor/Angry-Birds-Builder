@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bu5i8uoefhd37"
+path="res://.godot/imported/261. Pipehitlarge 01.mp3-da199a7dd1e0f2959dceb2824de94873.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/261. Pipehitlarge 01.mp3"
+dest_files=["res://.godot/imported/261. Pipehitlarge 01.mp3-da199a7dd1e0f2959dceb2824de94873.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

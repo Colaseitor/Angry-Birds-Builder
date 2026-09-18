@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://fmpl50wv4pg3"]
+
+[ext_resource type="Script" uid="uid://dmnprawnrfg3d" path="res://Scenes/TitleScreenBirds/title_screen_laser_bird.gd" id="1_gj4sr"]
+[ext_resource type="Texture2D" uid="uid://cufis0b3lsb5u" path="res://Assets/Graphics/Birds/ABSpace/Lazer Bird.png" id="2_gj4sr"]
+[ext_resource type="AudioStream" uid="uid://dav06hfgqthb5" path="res://Assets/Audio/Sfx/ABSpace/Birds/172. Lazerlaunch.mp3" id="3_gj4sr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6v7lt"]
+radius = 66.0
+
+[node name="TitleScreenLaserBird" type="RigidBody2D"]
+gravity_scale = 0.5
+script = ExtResource("1_gj4sr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -6)
+scale = Vector2(0.78, 0.78)
+texture = ExtResource("2_gj4sr")
+hframes = 3
+vframes = 2
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_6v7lt")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_gj4sr")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

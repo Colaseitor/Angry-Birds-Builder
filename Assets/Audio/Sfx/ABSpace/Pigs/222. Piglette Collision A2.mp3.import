@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://714mv3pxexye"
+path="res://.godot/imported/222. Piglette Collision A2.mp3-1902c9ab57e6940e12cefcb06495c621.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/222. Piglette Collision A2.mp3"
+dest_files=["res://.godot/imported/222. Piglette Collision A2.mp3-1902c9ab57e6940e12cefcb06495c621.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

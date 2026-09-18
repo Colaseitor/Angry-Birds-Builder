@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cu0op8l5jlq37"
+path="res://.godot/imported/Ambient White Dryforest.mp3-8d0d6cb697c3cb4c71f2b233f2bf74a7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Ambient White Dryforest.mp3"
+dest_files=["res://.godot/imported/Ambient White Dryforest.mp3-8d0d6cb697c3cb4c71f2b233f2bf74a7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

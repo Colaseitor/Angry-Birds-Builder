@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4qlk33n2q4hi"]
+
+[ext_resource type="PackedScene" uid="uid://bua70q7dlbcpf" path="res://Other main gameplay thinggies/point_text/red_point_text.tscn" id="1_piwpb"]
+[ext_resource type="Texture2D" uid="uid://njd5t1rmxdb5" path="res://Assets/Graphics/ScoreText/ABSpace/LazerScore.png" id="2_tl1cb"]
+
+[node name="LazerPointText" instance=ExtResource("1_piwpb")]
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("2_tl1cb")

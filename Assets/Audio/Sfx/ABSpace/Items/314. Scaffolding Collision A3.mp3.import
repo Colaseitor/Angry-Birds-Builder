@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhfsr00gh4af6"
+path="res://.godot/imported/314. Scaffolding Collision A3.mp3-17f6a7ded1a0b2c51eb71247429430e2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/314. Scaffolding Collision A3.mp3"
+dest_files=["res://.godot/imported/314. Scaffolding Collision A3.mp3-17f6a7ded1a0b2c51eb71247429430e2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mq2lvt813u73"
+path="res://.godot/imported/207. Sfx - Christmas-Bell-Break.mp3-8a66fac706c744da176928e0dde5afb1.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/207. Sfx - Christmas-Bell-Break.mp3"
+dest_files=["res://.godot/imported/207. Sfx - Christmas-Bell-Break.mp3-8a66fac706c744da176928e0dde5afb1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

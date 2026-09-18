@@ -1,0 +1,8 @@
+{"ambience":0,"sling rot":0.0,"sling x":0.0,"sling y":0.0,"star2":10000,"star3":20000,"theme":"Poached Eggs","type":"main"}
+{"floating":false,"life":0,"name":"Longer Stone","position x":754.094543457031,"position y":-102.325927734375,"rotation":90.0,"type":"block"}
+{"floating":false,"life":0,"name":"Dog Piggen","position x":1127.17395019531,"position y":-37.9434814453125,"rotation":0.0,"type":"block"}
+{"name":"Red","position x":-86.71728515625,"position y":-17.32080078125,"rotation":0.0,"type":"bird"}
+{"name":"The Blues","position x":-139.022827148438,"position y":-10.781982421875,"rotation":0.0,"type":"bird"}
+{"name":"Chuck","position x":-182.174926757813,"position y":-21.244140625,"rotation":0.0,"type":"bird"}
+{"name":"Lazer Bird","position x":-241.018676757813,"position y":-19.9364013671875,"rotation":0.0,"type":"bird"}
+{"heigth":5.0,"name":"Ground Square","position x":811.630676269531,"position y":-166.406616210938,"rotation":0.0,"type":"ground","width":1.0}

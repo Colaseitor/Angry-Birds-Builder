@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crkk3sdcx7ujn"
+path="res://.godot/imported/064. Summercamp Theme.mp3-f4f81157c4b4ab0a75143b26597114f9.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/064. Summercamp Theme.mp3"
+dest_files=["res://.godot/imported/064. Summercamp Theme.mp3-f4f81157c4b4ab0a75143b26597114f9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://usl428b8x7bq"
+path="res://.godot/imported/233. Sfx - Level Failed Piglets A1.mp3-2506360793a0ee44a7faf099119529b0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/233. Sfx - Level Failed Piglets A1.mp3"
+dest_files=["res://.godot/imported/233. Sfx - Level Failed Piglets A1.mp3-2506360793a0ee44a7faf099119529b0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

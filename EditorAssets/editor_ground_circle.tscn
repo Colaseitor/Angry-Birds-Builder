@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://db0c32ai1dsti"]
+
+[ext_resource type="PackedScene" uid="uid://b2d2pm2tvs5u0" path="res://EditorAssets/editor_ground_square.tscn" id="1_hjs0i"]
+[ext_resource type="Texture2D" uid="uid://ck3kaucsub64" path="res://Assets/Graphics/EditorIcons/GroundCircle.png" id="2_psd8d"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e0m62"]
+radius = 14.2
+
+[node name="EditorGroundCircle" instance=ExtResource("1_hjs0i")]
+thing_name = "Ground Circle"
+
+[node name="PointLight2D" parent="." index="0"]
+texture = ExtResource("2_psd8d")
+
+[node name="CollisionShape2D" parent="." index="1"]
+shape = SubResource("CircleShape2D_e0m62")

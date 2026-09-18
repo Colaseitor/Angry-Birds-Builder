@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cq2gcxgsgq2v1"
+path="res://.godot/imported/190. Sfx - Camp Guitar Loop.mp3-a90ddfe8c7d036ea09b40ecddcbf68fc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/190. Sfx - Camp Guitar Loop.mp3"
+dest_files=["res://.godot/imported/190. Sfx - Camp Guitar Loop.mp3-a90ddfe8c7d036ea09b40ecddcbf68fc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

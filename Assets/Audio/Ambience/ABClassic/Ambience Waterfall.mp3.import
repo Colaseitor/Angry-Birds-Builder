@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ccphgcg4n1kj2"
+path="res://.godot/imported/Ambience Waterfall.mp3-38a73d90b809d39c9d9286914def5940.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Ambience/ABClassic/Ambience Waterfall.mp3"
+dest_files=["res://.godot/imported/Ambience Waterfall.mp3-38a73d90b809d39c9d9286914def5940.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

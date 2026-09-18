@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ba0cujotlh4f2"
+path="res://.godot/imported/326. Sfx - Material Lava Melt Wood 02.mp3-c42f14b101415d8366145d910e6d68e8.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Other/326. Sfx - Material Lava Melt Wood 02.mp3"
+dest_files=["res://.godot/imported/326. Sfx - Material Lava Melt Wood 02.mp3-c42f14b101415d8366145d910e6d68e8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

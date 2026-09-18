@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bonvwe2s2uykw"
+path="res://.godot/imported/274. Sfx - Mighty Eagle Bounce.mp3-da68a2016058c4262b01daddc28ede1b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Powerups/274. Sfx - Mighty Eagle Bounce.mp3"
+dest_files=["res://.godot/imported/274. Sfx - Mighty Eagle Bounce.mp3-da68a2016058c4262b01daddc28ede1b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

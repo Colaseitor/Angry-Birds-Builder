@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vhd65je17dr6"
+path="res://.godot/imported/042. Halloween2011 Theme.mp3-104afa0618b19f97e04a7ab80c7b44ff.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/042. Halloween2011 Theme.mp3"
+dest_files=["res://.godot/imported/042. Halloween2011 Theme.mp3-104afa0618b19f97e04a7ab80c7b44ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

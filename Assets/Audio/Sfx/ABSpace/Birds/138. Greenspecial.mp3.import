@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd3msvq60jq0n"
+path="res://.godot/imported/138. Greenspecial.mp3-baa6cac18f6edaf1271559cecd6a5454.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/138. Greenspecial.mp3"
+dest_files=["res://.godot/imported/138. Greenspecial.mp3-baa6cac18f6edaf1271559cecd6a5454.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

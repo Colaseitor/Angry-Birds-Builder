@@ -1,0 +1,75 @@
+[gd_scene load_steps=8 format=3 uid="uid://ogu5yq8kp40h"]
+
+[ext_resource type="Script" uid="uid://2qjy4nkgc4v4" path="res://Scenes/TitleScreenBirds/title_screen_chuck.gd" id="1_kmk87"]
+[ext_resource type="AudioStream" uid="uid://c04ge3p1ubirv" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 03 Flying.mp3" id="2_3vem6"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="3_f5u2q"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="4_fdhgx"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="5_pvb41"]
+[ext_resource type="Texture2D" uid="uid://bcn4tymv5vtfv" path="res://Assets/Graphics/Birds/ABSeasons/Chuck Pikachu.png" id="6_2qvhp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6v7lt"]
+radius = 66.0
+
+[node name="TitleScreenChuckPikachu" type="RigidBody2D"]
+gravity_scale = 0.5
+script = ExtResource("1_kmk87")
+scream_frame = 2
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_6v7lt")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_3vem6")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 10
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+z_index = 5
+position = Vector2(783, 844)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("3_f5u2q")
+
+[node name="Rotation" type="Label" parent="CanvasLayer"]
+z_index = 5
+offset_left = 117.0
+offset_top = 217.0
+offset_right = 662.0
+offset_bottom = 386.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_fdhgx")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("4_fdhgx")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+
+[node name="Close" type="TextureButton" parent="CanvasLayer"]
+z_index = 5
+offset_left = 597.0
+offset_top = 1457.0
+offset_right = 732.0
+offset_bottom = 1594.0
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("5_pvb41")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-12.605, -11)
+texture = ExtResource("6_2qvhp")
+hframes = 3
+vframes = 2
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="text_changed" from="CanvasLayer/Rotation/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Close" to="." method="_on_close_button_down"]

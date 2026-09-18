@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7eulslvgiy1w"
+path="res://.godot/imported/072. Boss Pig Slurp 02.mp3-ce8aa22f2d028b809161da36b65528b3.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Bosses/072. Boss Pig Slurp 02.mp3"
+dest_files=["res://.godot/imported/072. Boss Pig Slurp 02.mp3-ce8aa22f2d028b809161da36b65528b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

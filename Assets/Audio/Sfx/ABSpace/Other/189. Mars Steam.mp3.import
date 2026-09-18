@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lr8xxxqoynwt"
+path="res://.godot/imported/189. Mars Steam.mp3-2c0d334229be1d7c8c9907220d1721df.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Other/189. Mars Steam.mp3"
+dest_files=["res://.godot/imported/189. Mars Steam.mp3-2c0d334229be1d7c8c9907220d1721df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

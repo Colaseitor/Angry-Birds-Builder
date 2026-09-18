@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkiuoml3afmiw"
+path="res://.godot/imported/126. Sfx - Bone Destroy 3.mp3-9dfb405e66943bf92f88e79b38356d68.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/126. Sfx - Bone Destroy 3.mp3"
+dest_files=["res://.godot/imported/126. Sfx - Bone Destroy 3.mp3-9dfb405e66943bf92f88e79b38356d68.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

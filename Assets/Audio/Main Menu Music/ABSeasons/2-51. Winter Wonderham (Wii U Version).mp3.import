@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cha5ruaqqc2s"
+path="res://.godot/imported/2-51. Winter Wonderham (Wii U Version).mp3-0c34a98f0dc7f25dbefdd70d1cadce03.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/2-51. Winter Wonderham (Wii U Version).mp3"
+dest_files=["res://.godot/imported/2-51. Winter Wonderham (Wii U Version).mp3-0c34a98f0dc7f25dbefdd70d1cadce03.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

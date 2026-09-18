@@ -1,0 +1,105 @@
+[gd_scene load_steps=14 format=3 uid="uid://d1nf6r247xbow"]
+
+[ext_resource type="Script" uid="uid://b8fipq4dt5crm" path="res://Scenes/TitleScreenThemes/title_screen_poached_eggs.gd" id="1_cplbd"]
+[ext_resource type="Texture2D" uid="uid://7mdxmosurdp" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs trees.png" id="1_yg48d"]
+[ext_resource type="Texture2D" uid="uid://c4m8jcxwrabwk" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs background.png" id="2_f2s7q"]
+[ext_resource type="Texture2D" uid="uid://dinwe3umh3qxg" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs ground.png" id="3_u74tr"]
+[ext_resource type="Texture2D" uid="uid://dg1fisnqsffet" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs grass 2.png" id="4_7t0ht"]
+[ext_resource type="Texture2D" uid="uid://c4shieit4fxbf" path="res://Assets/Graphics/Themes/ABClassic/Poached Eggs/Poached Eggs grass 1.png" id="5_qwb50"]
+[ext_resource type="AudioStream" uid="uid://m3tlqhx2u082" path="res://Assets/Audio/Main Menu Music/ABClassic/Main Theme.mp3" id="6_f2s7q"]
+[ext_resource type="AudioStream" uid="uid://mo2xim2gwdge" path="res://Assets/Audio/Main Menu Music/ABClassic/Ssvsab Remix.mp3" id="8_nepgv"]
+[ext_resource type="AudioStream" uid="uid://dcxjm4w38kt2s" path="res://Assets/Audio/Main Menu Music/ABClassic/Funky Theme.mp3" id="9_4y34m"]
+[ext_resource type="AudioStream" uid="uid://dah0n5ee6hh7j" path="res://Assets/Audio/Main Menu Music/Other/108_Coke_Theme.mp3" id="10_w12q7"]
+[ext_resource type="AudioStream" uid="uid://c3inbg707cdc2" path="res://Assets/Audio/Main Menu Music/Other/Angry Birds Kakao main theme.ogg" id="11_wy2kr"]
+[ext_resource type="AudioStream" uid="uid://bg46npuvlrbg3" path="res://Assets/Audio/Main Menu Music/ABSeasons/037. Cherry Theme.mp3" id="12_nepgv"]
+[ext_resource type="AudioStream" uid="uid://c2pnyj2alda5x" path="res://Assets/Audio/Main Menu Music/ABFriends/01. Angry Birds Friends Main Theme.mp3" id="13_4y34m"]
+
+[node name="PoachedEggs" type="Node2D"]
+script = ExtResource("1_cplbd")
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 415)
+repeat_size = Vector2(2162.04, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(349.134, -155.25)
+scale = Vector2(4.43088, 4.43088)
+texture = ExtResource("1_yg48d")
+region_enabled = true
+region_rect = Rect2(0, 0, 488, 217)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+repeat_size = Vector2(2783.2, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(-30, -111)
+scale = Vector2(5.68, 5.68)
+texture = ExtResource("2_f2s7q")
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(815.065, 419)
+repeat_size = Vector2(418.555, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+position = Vector2(384, 434)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("3_u74tr")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Ground"]
+position = Vector2(384, 288)
+scale = Vector2(1.225, 1.225)
+texture = ExtResource("4_7t0ht")
+
+[node name="Ground2" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(814, 419)
+repeat_size = Vector2(784.11, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground2"]
+z_index = -1
+position = Vector2(382.11, 239)
+scale = Vector2(1.77, 1.77)
+texture = ExtResource("5_qwb50")
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_f2s7q")
+parameters/looping = true
+
+[node name="SsvsabRemix" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_nepgv")
+volume_db = -7.0
+parameters/looping = true
+
+[node name="FunkyTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_4y34m")
+parameters/looping = true
+
+[node name="108CokeTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_w12q7")
+parameters/looping = true
+
+[node name="AngryBirdsKakaoMainTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_wy2kr")
+parameters/looping = true
+
+[node name="037_CherryTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_nepgv")
+parameters/looping = true
+
+[node name="FriendsMainTheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_4y34m")
+volume_db = -7.0
+parameters/looping = true

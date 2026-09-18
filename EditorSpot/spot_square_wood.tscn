@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://b01aex0t1c8ij"]
+
+[ext_resource type="Texture2D" uid="uid://c1v027p4nm8ko" path="res://Assets/Graphics/Botones/EmptyButtonSquare.png" id="1_nci52"]
+[ext_resource type="Texture2D" uid="uid://mh4j4vi5gel2" path="res://Assets/Graphics/EditorIcons/Wood square 1.png" id="2_hckl6"]
+[ext_resource type="Script" uid="uid://dp7cdy1g4acvk" path="res://EditorSpot/editor_spot.gd" id="2_wcsuh"]
+
+[node name="SpotSquareWood" type="TextureButton" groups=["Spots"]]
+offset_left = 285.0
+offset_right = 384.0
+offset_bottom = 106.0
+scale = Vector2(2.41, 2.41)
+button_mask = 5
+texture_normal = ExtResource("1_nci52")
+script = ExtResource("2_wcsuh")
+thing_name = "Wood Square"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(48.9627, 51.4523)
+scale = Vector2(0.875, 0.875)
+texture = ExtResource("2_hckl6")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]

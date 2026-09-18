@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci6ftjayl2qou"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_ascad"]
+[ext_resource type="Texture2D" uid="uid://dq1xay5paemd4" path="res://Assets/Graphics/EditorIcons/Terence Rio 2 1.png" id="2_pdwig"]
+
+[node name="SpotTerenceRio2" instance=ExtResource("1_ascad")]
+thing_name = "Terence Rio 2"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(0.626038, 0.626038)
+texture = ExtResource("2_pdwig")

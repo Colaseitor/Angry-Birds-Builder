@@ -1,0 +1,134 @@
+[gd_scene load_steps=21 format=3 uid="uid://3qtevce5y5b3"]
+
+[ext_resource type="Script" uid="uid://b87umlk5gpbyq" path="res://Blocks/ABClassic/glass_block.gd" id="1_vkise"]
+[ext_resource type="Texture2D" uid="uid://dh8gnuvoja0go" path="res://Assets/Graphics/Blocks/ABClassic/Glass brick.png" id="2_8pv6w"]
+[ext_resource type="AudioStream" uid="uid://cc63cat2jb8bx" path="res://Assets/Audio/Sfx/ABClassic/Items/207. Sfx - Ice Light Collision A1.mp3" id="3_4g233"]
+[ext_resource type="AudioStream" uid="uid://cqd8vmpcnd7ga" path="res://Assets/Audio/Sfx/ABClassic/Items/208. Sfx - Ice Light Collision A2.mp3" id="4_oiey0"]
+[ext_resource type="AudioStream" uid="uid://clrqjt8p2rjkg" path="res://Assets/Audio/Sfx/ABClassic/Items/209. Sfx - Ice Light Collision A3.mp3" id="5_7w2qy"]
+[ext_resource type="AudioStream" uid="uid://bav40srvgmbtw" path="res://Assets/Audio/Sfx/ABClassic/Items/210. Sfx - Ice Light Collision A4.mp3" id="6_guau3"]
+[ext_resource type="AudioStream" uid="uid://c3d6v14x4mxls" path="res://Assets/Audio/Sfx/ABClassic/Items/211. Sfx - Ice Light Collision A5.mp3" id="7_a4llc"]
+[ext_resource type="AudioStream" uid="uid://cd5344qj22yam" path="res://Assets/Audio/Sfx/ABClassic/Items/212. Sfx - Ice Light Collision A6.mp3" id="8_v4uoh"]
+[ext_resource type="AudioStream" uid="uid://cuy7m6xsa6dk3" path="res://Assets/Audio/Sfx/ABClassic/Items/213. Sfx - Ice Light Collision A7.mp3" id="9_v51hh"]
+[ext_resource type="AudioStream" uid="uid://gjuhlqnd24jf" path="res://Assets/Audio/Sfx/ABClassic/Items/214. Sfx - Ice Light Collision A8.mp3" id="10_mmlej"]
+[ext_resource type="AudioStream" uid="uid://dirpd2qd3420x" path="res://Assets/Audio/Sfx/ABClassic/Items/217. Sfx - Jewel Break 01b.mp3" id="11_14niu"]
+[ext_resource type="AudioStream" uid="uid://475il5ffy0jk" path="res://Assets/Audio/Sfx/ABClassic/Items/219. Sfx - Jewel Break 02b.mp3" id="12_j0aop"]
+[ext_resource type="AudioStream" uid="uid://dsa2n3u7to54y" path="res://Assets/Audio/Sfx/ABClassic/Items/221. Sfx - Jewel Break 03b.mp3" id="13_rb4gr"]
+[ext_resource type="AudioStream" uid="uid://yi67yfqq8ovq" path="res://Assets/Audio/Sfx/ABClassic/Items/216. Sfx - Jewel Break 01.mp3" id="14_8x0j6"]
+[ext_resource type="AudioStream" uid="uid://bhnkfdye5o0m1" path="res://Assets/Audio/Sfx/ABClassic/Items/218. Sfx - Jewel Break 02.mp3" id="15_qusxg"]
+[ext_resource type="AudioStream" uid="uid://gglqs8okyjk2" path="res://Assets/Audio/Sfx/ABClassic/Items/220. Sfx - Jewel Break 03.mp3" id="16_f0ai2"]
+[ext_resource type="Texture2D" uid="uid://d0uwdmedbygbj" path="res://Assets/Graphics/Particles/ABClassic/Glass particles.png" id="17_vkise"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w7c18"]
+size = Vector2(38, 82)
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_g1ckh"]
+particles_animation = true
+particles_anim_h_frames = 2
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_l7rlv"]
+_data = [Vector2(0, 1.01), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="GlassBrick" type="RigidBody2D"]
+mass = 0.8
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_vkise")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.00935, 1.02665)
+texture = ExtResource("2_8pv6w")
+hframes = 2
+vframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+scale = Vector2(1.00935, 1.02665)
+shape = SubResource("RectangleShape2D_w7c18")
+
+[node name="478_Sfx-WoodCollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_4g233")
+volume_db = -10.0
+
+[node name="479_Sfx-WoodCollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_oiey0")
+volume_db = -10.0
+
+[node name="480_Sfx-WoodCollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_7w2qy")
+volume_db = -10.0
+
+[node name="481_Sfx-WoodCollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_guau3")
+volume_db = -10.0
+
+[node name="482_Sfx-WoodCollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_a4llc")
+volume_db = -10.0
+
+[node name="212_Sfx-IceLightCollisionA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_v4uoh")
+
+[node name="213_Sfx-IceLightCollisionA7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_v51hh")
+
+[node name="214_Sfx-IceLightCollisionA8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_mmlej")
+
+[node name="484_Sfx-WoodDamageA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_14niu")
+volume_db = -10.0
+
+[node name="485_Sfx-WoodDamageA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_j0aop")
+
+[node name="486_Sfx-WoodDamageA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_rb4gr")
+volume_db = -10.0
+
+[node name="487_Sfx-WoodDestroyedA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_8x0j6")
+volume_db = -10.0
+
+[node name="488_Sfx-WoodDestroyedA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_qusxg")
+volume_db = -10.0
+
+[node name="489_Sfx-WoodDestroyedA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_f0ai2")
+volume_db = -10.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+top_level = true
+z_index = 2
+material = SubResource("CanvasItemMaterial_g1ckh")
+emitting = false
+amount = 30
+texture = ExtResource("17_vkise")
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.6
+explosiveness = 1.0
+randomness = 1.0
+emission_shape = 3
+emission_rect_extents = Vector2(25, 25)
+spread = 180.0
+gravity = Vector2(0, 100)
+initial_velocity_min = 1.0
+initial_velocity_max = 150.0
+angle_max = 360.0
+scale_amount_curve = SubResource("Curve_l7rlv")
+anim_offset_max = 1.0
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="CPUParticles2D"]
+visible = false
+position = Vector2(-2, 0)
+polygon = PackedVector2Array(-39, -41, 43, -41, 43, 41, -39, 41, -23, 24, 26, 24, 26, -23, -23, -23, -23, 24, -39, 41)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="sleeping_state_changed" from="." to="." method="_on_sleeping_state_changed"]
+[connection signal="finished" from="487_Sfx-WoodDestroyedA1" to="." method="_on__sfx_wood_destroyed_a_1_finished"]
+[connection signal="finished" from="488_Sfx-WoodDestroyedA2" to="." method="_on__sfx_wood_destroyed_a_2_finished"]
+[connection signal="finished" from="489_Sfx-WoodDestroyedA3" to="." method="_on__sfx_wood_destroyed_a_3_finished"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://daijuudwqhg5x"
+path="res://.godot/imported/213. Sfx - Christmas-Bell-Medium Alt3.mp3-7fc168ea42788ddaf263a6c80b8842fd.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/213. Sfx - Christmas-Bell-Medium Alt3.mp3"
+dest_files=["res://.godot/imported/213. Sfx - Christmas-Bell-Medium Alt3.mp3-7fc168ea42788ddaf263a6c80b8842fd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

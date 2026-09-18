@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c04ox5coet4vk"
+path="res://.godot/imported/255. Pigtongue02.mp3-b1303122a585a565cf73aebed38d0d6f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Pigs/255. Pigtongue02.mp3"
+dest_files=["res://.godot/imported/255. Pigtongue02.mp3-b1303122a585a565cf73aebed38d0d6f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

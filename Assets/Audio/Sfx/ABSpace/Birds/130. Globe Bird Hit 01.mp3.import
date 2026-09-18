@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdtwjp2auobbg"
+path="res://.godot/imported/130. Globe Bird Hit 01.mp3-7c515b84b0690bee80acb0ed878bf704.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/130. Globe Bird Hit 01.mp3"
+dest_files=["res://.godot/imported/130. Globe Bird Hit 01.mp3-7c515b84b0690bee80acb0ed878bf704.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

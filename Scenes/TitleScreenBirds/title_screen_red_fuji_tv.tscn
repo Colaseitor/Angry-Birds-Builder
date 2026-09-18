@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3 uid="uid://bcuoliiu8cm7j"]
+
+[ext_resource type="Script" uid="uid://sdwuw17de12k" path="res://Scenes/TitleScreenBirds/title_screen_red.gd" id="1_dfbdi"]
+[ext_resource type="Texture2D" uid="uid://bt2c70ngcbuf7" path="res://Assets/Graphics/Birds/Other/Red Fuji TV.png" id="2_06yif"]
+[ext_resource type="AudioStream" uid="uid://y3bt3abjcylw" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Flying.mp3" id="3_482t1"]
+[ext_resource type="AudioStream" uid="uid://iq8hvneakhgn" path="res://Assets/Audio/Sfx/ABClassic/Birds/105. Sfx - Bird Red Charge 01.mp3" id="4_8g1d5"]
+[ext_resource type="AudioStream" uid="uid://bdacygtj1fs7x" path="res://Assets/Audio/Sfx/ABClassic/Birds/106. Sfx - Bird Red Charge 02.mp3" id="5_1477m"]
+[ext_resource type="AudioStream" uid="uid://c8xtiwqtotltg" path="res://Assets/Audio/Sfx/ABClassic/Birds/107. Sfx - Bird Red Charge 03.mp3" id="6_05a72"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6v7lt"]
+radius = 66.0
+
+[node name="TitleScreenRed" type="RigidBody2D"]
+gravity_scale = 0.5
+script = ExtResource("1_dfbdi")
+yell_frame = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, -4)
+scale = Vector2(1.04, 1.04)
+texture = ExtResource("2_06yif")
+hframes = 3
+vframes = 2
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_6v7lt")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_482t1")
+
+[node name="105_Sfx-BirdRedCharge01" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_8g1d5")
+
+[node name="106_Sfx-BirdRedCharge02" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_1477m")
+
+[node name="107_Sfx-BirdRedCharge03" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_05a72")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

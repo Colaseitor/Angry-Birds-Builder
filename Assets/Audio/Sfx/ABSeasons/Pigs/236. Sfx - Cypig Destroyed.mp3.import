@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c56mnkfq3r7te"
+path="res://.godot/imported/236. Sfx - Cypig Destroyed.mp3-ef2af271f5c8159c1d810e5c3d6b9dce.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Pigs/236. Sfx - Cypig Destroyed.mp3"
+dest_files=["res://.godot/imported/236. Sfx - Cypig Destroyed.mp3-ef2af271f5c8159c1d810e5c3d6b9dce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

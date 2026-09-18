@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6eu8avd58ks7"
+path="res://.godot/imported/104. Sfx - Bird-Dive 01.mp3-aca54390c9ac1af36d83895bb7329edd.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Birds/104. Sfx - Bird-Dive 01.mp3"
+dest_files=["res://.godot/imported/104. Sfx - Bird-Dive 01.mp3-aca54390c9ac1af36d83895bb7329edd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

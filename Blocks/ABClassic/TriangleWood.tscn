@@ -1,0 +1,122 @@
+[gd_scene load_steps=18 format=3 uid="uid://cif6f24dsdk4f"]
+
+[ext_resource type="Script" uid="uid://dcw5yorpghipu" path="res://Blocks/ABClassic/wood_block.gd" id="1_05wr6"]
+[ext_resource type="AudioStream" uid="uid://b5x3sptej5s6a" path="res://Assets/Audio/Sfx/ABClassic/Items/478. Sfx - Wood Collision A1.mp3" id="2_suw0x"]
+[ext_resource type="AudioStream" uid="uid://cwg0ifafaxs3b" path="res://Assets/Audio/Sfx/ABClassic/Items/479. Sfx - Wood Collision A2.mp3" id="3_7i5sc"]
+[ext_resource type="AudioStream" uid="uid://bthn57fcu3cj0" path="res://Assets/Audio/Sfx/ABClassic/Items/480. Sfx - Wood Collision A3.mp3" id="4_4ifwu"]
+[ext_resource type="AudioStream" uid="uid://cse23ws8ia25m" path="res://Assets/Audio/Sfx/ABClassic/Items/481. Sfx - Wood Collision A4.mp3" id="5_1dkya"]
+[ext_resource type="AudioStream" uid="uid://dm4v7q4ckgqno" path="res://Assets/Audio/Sfx/ABClassic/Items/482. Sfx - Wood Collision A5.mp3" id="6_hpehl"]
+[ext_resource type="AudioStream" uid="uid://pkjuygco1er6" path="res://Assets/Audio/Sfx/ABClassic/Items/483. Sfx - Wood Collision A6.mp3" id="7_b8x31"]
+[ext_resource type="AudioStream" uid="uid://uxhxrlmohjvc" path="res://Assets/Audio/Sfx/ABClassic/Items/484. Sfx - Wood Damage A1.mp3" id="8_md2ls"]
+[ext_resource type="AudioStream" uid="uid://biobddru4yfhu" path="res://Assets/Audio/Sfx/ABClassic/Items/485. Sfx - Wood Damage A2.mp3" id="9_q6oob"]
+[ext_resource type="AudioStream" uid="uid://mvi6mul3h8m3" path="res://Assets/Audio/Sfx/ABClassic/Items/486. Sfx - Wood Damage A3.mp3" id="10_l8n3j"]
+[ext_resource type="AudioStream" uid="uid://dmdow3sr31sim" path="res://Assets/Audio/Sfx/ABClassic/Items/487. Sfx - Wood Destroyed A1.mp3" id="11_bgeic"]
+[ext_resource type="AudioStream" uid="uid://oabsapeh8tyy" path="res://Assets/Audio/Sfx/ABClassic/Items/488. Sfx - Wood Destroyed A2.mp3" id="12_yage5"]
+[ext_resource type="AudioStream" uid="uid://cadki01vyathr" path="res://Assets/Audio/Sfx/ABClassic/Items/489. Sfx - Wood Destroyed A3.mp3" id="13_rfl7v"]
+[ext_resource type="Texture2D" uid="uid://d0kak3vug3yj6" path="res://Assets/Graphics/Particles/ABClassic/Wood particles.png" id="14_3h5fo"]
+[ext_resource type="Texture2D" uid="uid://bi37b06tp6iva" path="res://Assets/Graphics/Blocks/ABClassic/Wood triangle.png" id="15_05wr6"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_g1ckh"]
+particles_animation = true
+particles_anim_h_frames = 2
+particles_anim_v_frames = 2
+particles_anim_loop = false
+
+[sub_resource type="Curve" id="Curve_l7rlv"]
+_data = [Vector2(0, 1.01), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="LongWood" type="RigidBody2D"]
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_05wr6")
+
+[node name="478_Sfx-WoodCollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_suw0x")
+volume_db = -10.0
+
+[node name="479_Sfx-WoodCollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_7i5sc")
+volume_db = -10.0
+
+[node name="480_Sfx-WoodCollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_4ifwu")
+volume_db = -10.0
+
+[node name="481_Sfx-WoodCollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_1dkya")
+volume_db = -10.0
+
+[node name="482_Sfx-WoodCollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_hpehl")
+volume_db = -10.0
+
+[node name="483_Sfx-WoodCollisionA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_b8x31")
+volume_db = -10.0
+
+[node name="484_Sfx-WoodDamageA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_md2ls")
+volume_db = -10.0
+
+[node name="485_Sfx-WoodDamageA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_q6oob")
+
+[node name="486_Sfx-WoodDamageA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_l8n3j")
+volume_db = -10.0
+
+[node name="487_Sfx-WoodDestroyedA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_bgeic")
+volume_db = -10.0
+
+[node name="488_Sfx-WoodDestroyedA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_yage5")
+volume_db = -10.0
+
+[node name="489_Sfx-WoodDestroyedA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_rfl7v")
+volume_db = -10.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+top_level = true
+z_index = 2
+material = SubResource("CanvasItemMaterial_g1ckh")
+emitting = false
+amount = 30
+texture = ExtResource("14_3h5fo")
+lifetime = 0.8
+one_shot = true
+speed_scale = 0.6
+explosiveness = 1.0
+randomness = 1.0
+emission_shape = 3
+emission_rect_extents = Vector2(25, 25)
+spread = 180.0
+gravity = Vector2(0, 100)
+initial_velocity_min = 1.0
+initial_velocity_max = 150.0
+angle_max = 360.0
+scale_amount_curve = SubResource("Curve_l7rlv")
+anim_offset_max = 1.0
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="CPUParticles2D"]
+visible = false
+position = Vector2(-2, 0)
+polygon = PackedVector2Array(-39, -41, 43, -41, 43, 41, -39, 41, -23, 24, 26, 24, 26, -23, -23, -23, -23, 24, -39, 41)
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="."]
+z_index = 1
+polygon = PackedVector2Array(-1, -51, 45, 33, -45, 33)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("15_05wr6")
+hframes = 2
+vframes = 2
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="sleeping_state_changed" from="." to="." method="_on_sleeping_state_changed"]
+[connection signal="finished" from="487_Sfx-WoodDestroyedA1" to="." method="_on__sfx_wood_destroyed_a_1_finished"]
+[connection signal="finished" from="488_Sfx-WoodDestroyedA2" to="." method="_on__sfx_wood_destroyed_a_2_finished"]
+[connection signal="finished" from="489_Sfx-WoodDestroyedA3" to="." method="_on__sfx_wood_destroyed_a_3_finished"]

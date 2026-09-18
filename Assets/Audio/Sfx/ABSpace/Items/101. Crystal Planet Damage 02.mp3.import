@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvcukbalk5gkq"
+path="res://.godot/imported/101. Crystal Planet Damage 02.mp3-a1015ea40296f94fded90652d7529ea7.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/101. Crystal Planet Damage 02.mp3"
+dest_files=["res://.godot/imported/101. Crystal Planet Damage 02.mp3-a1015ea40296f94fded90652d7529ea7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

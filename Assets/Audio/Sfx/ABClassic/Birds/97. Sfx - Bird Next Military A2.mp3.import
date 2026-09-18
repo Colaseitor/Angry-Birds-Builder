@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7vrbm12hhuic"
+path="res://.godot/imported/97. Sfx - Bird Next Military A2.mp3-30c1e90fd8fde72ea9806063c173a819.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/97. Sfx - Bird Next Military A2.mp3"
+dest_files=["res://.godot/imported/97. Sfx - Bird Next Military A2.mp3-30c1e90fd8fde72ea9806063c173a819.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

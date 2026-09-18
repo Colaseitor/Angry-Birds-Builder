@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvhtycn8o4y08"
+path="res://.godot/imported/253. Sfx - Menu Confirm.mp3-4803bbb31e6f3678f7852ec1de49490b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABClassic/253. Sfx - Menu Confirm.mp3"
+dest_files=["res://.godot/imported/253. Sfx - Menu Confirm.mp3-4803bbb31e6f3678f7852ec1de49490b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3pm7h480phkb"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_aiq84"]
+[ext_resource type="Texture2D" uid="uid://dvmmhow18xxt4" path="res://Assets/Graphics/EditorIcons/Wood triangle 1.png" id="2_ncmp1"]
+
+[node name="SpotTriangleWood" instance=ExtResource("1_aiq84")]
+thing_name = "Wood Triangle"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(0.93, 0.93)
+texture = ExtResource("2_ncmp1")

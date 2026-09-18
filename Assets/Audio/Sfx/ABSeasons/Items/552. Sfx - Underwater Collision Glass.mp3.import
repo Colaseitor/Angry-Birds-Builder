@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2lh5iofqm56f"
+path="res://.godot/imported/552. Sfx - Underwater Collision Glass.mp3-718fa487ac888e1be705409880333a0b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/552. Sfx - Underwater Collision Glass.mp3"
+dest_files=["res://.godot/imported/552. Sfx - Underwater Collision Glass.mp3-718fa487ac888e1be705409880333a0b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

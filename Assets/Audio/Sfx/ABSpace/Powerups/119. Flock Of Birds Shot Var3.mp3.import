@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://khwq5wi3x0de"
+path="res://.godot/imported/119. Flock Of Birds Shot Var3.mp3-988289578c6bf4b29cd7ca57cc55e78d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Powerups/119. Flock Of Birds Shot Var3.mp3"
+dest_files=["res://.godot/imported/119. Flock Of Birds Shot Var3.mp3-988289578c6bf4b29cd7ca57cc55e78d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

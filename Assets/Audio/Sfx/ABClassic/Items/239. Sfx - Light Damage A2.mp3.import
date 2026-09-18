@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://fslucrm6tnua"
+path="res://.godot/imported/239. Sfx - Light Damage A2.mp3-4adc323a6e65cd1ea0336cfad5805f78.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/239. Sfx - Light Damage A2.mp3"
+dest_files=["res://.godot/imported/239. Sfx - Light Damage A2.mp3-4adc323a6e65cd1ea0336cfad5805f78.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clrqjt8p2rjkg"
+path="res://.godot/imported/209. Sfx - Ice Light Collision A3.mp3-1e4501e6418b687a29674909c03b83ea.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/209. Sfx - Ice Light Collision A3.mp3"
+dest_files=["res://.godot/imported/209. Sfx - Ice Light Collision A3.mp3-1e4501e6418b687a29674909c03b83ea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

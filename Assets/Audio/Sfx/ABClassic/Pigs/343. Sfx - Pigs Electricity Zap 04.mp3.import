@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bk7blxmfvpyy2"
+path="res://.godot/imported/343. Sfx - Pigs Electricity Zap 04.mp3-5b84d6db3192870b7d87a16ce8defc8f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Pigs/343. Sfx - Pigs Electricity Zap 04.mp3"
+dest_files=["res://.godot/imported/343. Sfx - Pigs Electricity Zap 04.mp3-5b84d6db3192870b7d87a16ce8defc8f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv1on4xypkl64"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_7upm1"]
+[ext_resource type="Texture2D" uid="uid://xb8p3qnxncx4" path="res://Assets/Graphics/EditorIcons/Chuck Pikachu 1.png" id="2_30tl4"]
+
+[node name="SpotChuckPikachu" instance=ExtResource("1_7upm1")]
+thing_name = "Chuck Pikachu"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(1.11446, 1.11446)
+texture = ExtResource("2_30tl4")
+region_rect = Rect2(0, 0, 81, 60)
+region_filter_clip_enabled = true

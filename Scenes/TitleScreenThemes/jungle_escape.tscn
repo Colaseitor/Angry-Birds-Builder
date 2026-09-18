@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=3 uid="uid://cb1yit8b7xnd4"]
+
+[ext_resource type="Script" uid="uid://ceh2brgfy65cr" path="res://Scenes/TitleScreenThemes/title_screen_jungle_escape.gd" id="1_0kyll"]
+[ext_resource type="Texture2D" uid="uid://b2nif464eiadk" path="res://Assets/Graphics/Themes/ABSeasons/South Hamerica/South Hamerica Background fix mountains.png" id="2_87bc6"]
+[ext_resource type="Texture2D" uid="uid://cvtd7w26m5pgv" path="res://Assets/Graphics/Themes/ABRio/Jungle Escape/Jungle Escape background 2.png" id="2_l2cse"]
+[ext_resource type="Texture2D" uid="uid://dhabn2enwrth" path="res://Assets/Graphics/Themes/ABRio/Jungle Escape/Jungle Escape foreground.png" id="4_0kyll"]
+[ext_resource type="Texture2D" uid="uid://balri4yukiwn4" path="res://Assets/Graphics/Themes/ABRio/Jungle Escape/Jungle Escape background 1.png" id="4_ocneg"]
+[ext_resource type="Texture2D" uid="uid://td81ryijiut3" path="res://Assets/Graphics/Themes/ABRio/Jungle Escape/Jungle Escape ground.png" id="5_0kyll"]
+[ext_resource type="AudioStream" uid="uid://dm38md62fp4kt" path="res://Assets/Audio/Main Menu Music/ABRio/3-01. Main Theme (Rio).mp3" id="6_l2cse"]
+[ext_resource type="AudioStream" uid="uid://seydou8rnvx2" path="res://Assets/Audio/Main Menu Music/ABRio/15. Angry Birds Rio2 Theme.mp3" id="7_ocneg"]
+
+[node name="JungleEscape" type="Node2D"]
+script = ExtResource("1_0kyll")
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(0, 415)
+repeat_size = Vector2(2980.7, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(-0.0574219, -61.9691)
+scale = Vector2(2.9111, 2.9111)
+texture = ExtResource("2_l2cse")
+offset = Vector2(850.95, 0)
+region_enabled = true
+region_rect = Rect2(0, 0, 1024, 303)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+scroll_offset = Vector2(0, 170)
+repeat_size = Vector2(3627.42, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundBack"]
+visible = false
+position = Vector2(0, -807.955)
+scale = Vector2(1.88386, 1.88386)
+texture = ExtResource("2_87bc6")
+offset = Vector2(-1341, 0)
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(6253.73, -692.943)
+scale = Vector2(3.54242, 3.54242)
+texture = ExtResource("4_ocneg")
+offset = Vector2(-1341, 0)
+
+[node name="Foreground" type="Parallax2D" parent="."]
+z_index = -2
+scroll_offset = Vector2(0, -20)
+repeat_size = Vector2(1771.47, 0)
+autoscroll = Vector2(180, 0)
+repeat_times = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="Foreground"]
+z_index = 5
+texture_repeat = 2
+position = Vector2(0, 885.228)
+scale = Vector2(1.73, 1.73)
+texture = ExtResource("4_0kyll")
+region_enabled = true
+region_rect = Rect2(0, 0, 1024, 344)
+region_filter_clip_enabled = true
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(0, 419)
+repeat_size = Vector2(2657.15, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 17
+
+[node name="Sprite2D2" type="Sprite2D" parent="Ground"]
+position = Vector2(0, 408.99)
+scale = Vector2(2.5949, 2.5949)
+texture = ExtResource("5_0kyll")
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_l2cse")
+parameters/looping = true
+
+[node name="15_AngryBirdsRio2Theme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_ocneg")
+parameters/looping = true

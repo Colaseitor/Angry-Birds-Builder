@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b273qmoyegn0v"
+path="res://.godot/imported/095. Crystal Planet Collision 01.mp3-feda3e3c3c955483b2930d115085f236.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/095. Crystal Planet Collision 01.mp3"
+dest_files=["res://.godot/imported/095. Crystal Planet Collision 01.mp3-feda3e3c3c955483b2930d115085f236.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

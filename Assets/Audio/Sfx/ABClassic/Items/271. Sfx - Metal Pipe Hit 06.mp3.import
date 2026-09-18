@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://km2eumafv0a7"
+path="res://.godot/imported/271. Sfx - Metal Pipe Hit 06.mp3-c2bc2b671b2f6657c5650d9991e77040.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/271. Sfx - Metal Pipe Hit 06.mp3"
+dest_files=["res://.godot/imported/271. Sfx - Metal Pipe Hit 06.mp3-c2bc2b671b2f6657c5650d9991e77040.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://y3bt3abjcylw"
+path="res://.godot/imported/Sfx - Bird 01 Flying.mp3-a70ca369f862022cda84f8c51e9afc69.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Flying.mp3"
+dest_files=["res://.godot/imported/Sfx - Bird 01 Flying.mp3-a70ca369f862022cda84f8c51e9afc69.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

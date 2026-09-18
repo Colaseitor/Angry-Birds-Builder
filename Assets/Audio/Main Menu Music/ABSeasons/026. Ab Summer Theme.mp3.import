@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0khqocy540xp"
+path="res://.godot/imported/026. Ab Summer Theme.mp3-92fd7ed59c4e470ec20d349e4130cb33.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/026. Ab Summer Theme.mp3"
+dest_files=["res://.godot/imported/026. Ab Summer Theme.mp3-92fd7ed59c4e470ec20d349e4130cb33.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

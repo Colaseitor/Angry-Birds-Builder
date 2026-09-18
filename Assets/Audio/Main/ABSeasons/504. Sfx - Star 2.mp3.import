@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3yybs57nnh4h"
+path="res://.godot/imported/504. Sfx - Star 2.mp3-0abc13653197c924ce36eb871c5de510.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main/ABSeasons/504. Sfx - Star 2.mp3"
+dest_files=["res://.godot/imported/504. Sfx - Star 2.mp3-0abc13653197c924ce36eb871c5de510.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

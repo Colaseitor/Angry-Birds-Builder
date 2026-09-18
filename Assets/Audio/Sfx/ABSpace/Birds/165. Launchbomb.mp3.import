@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bfpu7l2gorfa4"
+path="res://.godot/imported/165. Launchbomb.mp3-fdcf1d7fbc91cc7c109e6033cc3fc696.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/165. Launchbomb.mp3"
+dest_files=["res://.godot/imported/165. Launchbomb.mp3-fdcf1d7fbc91cc7c109e6033cc3fc696.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

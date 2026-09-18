@@ -1,0 +1,114 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2d2pm2tvs5u0"]
+
+[ext_resource type="Script" uid="uid://bl7k5dgsf1j80" path="res://EditorAssets/editor_ground.gd" id="1_q6q6o"]
+[ext_resource type="Texture2D" uid="uid://bwid705q8aqbo" path="res://Assets/Graphics/EditorIcons/GroundSquare.png" id="1_u70pu"]
+[ext_resource type="Texture2D" uid="uid://ds8wy4j45k2uo" path="res://Assets/Graphics/Botones/Text box large.png" id="3_t3jrt"]
+[ext_resource type="FontFile" uid="uid://x80nc2yy17nf" path="res://angrybirds-regular.ttf" id="4_ctnsh"]
+[ext_resource type="Texture2D" uid="uid://v5yq2liymxq1" path="res://Assets/Graphics/Botones/Close.png" id="5_ctnsh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dmbb2"]
+
+[node name="EditorGroundSquare" type="Area2D"]
+script = ExtResource("1_q6q6o")
+thing_name = "Ground Square"
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(1, 1, 1, 0)
+texture = ExtResource("1_u70pu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.14577e-06)
+scale = Vector2(5.05, 5.05)
+shape = SubResource("RectangleShape2D_dmbb2")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(783, 1010.53)
+scale = Vector2(4.132, 4.196)
+texture = ExtResource("3_t3jrt")
+
+[node name="Rotation" type="Label" parent="CanvasLayer"]
+offset_left = 117.0
+offset_top = 585.0
+offset_right = 662.0
+offset_bottom = 754.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 146
+text = "Rotation"
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Rotation"]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -36.0
+offset_right = 1352.0
+offset_bottom = 211.0
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 206
+text = "0"
+placeholder_text = "0"
+metadata/_edit_use_anchors_ = true
+
+[node name="Heigth" type="Label" parent="CanvasLayer"]
+offset_left = 117.0
+offset_top = 893.0
+offset_right = 662.0
+offset_bottom = 1062.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 146
+text = "Heigth"
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Heigth"]
+layout_mode = 0
+offset_left = 735.0
+offset_top = -21.0
+offset_right = 1355.0
+offset_bottom = 226.0
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 206
+text = "1.0"
+placeholder_text = "1.0"
+metadata/_edit_use_anchors_ = true
+
+[node name="Width" type="Label" parent="CanvasLayer"]
+offset_left = 117.0
+offset_top = 1216.0
+offset_right = 662.0
+offset_bottom = 1385.0
+theme_override_constants/outline_size = 11
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 146
+text = "Width"
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Width"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = -25.0
+offset_right = 1356.0
+offset_bottom = 222.0
+theme_override_fonts/font = ExtResource("4_ctnsh")
+theme_override_font_sizes/font_size = 206
+text = "1.0"
+placeholder_text = "1.0"
+metadata/_edit_use_anchors_ = true
+
+[node name="Close" type="TextureButton" parent="CanvasLayer"]
+offset_left = 597.0
+offset_top = 1623.53
+offset_right = 732.0
+offset_bottom = 1760.53
+scale = Vector2(2.485, 2.485)
+texture_normal = ExtResource("5_ctnsh")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="text_changed" from="CanvasLayer/Rotation/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Heigth/TextEdit" to="." method="_on_heigth_text_edit_text_changed"]
+[connection signal="text_changed" from="CanvasLayer/Width/TextEdit" to="." method="_on_width_text_edit_text_changed"]
+[connection signal="button_down" from="CanvasLayer/Close" to="." method="_on_close_button_down"]

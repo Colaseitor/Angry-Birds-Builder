@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://l3r3r0iarf4x"
+path="res://.godot/imported/522. Sfx - Teaparty-Violin-Alto.mp3-664e72a66458768934a08a02a1ac8d51.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/522. Sfx - Teaparty-Violin-Alto.mp3"
+dest_files=["res://.godot/imported/522. Sfx - Teaparty-Violin-Alto.mp3-664e72a66458768934a08a02a1ac8d51.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

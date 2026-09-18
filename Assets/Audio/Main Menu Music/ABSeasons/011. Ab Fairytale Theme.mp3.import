@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvc03bhmkhxg8"
+path="res://.godot/imported/011. Ab Fairytale Theme.mp3-eb5aec751b763d4eca185e51f4d4a9f3.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABSeasons/011. Ab Fairytale Theme.mp3"
+dest_files=["res://.godot/imported/011. Ab Fairytale Theme.mp3-eb5aec751b763d4eca185e51f4d4a9f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

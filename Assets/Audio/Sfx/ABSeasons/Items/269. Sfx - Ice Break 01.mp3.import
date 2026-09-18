@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wv2ascoe8k6a"
+path="res://.godot/imported/269. Sfx - Ice Break 01.mp3-1c9cccb68519251064e1de940535babc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSeasons/Items/269. Sfx - Ice Break 01.mp3"
+dest_files=["res://.godot/imported/269. Sfx - Ice Break 01.mp3-1c9cccb68519251064e1de940535babc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

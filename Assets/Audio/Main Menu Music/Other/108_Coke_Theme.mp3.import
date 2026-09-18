@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dah0n5ee6hh7j"
+path="res://.godot/imported/108_Coke_Theme.mp3-0a4606ac2184665704225258debc610a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/Other/108_Coke_Theme.mp3"
+dest_files=["res://.godot/imported/108_Coke_Theme.mp3-0a4606ac2184665704225258debc610a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

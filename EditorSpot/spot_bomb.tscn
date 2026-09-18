@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5x73cldimh2j"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_owsd8"]
+[ext_resource type="Texture2D" uid="uid://byoeyxnn4q8po" path="res://Assets/Graphics/EditorIcons/Bomb 1.png" id="2_u5kaf"]
+
+[node name="SpotBomb" instance=ExtResource("1_owsd8")]
+thing_name = "Bomb"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(1.09077, 1.09077)
+texture = ExtResource("2_u5kaf")

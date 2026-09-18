@@ -1,0 +1,346 @@
+[gd_scene load_steps=26 format=3 uid="uid://br8g3wwrj3u43"]
+
+[ext_resource type="AudioStream" uid="uid://dcam8qnh4x8aa" path="res://Assets/Audio/Main Menu Music/ABSeasons/2-50. Winter Wonderham.mp3" id="1_400oc"]
+[ext_resource type="Script" uid="uid://cjye2q1xt461m" path="res://Scenes/TitleScreenThemes/winter_wonderham_title.gd" id="1_kg2s4"]
+[ext_resource type="AudioStream" uid="uid://cha5ruaqqc2s" path="res://Assets/Audio/Main Menu Music/ABSeasons/2-51. Winter Wonderham (Wii U Version).mp3" id="6_vav0v"]
+[ext_resource type="AudioStream" uid="uid://f40ahw5ub8ip" path="res://Assets/Audio/Main Menu Music/ABSeasons/2-52. Winter Wonderham (PSVita Version).mp3" id="7_ljot8"]
+[ext_resource type="Texture2D" uid="uid://c8pb42m1e2b1o" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background 3.png" id="8_mjla4"]
+[ext_resource type="Texture2D" uid="uid://dappdwf4nyr4f" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background 2.png" id="9_eqypr"]
+[ext_resource type="Texture2D" uid="uid://br0vw4xlo8u8o" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Background.png" id="11_73t4j"]
+[ext_resource type="Texture2D" uid="uid://bj8rb7torpet7" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham candy cane.png" id="12_gm6ar"]
+[ext_resource type="Texture2D" uid="uid://koytiyns1vh3" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 1.png" id="13_2wcgj"]
+[ext_resource type="Texture2D" uid="uid://0rwjj0wq0u2b" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Ground.png" id="13_8tcle"]
+[ext_resource type="Texture2D" uid="uid://uao0ihkrg85x" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 2.png" id="14_s88ff"]
+[ext_resource type="Texture2D" uid="uid://dgraf6d8e62qs" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 4.png" id="15_cy61w"]
+[ext_resource type="Texture2D" uid="uid://q4xmyqwn1qr1" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 3.png" id="16_udnkx"]
+[ext_resource type="Texture2D" uid="uid://c0wp3ffi06vxq" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 7.png" id="17_7fxit"]
+[ext_resource type="Texture2D" uid="uid://bes130pwad1kw" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 5.png" id="18_v1q1k"]
+[ext_resource type="Texture2D" uid="uid://u56ceyubtuks" path="res://Assets/Graphics/Themes/ABSeasons/Winter Wonderham/Winter Wonderham Aurora Borealis 6.png" id="19_iujvl"]
+
+[sub_resource type="Animation" id="Animation_2l03a"]
+resource_name = "Aurora1"
+length = 3.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.433333, 1.4, 2, 2.93333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_5qphd"]
+resource_name = "Aurora2"
+length = 4.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.76667, 2.46667, 3.96667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ouy2b"]
+resource_name = "Aurora_3"
+length = 8.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.23333, 3.03333, 4.46667, 6.43333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4be0k"]
+resource_name = "Aurora_4"
+length = 13.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1.2, 3.76667, 4.9, 7.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_rr51l"]
+resource_name = "Aurora_5"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.2, 1.63333, 3.46667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_xh7vc"]
+resource_name = "Aurora_6"
+length = 5.1
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.633333, 2.23333, 3.2, 4.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_wh5nc"]
+resource_name = "Aurora_7"
+length = 6.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.233333, 2.63333, 3.36667, 5.56667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_forbh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ouy2b"]
+_data = {
+&"Aurora1": SubResource("Animation_2l03a"),
+&"Aurora2": SubResource("Animation_5qphd"),
+&"Aurora_3": SubResource("Animation_ouy2b"),
+&"Aurora_4": SubResource("Animation_4be0k"),
+&"Aurora_5": SubResource("Animation_rr51l"),
+&"Aurora_6": SubResource("Animation_xh7vc"),
+&"Aurora_7": SubResource("Animation_wh5nc"),
+&"RESET": SubResource("Animation_forbh")
+}
+
+[node name="WinterWonderham" type="Node2D"]
+script = ExtResource("1_kg2s4")
+
+[node name="BackgroundForward" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 415)
+repeat_size = Vector2(1240.22, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 17
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundForward"]
+texture_repeat = 2
+position = Vector2(3365, -4)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("8_mjla4")
+region_rect = Rect2(0, 0, 7000, 500)
+region_filter_clip_enabled = true
+
+[node name="BackgroundForward2" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 603)
+repeat_size = Vector2(1240.24, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward2"]
+texture_repeat = 2
+position = Vector2(2571, -4)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("9_eqypr")
+region_rect = Rect2(0, 0, 7000, 424)
+region_filter_clip_enabled = true
+
+[node name="BackgroundBack" type="Parallax2D" parent="."]
+z_index = -2
+repeat_size = Vector2(2855.92, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 3
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundBack"]
+position = Vector2(-68, -220)
+scale = Vector2(2.78905, 2.78905)
+texture = ExtResource("11_73t4j")
+
+[node name="Ground" type="Parallax2D" parent="."]
+z_index = 1
+scroll_offset = Vector2(815.065, 419)
+repeat_size = Vector2(2808.76, 0)
+autoscroll = Vector2(150, 0)
+repeat_times = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="Ground"]
+position = Vector2(1168.32, 415.5)
+scale = Vector2(2.74038, 2.74038)
+texture = ExtResource("13_8tcle")
+
+[node name="BackgroundForward3" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 415)
+repeat_size = Vector2(2100, 0)
+autoscroll = Vector2(130, 0)
+repeat_times = 17
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundForward3"]
+texture_repeat = 2
+position = Vector2(3365, 229)
+scale = Vector2(1.21, 1.21)
+texture = ExtResource("12_gm6ar")
+region_rect = Rect2(0, 0, 7000, 500)
+region_filter_clip_enabled = true
+
+[node name="BackgroundForward4" type="Parallax2D" parent="."]
+z_index = -1
+scroll_offset = Vector2(-385, 415)
+repeat_size = Vector2(2100, 0)
+autoscroll = Vector2(70, 0)
+repeat_times = 17
+
+[node name="Sprite2D" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(1923, -644.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("13_2wcgj")
+region_rect = Rect2(0, 0, 5000, 191)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora1"
+
+[node name="Sprite2D2" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(2145, -770.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("14_s88ff")
+region_rect = Rect2(0, 0, 5000, 236)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D2"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora2"
+
+[node name="Sprite2D3" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(1838, -665.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("15_cy61w")
+region_rect = Rect2(0, 0, 5000, 284)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D3"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_3"
+
+[node name="Sprite2D4" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(2958, -739.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("16_udnkx")
+region_rect = Rect2(0, 0, 5000, 333)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D4"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_4"
+
+[node name="Sprite2D5" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(2469, -739.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("17_7fxit")
+region_rect = Rect2(0, 0, 5000, 326)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D5"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_5"
+
+[node name="Sprite2D6" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(3081, -773.44)
+scale = Vector2(2.64, 2.64)
+texture = ExtResource("18_v1q1k")
+region_rect = Rect2(0, 0, 5000, 207)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D6"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_6"
+
+[node name="Sprite2D7" type="Sprite2D" parent="BackgroundForward4"]
+texture_repeat = 2
+position = Vector2(2960, -665.44)
+scale = Vector2(3.48, 3.48)
+texture = ExtResource("19_iujvl")
+region_rect = Rect2(0, 0, 5000, 177)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BackgroundForward4/Sprite2D7"]
+libraries = {
+&"": SubResource("AnimationLibrary_ouy2b")
+}
+autoplay = "Aurora_7"
+
+[node name="MenuMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_400oc")
+parameters/looping = true
+
+[node name="2-51_WinterWonderham(wiiUVersion)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_vav0v")
+parameters/looping = true
+
+[node name="2-52_WinterWonderham(psVitaVersion)" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_ljot8")
+volume_db = 5.379
+parameters/looping = true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dcxjm4w38kt2s"
+path="res://.godot/imported/Funky Theme.mp3-af7440842af8b928a48a20acbebe8742.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Main Menu Music/ABClassic/Funky Theme.mp3"
+dest_files=["res://.godot/imported/Funky Theme.mp3-af7440842af8b928a48a20acbebe8742.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

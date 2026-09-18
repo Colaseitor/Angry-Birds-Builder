@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://coksk78q06nld"
+path="res://.godot/imported/204. Sfx - Goldenegg.mp3-7acb1e85d8ca6ca8201e5d18c20fd6e8.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/204. Sfx - Goldenegg.mp3"
+dest_files=["res://.godot/imported/204. Sfx - Goldenegg.mp3-7acb1e85d8ca6ca8201e5d18c20fd6e8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

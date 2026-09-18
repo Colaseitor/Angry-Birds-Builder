@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vkiiik0c0pg1"
+path="res://.godot/imported/166. Launchbulk.mp3-067d3e77276e9ecf3225d7a40f676c23.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/166. Launchbulk.mp3"
+dest_files=["res://.godot/imported/166. Launchbulk.mp3-067d3e77276e9ecf3225d7a40f676c23.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

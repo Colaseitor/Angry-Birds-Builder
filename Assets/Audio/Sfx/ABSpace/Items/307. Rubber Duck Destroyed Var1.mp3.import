@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drv3pb06g8813"
+path="res://.godot/imported/307. Rubber Duck Destroyed Var1.mp3-424b64a5775a9009781c7a774e9a7e7d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/307. Rubber Duck Destroyed Var1.mp3"
+dest_files=["res://.godot/imported/307. Rubber Duck Destroyed Var1.mp3-424b64a5775a9009781c7a774e9a7e7d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

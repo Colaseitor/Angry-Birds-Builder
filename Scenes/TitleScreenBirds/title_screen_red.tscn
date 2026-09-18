@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=3 uid="uid://e5hk61fv7l6r"]
+
+[ext_resource type="Script" uid="uid://sdwuw17de12k" path="res://Scenes/TitleScreenBirds/title_screen_red.gd" id="1_6v7lt"]
+[ext_resource type="Texture2D" uid="uid://bnivxkmc1bgby" path="res://Assets/Graphics/Birds/ABClassic/Red.png" id="1_b4eaf"]
+[ext_resource type="AudioStream" uid="uid://y3bt3abjcylw" path="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bird 01 Flying.mp3" id="3_web4d"]
+[ext_resource type="AudioStream" uid="uid://iq8hvneakhgn" path="res://Assets/Audio/Sfx/ABClassic/Birds/105. Sfx - Bird Red Charge 01.mp3" id="4_pot0c"]
+[ext_resource type="AudioStream" uid="uid://bdacygtj1fs7x" path="res://Assets/Audio/Sfx/ABClassic/Birds/106. Sfx - Bird Red Charge 02.mp3" id="5_nou40"]
+[ext_resource type="AudioStream" uid="uid://c8xtiwqtotltg" path="res://Assets/Audio/Sfx/ABClassic/Birds/107. Sfx - Bird Red Charge 03.mp3" id="6_4f2k2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6v7lt"]
+radius = 66.0
+
+[node name="TitleScreenRed" type="RigidBody2D"]
+gravity_scale = 0.5
+script = ExtResource("1_6v7lt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, -4)
+texture = ExtResource("1_b4eaf")
+hframes = 5
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_6v7lt")
+
+[node name="Throw" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_web4d")
+
+[node name="105_Sfx-BirdRedCharge01" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_pot0c")
+
+[node name="106_Sfx-BirdRedCharge02" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_nou40")
+
+[node name="107_Sfx-BirdRedCharge03" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_4f2k2")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

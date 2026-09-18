@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ds17nr4mxwn1c"
+path="res://.godot/imported/389. Sfx - Rock Collision A3.mp3-33a912a481809f8747c3903526f9ffdc.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Items/389. Sfx - Rock Collision A3.mp3"
+dest_files=["res://.godot/imported/389. Sfx - Rock Collision A3.mp3-33a912a481809f8747c3903526f9ffdc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

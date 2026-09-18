@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blpndrtrhw2at"
+path="res://.godot/imported/265. Planet Explosion 02.mp3-137b999b68bd6495bcccf557f2c2dd49.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/265. Planet Explosion 02.mp3"
+dest_files=["res://.godot/imported/265. Planet Explosion 02.mp3-137b999b68bd6495bcccf557f2c2dd49.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

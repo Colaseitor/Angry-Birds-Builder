@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ccvdon1kns3to"
+path="res://.godot/imported/104. Crystal Planet Destroyed 02.mp3-0c51a1cd962b0004bb106e46cc8a3cde.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Items/104. Crystal Planet Destroyed 02.mp3"
+dest_files=["res://.godot/imported/104. Crystal Planet Destroyed 02.mp3-0c51a1cd962b0004bb106e46cc8a3cde.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

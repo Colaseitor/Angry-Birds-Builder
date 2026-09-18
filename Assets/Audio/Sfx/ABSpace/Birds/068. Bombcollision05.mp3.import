@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bg5e5ckulyw8j"
+path="res://.godot/imported/068. Bombcollision05.mp3-3cf66134a035db09f76e9dd72b68ace0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Birds/068. Bombcollision05.mp3"
+dest_files=["res://.godot/imported/068. Bombcollision05.mp3-3cf66134a035db09f76e9dd72b68ace0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

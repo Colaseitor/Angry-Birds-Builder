@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwyfixeelqcut"
+path="res://.godot/imported/Sfx - Bigbrother Select.mp3-da8abd56f3159b268f3d556f6afe601a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABClassic/Birds/Sfx - Bigbrother Select.mp3"
+dest_files=["res://.godot/imported/Sfx - Bigbrother Select.mp3-da8abd56f3159b268f3d556f6afe601a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

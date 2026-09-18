@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://sr4ayrsg88l6"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_j52ea"]
+[ext_resource type="Texture2D" uid="uid://vhffc665kiqj" path="res://Assets/Graphics/EditorIcons/Stone circle 1.png" id="2_xerf1"]
+
+[node name="SpotSquareWood" instance=ExtResource("1_j52ea")]
+thing_name = "Big Rock"
+
+[node name="Sprite2D" parent="." index="0"]
+scale = Vector2(1.02, 1.02)
+texture = ExtResource("2_xerf1")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://67jx6ypk1306"
+path="res://.godot/imported/191. Object Enter Waterplanet Var2.mp3-ec64ac485a15adf737a9ef2b3bdd0405.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Sfx/ABSpace/Other/191. Object Enter Waterplanet Var2.mp3"
+dest_files=["res://.godot/imported/191. Object Enter Waterplanet Var2.mp3-ec64ac485a15adf737a9ef2b3bdd0405.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

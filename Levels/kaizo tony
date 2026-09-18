@@ -1,0 +1,17 @@
+{"ambience":0.0,"sling rot":0.0,"sling x":114.197875976563,"sling y":-918.631958007813,"star2":40000.0,"star3":50000.0,"theme":"Winter Wonderham","type":"main"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":713.651000976563,"position y":-267.098388671875,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":1052.70300292969,"position y":-253.086547851563,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":874.236206054688,"position y":-1282.72961425781,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":1180.701171875,"position y":-1271.72863769531,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":1487.17919921875,"position y":-1266.82446289063,"rotation":0.0,"type":"block"}
+{"floating":true,"life":0.0,"name":"Old Pig","position x":1330.10925292969,"position y":-267.098388671875,"rotation":0.0,"type":"block"}
+{"name":"Tony","position x":13.130126953125,"position y":-959.282348632813,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-83.5416870117188,"position y":-960.683471679688,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-178.812561035156,"position y":-959.282348632813,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-271.281280517578,"position y":-959.282348632813,"rotation":0.0,"type":"bird"}
+{"name":"Tony","position x":-366.552093505859,"position y":-959.282348632813,"rotation":0.0,"type":"bird"}
+{"heigth":1.0,"name":"Ground Square","position x":-265.677124023438,"position y":-868.205505371094,"rotation":0.0,"type":"ground","width":8.0}
+{"heigth":6.0,"name":"Ground Square","position x":563.739501953125,"position y":-583.765563964844,"rotation":0.0,"type":"ground","width":1.0}
+{"heigth":6.0,"name":"Ground Square","position x":874.770751953125,"position y":-578.160766601563,"rotation":0.0,"type":"ground","width":1.0}
+{"heigth":6.0,"name":"Ground Square","position x":1187.94519042969,"position y":-561.353210449219,"rotation":0.0,"type":"ground","width":1.0}
+{"heigth":6.0,"name":"Ground Square","position x":1491.22900390625,"position y":-572.556091308594,"rotation":0.0,"type":"ground","width":1.0}
