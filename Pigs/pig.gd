@@ -17,7 +17,6 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	print(max_life)
 	if life > max_life / 3 * 2:
 		$Sprite2D.frame = 0
 	elif life > max_life / 3:
