@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://6peigr7rm6ls"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_dbclb"]
+[ext_resource type="Texture2D" uid="uid://b2iwr2jrbt7yl" path="res://Assets/Graphics/EditorIcons/Corporal Pig 1.png" id="2_0l84s"]
+
+[node name="SpotCorporalPig" instance=ExtResource("1_dbclb")]
+thing_name = "Corporal Pig"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_0l84s")

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnexqp2up22jc"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_evsuf"]
+[ext_resource type="Texture2D" uid="uid://b27k553ldbt23" path="res://Assets/Graphics/EditorIcons/Matilda 1.png" id="2_u1uar"]
+
+[node name="SpotMatilda" instance=ExtResource("1_evsuf")]
+thing_name = "Matilda"
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(46.0581, 56.8465)
+scale = Vector2(0.991181, 0.991181)
+texture = ExtResource("2_u1uar")

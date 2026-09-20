@@ -1,0 +1,192 @@
+[gd_scene load_steps=38 format=3 uid="uid://dre8ee5kgi64q"]
+
+[ext_resource type="Script" uid="uid://daas4x4bej4qr" path="res://Pigs/pig.gd" id="1_d64vp"]
+[ext_resource type="Texture2D" uid="uid://cb8107fhrfivh" path="res://Assets/Graphics/Pigs/ABClassic/Corporal Pig.png" id="2_46c34"]
+[ext_resource type="AudioStream" uid="uid://bw0vvrvnatffl" path="res://Assets/Audio/Sfx/ABClassic/Pigs/312. Sfx - Piglette Collision A1.mp3" id="3_fhpae"]
+[ext_resource type="AudioStream" uid="uid://cmkw4g5kmjvra" path="res://Assets/Audio/Sfx/ABClassic/Pigs/313. Sfx - Piglette Collision A2.mp3" id="4_luxf6"]
+[ext_resource type="AudioStream" uid="uid://ce7vcvqyo2fho" path="res://Assets/Audio/Sfx/ABClassic/Pigs/314. Sfx - Piglette Collision A3.mp3" id="5_obyql"]
+[ext_resource type="AudioStream" uid="uid://dmi7b4kvo4fn0" path="res://Assets/Audio/Sfx/ABClassic/Pigs/315. Sfx - Piglette Collision A4.mp3" id="6_2xg12"]
+[ext_resource type="AudioStream" uid="uid://yxdlocdurigx" path="res://Assets/Audio/Sfx/ABClassic/Pigs/316. Sfx - Piglette Collision A5.mp3" id="7_u5fns"]
+[ext_resource type="AudioStream" uid="uid://c6k7xuv1uxmnt" path="res://Assets/Audio/Sfx/ABClassic/Pigs/317. Sfx - Piglette Collision A6.mp3" id="8_kfrjx"]
+[ext_resource type="AudioStream" uid="uid://37ukoj0sr28r" path="res://Assets/Audio/Sfx/ABClassic/Pigs/318. Sfx - Piglette Collision A7.mp3" id="9_eh3gi"]
+[ext_resource type="AudioStream" uid="uid://bgjex4v5tao5c" path="res://Assets/Audio/Sfx/ABClassic/Pigs/319. Sfx - Piglette Collision A8.mp3" id="10_itbc3"]
+[ext_resource type="AudioStream" uid="uid://dphecy0htqrgx" path="res://Assets/Audio/Sfx/ABClassic/Pigs/320. Sfx - Piglette Damage A1.mp3" id="11_l3ir4"]
+[ext_resource type="AudioStream" uid="uid://bk4va3aqxt6so" path="res://Assets/Audio/Sfx/ABClassic/Pigs/321. Sfx - Piglette Damage A2.mp3" id="12_qo1ww"]
+[ext_resource type="AudioStream" uid="uid://b62rmcylj7u81" path="res://Assets/Audio/Sfx/ABClassic/Pigs/322. Sfx - Piglette Damage A3.mp3" id="13_xcsfa"]
+[ext_resource type="AudioStream" uid="uid://dix53rhacpsf7" path="res://Assets/Audio/Sfx/ABClassic/Pigs/323. Sfx - Piglette Damage A4.mp3" id="14_n0bqe"]
+[ext_resource type="AudioStream" uid="uid://pg274p6sxte" path="res://Assets/Audio/Sfx/ABClassic/Pigs/324. Sfx - Piglette Damage A5.mp3" id="15_jxcip"]
+[ext_resource type="AudioStream" uid="uid://1fkyqhb2ptyw" path="res://Assets/Audio/Sfx/ABClassic/Pigs/325. Sfx - Piglette Damage A6.mp3" id="16_gq5ga"]
+[ext_resource type="AudioStream" uid="uid://db3ly8n574sxs" path="res://Assets/Audio/Sfx/ABClassic/Pigs/326. Sfx - Piglette Damage A7.mp3" id="17_2fgyu"]
+[ext_resource type="AudioStream" uid="uid://bi5ic5iylfoo5" path="res://Assets/Audio/Sfx/ABClassic/Pigs/327. Sfx - Piglette Damage A8.mp3" id="18_n0wqt"]
+[ext_resource type="AudioStream" uid="uid://djvm0mlxigkme" path="res://Assets/Audio/Sfx/ABClassic/Pigs/328. Sfx - Piglette Destroyed.mp3" id="19_im3f3"]
+[ext_resource type="AudioStream" uid="uid://b3t65rra7dx7h" path="res://Assets/Audio/Sfx/ABClassic/Pigs/329. Sfx - Piglette Oink A1.mp3" id="20_38gyt"]
+[ext_resource type="AudioStream" uid="uid://dohjfbsqmwdlm" path="res://Assets/Audio/Sfx/ABClassic/Pigs/330. Sfx - Piglette Oink A10.mp3" id="21_deosu"]
+[ext_resource type="AudioStream" uid="uid://0ty4sg4tc0w" path="res://Assets/Audio/Sfx/ABClassic/Pigs/331. Sfx - Piglette Oink A11.mp3" id="22_yrrrf"]
+[ext_resource type="AudioStream" uid="uid://covsgl3tjk0e1" path="res://Assets/Audio/Sfx/ABClassic/Pigs/332. Sfx - Piglette Oink A12.mp3" id="23_vlmjk"]
+[ext_resource type="AudioStream" uid="uid://bxmbjd3e5veha" path="res://Assets/Audio/Sfx/ABClassic/Pigs/333. Sfx - Piglette Oink A2.mp3" id="24_0d5kd"]
+[ext_resource type="AudioStream" uid="uid://bd6lpwxcf5k1m" path="res://Assets/Audio/Sfx/ABClassic/Pigs/334. Sfx - Piglette Oink A3.mp3" id="25_56hou"]
+[ext_resource type="AudioStream" uid="uid://gih28bjt5h3i" path="res://Assets/Audio/Sfx/ABClassic/Pigs/335. Sfx - Piglette Oink A4.mp3" id="26_as18i"]
+[ext_resource type="AudioStream" uid="uid://pgxyyibdqupr" path="res://Assets/Audio/Sfx/ABClassic/Pigs/336. Sfx - Piglette Oink A5.mp3" id="27_trbli"]
+[ext_resource type="AudioStream" uid="uid://j8jn6em6ncqj" path="res://Assets/Audio/Sfx/ABClassic/Pigs/337. Sfx - Piglette Oink A8.mp3" id="28_qyxmg"]
+[ext_resource type="AudioStream" uid="uid://ddpcxm8n7spmu" path="res://Assets/Audio/Sfx/ABClassic/Pigs/338. Sfx - Piglette Oink A9.mp3" id="29_bko4f"]
+[ext_resource type="Texture2D" uid="uid://ci67dekfatv7d" path="res://Assets/Graphics/Particles/ABClassic/Pig Explosion 1.png" id="30_mll70"]
+[ext_resource type="Texture2D" uid="uid://0w1cic1x7cq1" path="res://Assets/Graphics/Particles/ABClassic/Pig Explosion 2.png" id="31_7dyp1"]
+[ext_resource type="Texture2D" uid="uid://b7326iwqfqvhe" path="res://Assets/Graphics/Particles/ABClassic/Pig Explosion 3.png" id="32_q7851"]
+[ext_resource type="Texture2D" uid="uid://ebtviwot2v3y" path="res://Assets/Graphics/Particles/ABClassic/Pig Explosion 4.png" id="33_tkv3k"]
+[ext_resource type="Texture2D" uid="uid://drsr8j0qkc3qb" path="res://Assets/Graphics/Particles/ABClassic/Pig Explosion 5.png" id="34_gs54p"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_a0nq8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5ubdg"]
+radius = 42.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dnaie"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_mll70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_7dyp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_q7851")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_tkv3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_gs54p")
+}],
+"loop": false,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="CorporalPig" type="RigidBody2D" groups=["Pigs"]]
+physics_material_override = SubResource("PhysicsMaterial_a0nq8")
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("1_d64vp")
+life = 150
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+texture = ExtResource("2_46c34")
+hframes = 3
+vframes = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5ubdg")
+
+[node name="312_Sfx-PigletteCollisionA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_fhpae")
+
+[node name="313_Sfx-PigletteCollisionA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_luxf6")
+
+[node name="314_Sfx-PigletteCollisionA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_obyql")
+
+[node name="315_Sfx-PigletteCollisionA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_2xg12")
+
+[node name="316_Sfx-PigletteCollisionA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_u5fns")
+
+[node name="317_Sfx-PigletteCollisionA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_kfrjx")
+
+[node name="318_Sfx-PigletteCollisionA7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_eh3gi")
+
+[node name="319_Sfx-PigletteCollisionA8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_itbc3")
+
+[node name="320_Sfx-PigletteDamageA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_l3ir4")
+
+[node name="321_Sfx-PigletteDamageA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_qo1ww")
+
+[node name="322_Sfx-PigletteDamageA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_xcsfa")
+
+[node name="323_Sfx-PigletteDamageA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14_n0bqe")
+
+[node name="324_Sfx-PigletteDamageA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_jxcip")
+
+[node name="325_Sfx-PigletteDamageA6" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_gq5ga")
+
+[node name="326_Sfx-PigletteDamageA7" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_2fgyu")
+
+[node name="327_Sfx-PigletteDamageA8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("18_n0wqt")
+
+[node name="328_Sfx-PigletteDestroyed" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_im3f3")
+
+[node name="329_Sfx-PigletteOinkA1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_38gyt")
+
+[node name="330_Sfx-PigletteOinkA10" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_deosu")
+
+[node name="331_Sfx-PigletteOinkA11" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("22_yrrrf")
+
+[node name="332_Sfx-PigletteOinkA12" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_vlmjk")
+
+[node name="333_Sfx-PigletteOinkA2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_0d5kd")
+
+[node name="334_Sfx-PigletteOinkA3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25_56hou")
+
+[node name="335_Sfx-PigletteOinkA4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_as18i")
+
+[node name="336_Sfx-PigletteOinkA5" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("27_trbli")
+
+[node name="337_Sfx-PigletteOinkA8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("28_qyxmg")
+
+[node name="338_Sfx-PigletteOinkA9" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("29_bko4f")
+
+[node name="OinkaTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="OinkTimer" type="Timer" parent="."]
+
+[node name="UnlaughTimer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
+[node name="BlinkTimer" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 3
+scale = Vector2(1.845, 1.845)
+sprite_frames = SubResource("SpriteFrames_dnaie")
+frame = 4
+frame_progress = 1.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="sleeping_state_changed" from="." to="." method="_on_sleeping_state_changed"]
+[connection signal="finished" from="328_Sfx-PigletteDestroyed" to="." method="_on__sfx_piglette_destroyed_finished"]
+[connection signal="timeout" from="OinkaTimer" to="." method="_on_oinka_timer_timeout"]
+[connection signal="timeout" from="OinkTimer" to="." method="_on_oink_timer_timeout"]
+[connection signal="timeout" from="UnlaughTimer" to="." method="_on_unlaugh_timer_timeout"]
+[connection signal="timeout" from="BlinkTimer" to="." method="_on_blink_timer_timeout"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

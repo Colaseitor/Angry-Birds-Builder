@@ -51,6 +51,10 @@ func _ready() -> void:
 					block = load("res://EditorAssets/editor_longer_stone.tscn").instantiate()
 				elif node_data["name"] == "Old Small Pig":
 					block = load("res://EditorAssets/editor_old_small_pig.tscn").instantiate()
+				elif node_data["name"] == "Pig":
+					block = load("res://EditorAssets/editor_pig.tscn").instantiate()
+				elif node_data["name"] == "Corporal Pig":
+					block = load("res://EditorAssets/editor_corporal_pig.tscn").instantiate()
 				block.position = Vector2(node_data["position x"],node_data["position y"])
 				block.rotation_degrees = node_data["rotation"]
 				block.life = node_data["life"]
@@ -83,6 +87,8 @@ func _ready() -> void:
 					bird = load("res://EditorAssets/editor_chuck_pikachu.tscn").instantiate()
 				elif node_data["name"] == "Bomb":
 					bird = load("res://EditorAssets/editor_bomb.tscn").instantiate()
+				elif node_data["name"] == "Matilda":
+					bird = load("res://EditorAssets/editor_matilda.tscn").instantiate()
 				bird.position = Vector2(node_data["position x"],node_data["position y"])
 				bird.rotation_degrees = node_data["rotation"]
 				bird.moving = false
@@ -331,6 +337,12 @@ func add_asset(asset) -> void:
 		$Birds.add_child(load("res://EditorAssets/editor_bomb.tscn").instantiate())
 	elif asset == "Old Small Pig":
 		$Blocks.add_child(load("res://EditorAssets/editor_old_small_pig.tscn").instantiate())
+	elif asset == "Pig":
+		$Blocks.add_child(load("res://EditorAssets/editor_pig.tscn").instantiate())
+	elif asset == "Corporal Pig":
+		$Blocks.add_child(load("res://EditorAssets/editor_corporal_pig.tscn").instantiate())
+	elif asset == "Matilda":
+		$Birds.add_child(load("res://EditorAssets/editor_matilda.tscn").instantiate())
 
 
 func _on_texture_button_button_down() -> void:
@@ -430,6 +442,10 @@ func _on_abc_pig_list_item_activated(index: int) -> void:
 		$EditorUI.add_child(load("res://EditorSpot/spot_old_pig.tscn").instantiate())
 	elif selection == "Old Small Pig":
 		$EditorUI.add_child(load("res://EditorSpot/spot_old_small_pig.tscn").instantiate())
+	if selection == "Pig":
+		$EditorUI.add_child(load("res://EditorSpot/spot_pig.tscn").instantiate())
+	if selection == "Corporal Pig":
+		$EditorUI.add_child(load("res://EditorSpot/spot_corporal_pig.tscn").instantiate())
 
 
 func _on_abc_bird_list_item_activated(index: int) -> void:
@@ -447,6 +463,8 @@ func _on_abc_bird_list_item_activated(index: int) -> void:
 		$EditorUI.add_child(load("res://EditorSpot/spot_terence.tscn").instantiate())
 	elif selection == "Bomb":
 		$EditorUI.add_child(load("res://EditorSpot/spot_bomb.tscn").instantiate())
+	elif selection == "Matilda":
+		$EditorUI.add_child(load("res://EditorSpot/spot_matilda.tscn").instantiate())
 
 
 func _on_cancel_button_down() -> void:

@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=3 uid="uid://ywy7f2tewtgx"]
+[gd_scene load_steps=62 format=3 uid="uid://ywy7f2tewtgx"]
 
 [ext_resource type="Script" uid="uid://b5x5phwvmm3cx" path="res://editor.gd" id="1_eyy8u"]
 [ext_resource type="Texture2D" uid="uid://cgf5phkv3dgeb" path="res://Assets/Graphics/Botones/Exit.png" id="2_24ceq"]
@@ -51,11 +51,14 @@
 [ext_resource type="Texture2D" uid="uid://bsx4vs6pm0kbi" path="res://Assets/Graphics/EditorIcons/Glass brick icon.png" id="37_50fx4"]
 [ext_resource type="Texture2D" uid="uid://cwiadfxxiar7e" path="res://Assets/Graphics/EditorIcons/Lazer Bird 1.png" id="37_gbgnm"]
 [ext_resource type="Texture2D" uid="uid://cmcsr71i6hala" path="res://Assets/Graphics/EditorIcons/GroundTriangle.png" id="38_gbgnm"]
+[ext_resource type="Texture2D" uid="uid://cvk7gbpahqsas" path="res://Assets/Graphics/EditorIcons/Pig 1.png" id="41_42lpt"]
 [ext_resource type="Texture2D" uid="uid://bwid705q8aqbo" path="res://Assets/Graphics/EditorIcons/GroundSquare.png" id="42_1pi8w"]
+[ext_resource type="Texture2D" uid="uid://b2iwr2jrbt7yl" path="res://Assets/Graphics/EditorIcons/Corporal Pig 1.png" id="42_jr8do"]
 [ext_resource type="Texture2D" uid="uid://cnlo68hkeq6md" path="res://Assets/Graphics/EditorIcons/Terence 1.png" id="43_ekxub"]
 [ext_resource type="Texture2D" uid="uid://byoeyxnn4q8po" path="res://Assets/Graphics/EditorIcons/Bomb 1.png" id="44_18kx1"]
 [ext_resource type="Texture2D" uid="uid://451fktgycq5a" path="res://Assets/Graphics/EditorIcons/Tony 1.png" id="45_ml0cc"]
 [ext_resource type="PackedScene" uid="uid://dktad06y2btyj" path="res://Scenes/theme_selector.tscn" id="46_hppm4"]
+[ext_resource type="Texture2D" uid="uid://b27k553ldbt23" path="res://Assets/Graphics/EditorIcons/Matilda 1.png" id="47_jr8do"]
 
 [sub_resource type="Theme" id="Theme_ruwpr"]
 default_base_scale = 1.0
@@ -368,15 +371,19 @@ offset_bottom = 1238.0
 theme_override_fonts/font = ExtResource("6_7fkqn")
 theme_override_font_sizes/font_size = 81
 max_text_lines = 5
-item_count = 2
+item_count = 4
 max_columns = 0
 same_column_width = true
 icon_mode = 0
 fixed_icon_size = Vector2i(500, 500)
-item_0/text = "Old Pig"
-item_0/icon = ExtResource("25_l5j4h")
-item_1/text = "Old Small Pig"
-item_1/icon = ExtResource("25_l5j4h")
+item_0/text = "Pig"
+item_0/icon = ExtResource("41_42lpt")
+item_1/text = "Corporal Pig"
+item_1/icon = ExtResource("42_jr8do")
+item_2/text = "Old Pig"
+item_2/icon = ExtResource("25_l5j4h")
+item_3/text = "Old Small Pig"
+item_3/icon = ExtResource("25_l5j4h")
 script = ExtResource("9_32ik4")
 
 [node name="FanPigList" type="ItemList" parent="AssetSelector"]
@@ -402,7 +409,7 @@ offset_bottom = 1238.0
 theme_override_fonts/font = ExtResource("6_7fkqn")
 theme_override_font_sizes/font_size = 81
 max_text_lines = 5
-item_count = 5
+item_count = 6
 max_columns = 0
 same_column_width = true
 icon_mode = 0
@@ -415,8 +422,10 @@ item_2/text = "Chuck"
 item_2/icon = ExtResource("28_ng50i")
 item_3/text = "Bomb"
 item_3/icon = ExtResource("44_18kx1")
-item_4/text = "Terence"
-item_4/icon = ExtResource("43_ekxub")
+item_4/text = "Matilda"
+item_4/icon = ExtResource("47_jr8do")
+item_5/text = "Terence"
+item_5/icon = ExtResource("43_ekxub")
 script = ExtResource("9_32ik4")
 
 [node name="ABSeBirdList" type="ItemList" parent="AssetSelector"]

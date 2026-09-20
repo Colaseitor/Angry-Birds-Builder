@@ -63,6 +63,10 @@ func _ready() -> void:
 				block = load("res://Blocks/ABClassic/longer_stone.tscn").instantiate()
 			elif node_data["name"] == "Old Small Pig":
 				block = load("res://Pigs/small_pig.tscn").instantiate()
+			elif node_data["name"] == "Pig":
+				block = load("res://Pigs/modern_pig.tscn").instantiate()
+			elif node_data["name"] == "Corporal Pig":
+				block = load("res://Pigs/corporal_pig.tscn").instantiate()
 			block.position = Vector2(node_data["position x"],node_data["position y"])
 			block.rotation_degrees = node_data["rotation"]
 			block.sleeping = node_data["floating"]
@@ -95,6 +99,8 @@ func _ready() -> void:
 					bird = load("res://Birds/ABSeasons/chuck_pikachu.tscn").instantiate()
 				elif node_data["name"] == "Bomb":
 					bird = load("res://Birds/ABClassic/bomb.tscn").instantiate()
+				elif node_data["name"] == "Matilda":
+					bird = load("res://Birds/ABClassic/matilda.tscn").instantiate()
 				bird.position = Vector2(node_data["position x"],node_data["position y"]) - $Level/Slingshot.position
 				bird.rotation_degrees = node_data["rotation"] - $Level/Slingshot.rotation
 				$Level/Slingshot.add_child(bird)

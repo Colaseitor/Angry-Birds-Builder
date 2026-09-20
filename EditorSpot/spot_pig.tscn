@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7j3g55o3rbwu"]
+
+[ext_resource type="PackedScene" uid="uid://b01aex0t1c8ij" path="res://EditorSpot/spot_square_wood.tscn" id="1_i4s8q"]
+[ext_resource type="Texture2D" uid="uid://cvk7gbpahqsas" path="res://Assets/Graphics/EditorIcons/Pig 1.png" id="2_7udty"]
+
+[node name="SpotPig" instance=ExtResource("1_i4s8q")]
+thing_name = "Pig"
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_7udty")

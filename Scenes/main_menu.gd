@@ -28,7 +28,7 @@ func _process(_delta: float) -> void:
 
 
 func _on_timer_timeout() -> void:
-	var random_bird = randi_range(1,11)
+	var random_bird = randi_range(1,12)
 	if random_bird == 1:
 		add_child(load("res://Scenes/TitleScreenBirds/title_screen_red.tscn").instantiate())
 	elif random_bird == 2:
@@ -51,6 +51,8 @@ func _on_timer_timeout() -> void:
 		add_child(load("res://Scenes/TitleScreenBirds/title_screen_hockey_bird.tscn").instantiate())
 	elif random_bird == 11:
 		add_child(load("res://Scenes/TitleScreenBirds/title_screen_chuck_pikachu.tscn").instantiate())
+	elif random_bird == 12:
+		add_child(load("res://Scenes/TitleScreenBirds/title_screen_matilda.tscn").instantiate())
 
 
 func _on_load_button_down() -> void:
