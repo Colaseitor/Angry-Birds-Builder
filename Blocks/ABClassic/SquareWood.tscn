@@ -29,7 +29,8 @@ point_count = 2
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l7rlv"]
 size = Vector2(82, 82)
 
-[node name="LongWood" type="RigidBody2D"]
+[node name="SquareWood" type="RigidBody2D"]
+collision_priority = 3.0
 contact_monitor = true
 max_contacts_reported = 1
 script = ExtResource("1_l7rlv")

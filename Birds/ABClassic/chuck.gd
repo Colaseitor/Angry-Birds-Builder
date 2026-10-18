@@ -20,6 +20,9 @@ var pointing = false
 @export var blink_frame = 2
 @export var corpse_frame = 3
 @export var ability_frame = 4
+var saved_speed = Vector2(0,0)
+var saved_speed_2 = Vector2(0,0)
+var saved_speed_3
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -61,6 +64,11 @@ func _process(delta):
 		queue_free()
 	elif position.y + get_parent().position.y < -5500:
 		queue_free()
+
+func _physics_process(_delta: float) -> void:
+	saved_speed_3 = saved_speed_2
+	saved_speed_2 = saved_speed
+	saved_speed = linear_velocity
 
 func ThrowBird():
 	freeze = false
@@ -113,6 +121,14 @@ func _on_body_entered(body: Node) -> void:
 			else:
 				point_text.appear(damage)
 			add_child(point_text)
+	if body.type != "ground" && body.type != "bird":
+		if body.life <= 0:
+			add_collision_exception_with(body)
+			linear_velocity = saved_speed_3
+		#if body.life > 0:
+			#$CollisionShape2D.disabled = false
+	#else:
+		#$CollisionShape2D.disabled = false
 
 
 func _on_gemido_timer_timeout() -> void:
@@ -179,3 +195,7 @@ func _on_blink_timer_timeout() -> void:
 
 func _on_un_blink_timer_timeout() -> void:
 	$Sprite2D.frame = 0
+
+
+func _on_area_2d_body_exited(body: Node2D) -> void:
+	$CollisionShape2D.disabled = true

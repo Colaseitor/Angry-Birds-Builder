@@ -97,6 +97,10 @@ func _on_body_entered(body: Node) -> void:
 			$"318_Sfx-PigletteCollisionA7".play()
 		else:
 			$"319_Sfx-PigletteCollisionA8".play()
+	if life <= 0:
+		if body.type == "bird":
+			body.linear_velocity = body.saved_speed_3
+			body.linear_velocity = body.linear_velocity - body.linear_velocity * 0.15
 
 func random_damage():
 	var oinka = randi_range(1,8)

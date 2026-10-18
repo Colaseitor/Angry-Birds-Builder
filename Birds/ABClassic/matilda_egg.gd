@@ -25,7 +25,7 @@ func _on_body_entered(body: Node) -> void:
 				var distance: float = direction.length()
 				if distance < 150.0:
 					if node.type != "bird" && node.type != "ground":
-						node.life -= (150 - distance) * 5
+						node.life -= (150 - distance) * 10
 	
 
 

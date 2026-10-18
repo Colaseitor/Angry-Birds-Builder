@@ -70,6 +70,10 @@ func _on_body_entered(body: Node) -> void:
 		$"482_Sfx-WoodCollisionA5".play()
 	else:
 		$"483_Sfx-WoodCollisionA6".play()
+	if life <= 0:
+		if body.type == "bird":
+			body.linear_velocity = body.saved_speed_3
+			body.linear_velocity = body.linear_velocity - body.linear_velocity * 0.15
 
 
 func _on__sfx_tnt_box_explodes_finished() -> void:

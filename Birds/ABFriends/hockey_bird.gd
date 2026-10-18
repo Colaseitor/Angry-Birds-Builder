@@ -16,6 +16,9 @@ var rock = 1
 var type = "bird"
 var dead = false
 var pointing = false
+var saved_speed = Vector2(0,0)
+var saved_speed_2 = Vector2(0,0)
+var saved_speed_3
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -110,6 +113,11 @@ func _on_body_entered(body: Node) -> void:
 			else:
 				point_text.appear(damage)
 			add_child(point_text)
+
+func _physics_process(_delta: float) -> void:
+	saved_speed_3 = saved_speed_2
+	saved_speed_2 = saved_speed
+	saved_speed = linear_velocity
 
 
 func _on_gemido_timer_timeout() -> void:

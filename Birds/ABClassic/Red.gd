@@ -10,12 +10,15 @@ var state = BirdState.Wait
 var gemidoespera = false
 var gemidoespera2 = false
 var birdkiller = 150.0
-var wood = 3
+var wood = 4
 var glass = 2
 var rock = 1
 var type = "bird"
 var dead = false
 var pointing = false
+var saved_speed = Vector2(0,0)
+var saved_speed_2 = Vector2(0,0)
+var saved_speed_3
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -60,6 +63,11 @@ func _process(delta):
 		queue_free()
 	elif position.y + get_parent().position.y < -5500:
 		queue_free()
+
+func _physics_process(_delta: float) -> void:
+	saved_speed_3 = saved_speed_2
+	saved_speed_2 = saved_speed
+	saved_speed = linear_velocity
 
 func ThrowBird():
 	freeze = false
