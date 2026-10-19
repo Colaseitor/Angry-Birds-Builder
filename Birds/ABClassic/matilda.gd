@@ -38,7 +38,7 @@ func _process(delta):
 			state = BirdState.Used
 			$"415_Sfx-SpecialBoost".play()
 			$"417_Sfx-SpecialEgg".play()
-			apply_impulse(Vector2(100,-1000))
+			apply_impulse(Vector2(170,-1500))
 			$CPUParticles2D.global_position = position + get_parent().position
 			$CPUParticles2D.emitting = true
 			$Sprite2D.frame = ability_frame
